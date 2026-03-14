@@ -1,0 +1,56 @@
+# ═══════════════════════════════════════════════
+#  ProxyScraper Pro — Configuration
+# ═══════════════════════════════════════════════
+
+scraper:
+  # Request settings
+  request_timeout: 15
+  max_retries: 3
+  delay_between_sources: 1.0
+
+  # User-Agent rotation
+  rotate_user_agent: true
+
+  # Headers
+  headers:
+    Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+    Accept-Language: "en-US,en;q=0.5"
+    Accept-Encoding: "gzip, deflate"
+    Connection: "keep-alive"
+
+validator:
+  # Validation endpoint
+  judge_urls:
+    - "http://httpbin.org/ip"
+    - "http://ip-api.com/json"
+    - "http://ifconfig.me/ip"
+    - "https://api.ipify.org?format=json"
+
+  # Concurrency
+  max_workers: 300
+  timeout: 10
+
+  # Retry
+  max_retries: 2
+
+  # Speed classification (ms)
+  speed_tiers:
+    fast: 1000
+    medium: 3000
+    slow: 8000
+
+output:
+  directory: "output"
+  formats:
+    - txt
+    - csv
+    - json
+
+  # Split by protocol
+  split_by_protocol: true
+
+  # Split by anonymity
+  split_by_anonymity: true
+
+  # Generate combined file
+  generate_combined: true
