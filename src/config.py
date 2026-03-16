@@ -108,11 +108,6 @@ PROXY_SOURCES: Dict[str, List[Dict]] = {
             "type": "plain",
         },
         {
-            "name": "MuRongPIG SOCKS4",
-            "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4.txt",
-            "type": "plain",
-        },
-        {
             "name": "ProxyList-to SOCKS4",
             "url": "https://www.proxy-list.download/api/v1/get?type=socks4",
             "type": "plain",
