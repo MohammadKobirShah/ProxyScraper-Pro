@@ -1,0 +1,61 @@
+{
+  "sources_total": 6,
+  "sources_success": 5,
+  "sources_failed": 1,
+  "scraped_total": 2695,
+  "scraped_unique": 2299,
+  "alive_total": 377,
+  "dead_total": 1922,
+  "by_protocol": {
+    "socks5": 377
+  },
+  "by_country_top20": {
+    "US": 183,
+    "GB": 46,
+    "CN": 38,
+    "HK": 18,
+    "KR": 15,
+    "TH": 15,
+    "JP": 13,
+    "DE": 13,
+    "ID": 5,
+    "MY": 4,
+    "RU": 4,
+    "PH": 3,
+    "SG": 3,
+    "NL": 3,
+    "FI": 3,
+    "AE": 2,
+    "FR": 2,
+    "IN": 2,
+    "BD": 1,
+    "CA": 1
+  },
+  "by_anonymity": {
+    "elite": 377
+  },
+  "by_speed": {
+    "slow": 200,
+    "medium": 66,
+    "fast": 111
+  },
+  "avg_speed_ms": 3875.99,
+  "fastest_proxy": {
+    "ip": "192.252.214.17",
+    "port": 4145,
+    "protocol": "socks5",
+    "address": "192.252.214.17:4145",
+    "country": "United States",
+    "country_code": "US",
+    "city": "Atlanta",
+    "anonymity": "elite",
+    "speed_ms": 365.65,
+    "speed_tier": "fast",
+    "is_alive": true,
+    "last_checked": "2026-03-16 13:38:52 UTC",
+    "org": "Performive LLC",
+    "source": "HookZOf SOCKS5"
+  },
+  "duration_seconds": 712.17,
+  "timestamp": "2026-03-16T13:48:23.201294+00:00"
+}
