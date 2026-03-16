@@ -49,11 +49,6 @@ PROXY_SOURCES: Dict[str, List[Dict]] = {
             "type": "plain",
         },
         {
-            "name": "MuRongPIG HTTP",
-            "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http.txt",
-            "type": "plain",
-        },
-        {
             "name": "Proxy-List HTTP",
             "url": "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
             "type": "plain",
@@ -142,11 +137,6 @@ PROXY_SOURCES: Dict[str, List[Dict]] = {
         {
             "name": "MoNoSplit SOCKS5",
             "url": "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
-            "type": "plain",
-        },
-        {
-            "name": "MuRongPIG SOCKS5",
-            "url": "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5.txt",
             "type": "plain",
         },
         {
