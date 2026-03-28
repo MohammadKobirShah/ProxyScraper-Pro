@@ -1,0 +1,45 @@
+name: Download Claude EXE and Upload Artifact
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install Claude Code
+        shell: pwsh
+        run: |
+          Set-ExecutionPolicy Bypass -Scope Process -Force
+          irm https://claude.ai/install.ps1 | iex
+
+      - name: Locate Claude EXE
+        id: find_exe
+        shell: pwsh
+        run: |
+          # Common install locations
+          $paths = @(
+            "$env:LOCALAPPDATA\Programs",
+            "$env:ProgramFiles",
+            "$env:USERPROFILE\AppData\Local"
+          )
+
+          $exe = Get-ChildItem -Path $paths -Recurse -Filter "claude*.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
+
+          if (-not $exe) {
+            Write-Error "Claude EXE not found"
+          }
+
+          echo "exe_path=$($exe.FullName)" >> $env:GITHUB_OUTPUT
+
+      - name: Upload EXE as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-exe
+          path: ${{ steps.find_exe.outputs.exe_path }}
