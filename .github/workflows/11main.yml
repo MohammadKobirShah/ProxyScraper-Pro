@@ -1,45 +1,205 @@
-name: Download Claude EXE and Upload Artifact
+name: Build Release Archives
 
 on:
-  workflow_dispatch:
   push:
-    branches: [ main ]
+    tags:
+      - 'v*.*.*'
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: 'Create GitHub Release'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
-  build:
-    runs-on: windows-latest
-
+  build-archives:
+    name: Build Archives - ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        include:
+          - os: ubuntu-latest
+            artifact_name: linux
+          - os: windows-latest
+            artifact_name: windows
+          - os: macos-latest
+            artifact_name: macos
+    
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install Claude Code
-        shell: pwsh
+        with:
+          fetch-depth: 0
+      
+      - name: Set version and variables
+        id: vars
+        shell: bash
         run: |
-          Set-ExecutionPolicy Bypass -Scope Process -Force
-          irm https://claude.ai/install.ps1 | iex
-
-      - name: Locate Claude EXE
-        id: find_exe
-        shell: pwsh
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            VERSION="${GITHUB_REF#refs/tags/v}"
+          else
+            VERSION="dev-$(git rev-parse --short HEAD)"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+      
+      - name: Prepare files
+        shell: bash
         run: |
-          # Common install locations
-          $paths = @(
-            "$env:LOCALAPPDATA\Programs",
-            "$env:ProgramFiles",
-            "$env:USERPROFILE\AppData\Local"
-          )
-
-          $exe = Get-ChildItem -Path $paths -Recurse -Filter "claude*.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
-
-          if (-not $exe) {
-            Write-Error "Claude EXE not found"
-          }
-
-          echo "exe_path=$($exe.FullName)" >> $env:GITHUB_OUTPUT
-
-      - name: Upload EXE as Artifact
+          mkdir -p build/claude-code-bootstrap-${{ steps.vars.outputs.version }}
+          
+          # Copy all relevant files
+          cp -r *.bat *.cmd *.ps1 *.sh build/claude-code-bootstrap-${{ steps.vars.outputs.version }}/ 2>/dev/null || true
+          cp README.md LICENSE build/claude-code-bootstrap-${{ steps.vars.outputs.version }}/ 2>/dev/null || true
+          
+          # Create version info file
+          cat > build/claude-code-bootstrap-${{ steps.vars.outputs.version }}/VERSION.txt << EOF
+          Version: ${{ steps.vars.outputs.version }}
+          Build Date: ${{ steps.vars.outputs.date }}
+          Commit: ${{ github.sha }}
+          Platform: ${{ matrix.artifact_name }}
+          EOF
+      
+      - name: Create ZIP archive
+        shell: bash
+        run: |
+          cd build
+          if [[ "${{ runner.os }}" == "Windows" ]]; then
+            powershell Compress-Archive -Path "claude-code-bootstrap-${{ steps.vars.outputs.version }}" -DestinationPath "claude-code-bootstrap-${{ steps.vars.outputs.version }}-${{ matrix.artifact_name }}.zip"
+          else
+            zip -r "claude-code-bootstrap-${{ steps.vars.outputs.version }}-${{ matrix.artifact_name }}.zip" "claude-code-bootstrap-${{ steps.vars.outputs.version }}"
+          fi
+      
+      - name: Create TAR.GZ archive (Unix only)
+        if: runner.os != 'Windows'
+        shell: bash
+        run: |
+          cd build
+          tar -czf "claude-code-bootstrap-${{ steps.vars.outputs.version }}-${{ matrix.artifact_name }}.tar.gz" "claude-code-bootstrap-${{ steps.vars.outputs.version }}"
+      
+      - name: Generate checksums
+        shell: bash
+        run: |
+          cd build
+          if [[ "${{ runner.os }}" == "Windows" ]]; then
+            certutil -hashfile "claude-code-bootstrap-${{ steps.vars.outputs.version }}-${{ matrix.artifact_name }}.zip" SHA256 > checksums-${{ matrix.artifact_name }}.txt
+          else
+            sha256sum *.zip *.tar.gz 2>/dev/null > checksums-${{ matrix.artifact_name }}.txt || true
+          fi
+          cat checksums-${{ matrix.artifact_name }}.txt
+      
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: claude-exe
-          path: ${{ steps.find_exe.outputs.exe_path }}
+          name: archives-${{ matrix.artifact_name }}-${{ steps.vars.outputs.version }}
+          path: |
+            build/*.zip
+            build/*.tar.gz
+            build/checksums-${{ matrix.artifact_name }}.txt
+          retention-days: 90
+
+  create-release:
+    name: Create GitHub Release
+    needs: build-archives
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/') || github.event.inputs.create_release == 'true'
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set version
+        id: version
+        run: |
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            VERSION="${GITHUB_REF#refs/tags/v}"
+          else
+            VERSION="dev-$(git rev-parse --short HEAD)"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-assets
+      
+      - name: Prepare release assets
+        run: |
+          mkdir -p final-release
+          find release-assets -type f \( -name "*.zip" -o -name "*.tar.gz" -o -name "checksums*.txt" \) -exec cp {} final-release/ \;
+          
+          # Create combined checksums file
+          cd final-release
+          cat checksums-*.txt > SHA256SUMS.txt
+          rm checksums-*.txt
+          
+          # List all files
+          ls -lh
+      
+      - name: Generate release notes
+        id: notes
+        run: |
+          cat > release-notes.md << EOF
+          # Claude Code Bootstrap ${{ steps.version.outputs.version }}
+          
+          ## Installation
+          
+          Download the appropriate archive for your platform:
+          
+          - **Windows**: \`claude-code-bootstrap-${{ steps.version.outputs.version }}-windows.zip\`
+          - **macOS**: \`claude-code-bootstrap-${{ steps.version.outputs.version }}-macos.zip\` or \`.tar.gz\`
+          - **Linux**: \`claude-code-bootstrap-${{ steps.version.outputs.version }}-linux.zip\` or \`.tar.gz\`
+          
+          ## Verification
+          
+          Verify your download using the SHA256 checksums in \`SHA256SUMS.txt\`:
+          
+          \`\`\`bash
+          # Linux/macOS
+          sha256sum -c SHA256SUMS.txt
+          
+          # Windows (PowerShell)
+          Get-FileHash -Algorithm SHA256 claude-code-bootstrap-*.zip
+          \`\`\`
+          
+          ## Usage
+          
+          ### Windows
+          \`\`\`cmd
+          bootstrap.cmd
+          \`\`\`
+          
+          ### Unix/Linux/macOS
+          \`\`\`bash
+          chmod +x bootstrap.sh
+          ./bootstrap.sh
+          \`\`\`
+          
+          ## What's Changed
+          
+          ${{ github.event.head_commit.message }}
+          
+          **Full Changelog**: https://github.com/${{ github.repository }}/commits/${{ steps.version.outputs.version }}
+          EOF
+          
+          cat release-notes.md
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: Release ${{ steps.version.outputs.version }}
+          body_path: release-notes.md
+          files: |
+            final-release/*
+          draft: false
+          prerelease: ${{ contains(steps.version.outputs.version, 'beta') || contains(steps.version.outputs.version, 'alpha') || contains(steps.version.outputs.version, 'rc') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
