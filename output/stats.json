@@ -1,49 +1,49 @@
 {
   "sources_total": 24,
-  "sources_success": 19,
-  "sources_failed": 5,
-  "scraped_total": 16535,
-  "scraped_unique": 9987,
-  "alive_total": 880,
-  "dead_total": 9107,
+  "sources_success": 20,
+  "sources_failed": 4,
+  "scraped_total": 16893,
+  "scraped_unique": 10217,
+  "alive_total": 961,
+  "dead_total": 9256,
   "by_protocol": {
-    "http": 433,
-    "socks4": 231,
-    "socks5": 216
+    "http": 428,
+    "socks4": 217,
+    "socks5": 316
   },
   "by_country_top20": {
-    "US": 332,
-    "CN": 85,
-    "ID": 45,
-    "JP": 29,
-    "DE": 25,
-    "GB": 24,
-    "RU": 23,
-    "IN": 21,
+    "US": 324,
+    "GB": 106,
+    "DE": 64,
+    "ID": 58,
+    "JP": 39,
+    "CN": 35,
+    "HK": 26,
+    "TH": 21,
     "SG": 20,
-    "CO": 17,
-    "HK": 17,
+    "RU": 20,
+    "FR": 19,
     "PH": 16,
-    "BD": 15,
-    "MY": 15,
-    "KR": 12,
-    "FR": 12,
-    "TH": 11,
-    "NL": 10,
+    "KR": 13,
+    "AE": 13,
+    "IN": 12,
+    "VN": 10,
     "MX": 10,
-    "AE": 10
+    "BR": 9,
+    "BD": 9,
+    "FI": 8
   },
   "by_anonymity": {
-    "elite": 683,
-    "transparent": 166,
-    "anonymous": 31
+    "elite": 783,
+    "transparent": 151,
+    "anonymous": 27
   },
   "by_speed": {
-    "fast": 339,
-    "medium": 174,
-    "slow": 367
+    "fast": 346,
+    "medium": 221,
+    "slow": 394
   },
-  "avg_speed_ms": 3105.86,
+  "avg_speed_ms": 3165.28,
   "fastest_proxy": {
     "ip": "209.135.168.41",
     "port": 80,
@@ -53,13 +53,13 @@
     "country_code": "US",
     "city": "Houston",
     "anonymity": "elite",
-    "speed_ms": 146.54,
+    "speed_ms": 130.34,
     "speed_tier": "fast",
     "is_alive": true,
-    "last_checked": "2026-04-01 13:46:57 UTC",
+    "last_checked": "2026-04-02 02:43:18 UTC",
     "org": "Snaju Development",
     "source": "TheSpeedX HTTP"
   },
-  "duration_seconds": 1787.95,
-  "timestamp": "2026-04-01T14:14:12.094310+00:00"
+  "duration_seconds": 1966.18,
+  "timestamp": "2026-04-02T03:14:13.721228+00:00"
 }
