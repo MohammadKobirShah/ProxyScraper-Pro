@@ -156,13 +156,13 @@ python src/validator.py proxies.txt --protocol http --timeout 8
 
 | Metric | Value |
 |--------|-------|
-| ✅ Alive Proxies | **990** |
-| 🌐 HTTP | 599 |
+| ✅ Alive Proxies | **834** |
+| 🌐 HTTP | 434 |
 | 🔒 HTTPS | 0 |
-| 🧦 SOCKS4 | 188 |
-| 🧦 SOCKS5 | 203 |
-| ⚡ Avg Speed | 3110ms |
-| 🕐 Last Updated | 2026-04-03 07:51 UTC |
+| 🧦 SOCKS4 | 208 |
+| 🧦 SOCKS5 | 192 |
+| ⚡ Avg Speed | 3014ms |
+| 🕐 Last Updated | 2026-04-03 13:43 UTC |
 
 <!-- PROXY-STATS-END -->
 
