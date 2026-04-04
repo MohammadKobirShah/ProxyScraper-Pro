@@ -1,49 +1,49 @@
 {
   "sources_total": 24,
-  "sources_success": 20,
-  "sources_failed": 4,
-  "scraped_total": 16705,
-  "scraped_unique": 9975,
-  "alive_total": 954,
-  "dead_total": 9021,
+  "sources_success": 19,
+  "sources_failed": 5,
+  "scraped_total": 17633,
+  "scraped_unique": 11055,
+  "alive_total": 890,
+  "dead_total": 10165,
   "by_protocol": {
-    "http": 435,
-    "socks4": 297,
-    "socks5": 222
+    "http": 427,
+    "socks4": 248,
+    "socks5": 215
   },
   "by_country_top20": {
-    "US": 336,
-    "ID": 76,
-    "CN": 36,
-    "JP": 29,
-    "SG": 27,
-    "FI": 26,
-    "DE": 25,
-    "IN": 24,
-    "RU": 23,
-    "GB": 23,
-    "BD": 21,
-    "MX": 20,
+    "US": 314,
+    "CN": 97,
+    "ID": 46,
+    "DE": 38,
+    "SG": 29,
+    "GB": 24,
+    "JP": 22,
+    "RU": 20,
     "HK": 20,
-    "CO": 18,
-    "KR": 17,
-    "NL": 17,
+    "PH": 19,
+    "KR": 18,
+    "IN": 16,
     "BR": 16,
-    "PH": 15,
-    "TH": 15,
-    "VN": 14
+    "FR": 15,
+    "AE": 14,
+    "FI": 13,
+    "MY": 13,
+    "TH": 13,
+    "BD": 13,
+    "VN": 12
   },
   "by_anonymity": {
-    "transparent": 159,
-    "elite": 769,
-    "anonymous": 26
+    "elite": 761,
+    "anonymous": 23,
+    "transparent": 106
   },
   "by_speed": {
-    "fast": 365,
-    "medium": 223,
-    "slow": 366
+    "slow": 349,
+    "fast": 297,
+    "medium": 244
   },
-  "avg_speed_ms": 2987.7,
+  "avg_speed_ms": 2871.49,
   "fastest_proxy": {
     "ip": "89.116.51.164",
     "port": 8080,
@@ -53,13 +53,13 @@
     "country_code": "US",
     "city": "Phoenix",
     "anonymity": "anonymous",
-    "speed_ms": 89.41,
+    "speed_ms": 121.99,
     "speed_tier": "fast",
     "is_alive": true,
-    "last_checked": "2026-04-04 02:35:40 UTC",
+    "last_checked": "2026-04-04 07:08:46 UTC",
     "org": "Hostinger",
     "source": "TheSpeedX HTTP"
   },
-  "duration_seconds": 1829.37,
-  "timestamp": "2026-04-04T03:04:40.237563+00:00"
+  "duration_seconds": 1892.81,
+  "timestamp": "2026-04-04T07:37:58.381626+00:00"
 }
