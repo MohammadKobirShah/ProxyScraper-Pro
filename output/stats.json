@@ -2,48 +2,48 @@
   "sources_total": 24,
   "sources_success": 21,
   "sources_failed": 3,
-  "scraped_total": 14349,
-  "scraped_unique": 9012,
-  "alive_total": 907,
-  "dead_total": 8105,
+  "scraped_total": 18848,
+  "scraped_unique": 11539,
+  "alive_total": 1018,
+  "dead_total": 10521,
   "by_protocol": {
-    "http": 401,
-    "socks4": 230,
-    "socks5": 276
+    "http": 492,
+    "socks4": 241,
+    "socks5": 285
   },
   "by_country_top20": {
-    "US": 297,
-    "GB": 108,
-    "CN": 90,
-    "RU": 58,
-    "ID": 37,
-    "JP": 26,
-    "PH": 20,
-    "DE": 19,
-    "SG": 19,
-    "HK": 17,
-    "KR": 15,
-    "FR": 13,
-    "IN": 13,
-    "VN": 13,
-    "TH": 13,
-    "NL": 12,
-    "TR": 10,
-    "MY": 9,
-    "BD": 8,
-    "BR": 8
+    "US": 323,
+    "GB": 123,
+    "CN": 77,
+    "ID": 49,
+    "JP": 45,
+    "DE": 27,
+    "KR": 26,
+    "HK": 25,
+    "RU": 24,
+    "TH": 20,
+    "NL": 17,
+    "SG": 17,
+    "BR": 17,
+    "MY": 15,
+    "IN": 15,
+    "BD": 15,
+    "CO": 13,
+    "PH": 11,
+    "PL": 10,
+    "FI": 9
   },
   "by_anonymity": {
-    "elite": 775,
-    "transparent": 102,
-    "anonymous": 30
+    "transparent": 134,
+    "elite": 855,
+    "anonymous": 29
   },
   "by_speed": {
-    "slow": 419,
-    "fast": 302,
-    "medium": 186
+    "fast": 321,
+    "medium": 288,
+    "slow": 409
   },
-  "avg_speed_ms": 3353.37,
+  "avg_speed_ms": 3142.91,
   "fastest_proxy": {
     "ip": "174.138.119.88",
     "port": 80,
@@ -53,13 +53,13 @@
     "country_code": "US",
     "city": "Clifton",
     "anonymity": "elite",
-    "speed_ms": 95.42,
+    "speed_ms": 59.9,
     "speed_tier": "fast",
     "is_alive": true,
-    "last_checked": "2026-04-09 07:45:37 UTC",
+    "last_checked": "2026-04-09 13:51:44 UTC",
     "org": "Digital Ocean",
-    "source": "TheSpeedX HTTP"
+    "source": "ProxyScrape HTTP"
   },
-  "duration_seconds": 1809.55,
-  "timestamp": "2026-04-09T08:13:43.667663+00:00"
+  "duration_seconds": 2008.86,
+  "timestamp": "2026-04-09T14:24:47.644627+00:00"
 }
