@@ -1,49 +1,49 @@
 {
   "sources_total": 24,
-  "sources_success": 21,
-  "sources_failed": 3,
-  "scraped_total": 18848,
-  "scraped_unique": 11539,
-  "alive_total": 1018,
-  "dead_total": 10521,
+  "sources_success": 20,
+  "sources_failed": 4,
+  "scraped_total": 19374,
+  "scraped_unique": 12004,
+  "alive_total": 1140,
+  "dead_total": 10864,
   "by_protocol": {
-    "http": 492,
-    "socks4": 241,
-    "socks5": 285
+    "http": 658,
+    "socks4": 219,
+    "socks5": 263
   },
   "by_country_top20": {
-    "US": 323,
-    "GB": 123,
-    "CN": 77,
-    "ID": 49,
-    "JP": 45,
-    "DE": 27,
-    "KR": 26,
-    "HK": 25,
-    "RU": 24,
-    "TH": 20,
-    "NL": 17,
-    "SG": 17,
-    "BR": 17,
-    "MY": 15,
-    "IN": 15,
-    "BD": 15,
-    "CO": 13,
-    "PH": 11,
-    "PL": 10,
-    "FI": 9
+    "US": 328,
+    "GB": 102,
+    "CN": 99,
+    "ID": 90,
+    "JP": 40,
+    "DE": 32,
+    "KR": 30,
+    "RU": 29,
+    "IN": 28,
+    "HK": 26,
+    "SG": 25,
+    "TH": 22,
+    "CO": 18,
+    "TR": 17,
+    "BD": 17,
+    "PH": 14,
+    "MY": 12,
+    "PL": 11,
+    "BR": 11,
+    "KH": 11
   },
   "by_anonymity": {
-    "transparent": 134,
-    "elite": 855,
-    "anonymous": 29
+    "elite": 884,
+    "transparent": 231,
+    "anonymous": 25
   },
   "by_speed": {
-    "fast": 321,
-    "medium": 288,
-    "slow": 409
+    "fast": 359,
+    "medium": 400,
+    "slow": 381
   },
-  "avg_speed_ms": 3142.91,
+  "avg_speed_ms": 2923.75,
   "fastest_proxy": {
     "ip": "174.138.119.88",
     "port": 80,
@@ -53,13 +53,13 @@
     "country_code": "US",
     "city": "Clifton",
     "anonymity": "elite",
-    "speed_ms": 59.9,
+    "speed_ms": 90.25,
     "speed_tier": "fast",
     "is_alive": true,
-    "last_checked": "2026-04-09 13:51:44 UTC",
+    "last_checked": "2026-04-09 19:16:15 UTC",
     "org": "Digital Ocean",
     "source": "ProxyScrape HTTP"
   },
-  "duration_seconds": 2008.86,
-  "timestamp": "2026-04-09T14:24:47.644627+00:00"
+  "duration_seconds": 2320.27,
+  "timestamp": "2026-04-09T19:52:50.391035+00:00"
 }
