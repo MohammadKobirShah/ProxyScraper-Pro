@@ -1,49 +1,49 @@
 {
   "sources_total": 24,
-  "sources_success": 20,
-  "sources_failed": 4,
-  "scraped_total": 19456,
-  "scraped_unique": 12446,
-  "alive_total": 1220,
-  "dead_total": 11226,
+  "sources_success": 21,
+  "sources_failed": 3,
+  "scraped_total": 16971,
+  "scraped_unique": 10966,
+  "alive_total": 981,
+  "dead_total": 9985,
   "by_protocol": {
-    "http": 465,
-    "socks4": 327,
-    "socks5": 428
+    "http": 357,
+    "socks4": 226,
+    "socks5": 398
   },
   "by_country_top20": {
-    "US": 373,
-    "CN": 195,
-    "DE": 60,
-    "ID": 55,
-    "VN": 51,
-    "GB": 44,
-    "RU": 32,
-    "HK": 31,
-    "JP": 27,
-    "BD": 25,
-    "KR": 25,
-    "IN": 23,
-    "SG": 21,
-    "TH": 20,
-    "NL": 19,
-    "BR": 15,
-    "FR": 14,
-    "AE": 12,
-    "MY": 11,
-    "CO": 11
+    "US": 356,
+    "CN": 159,
+    "GB": 58,
+    "ID": 47,
+    "DE": 45,
+    "RU": 30,
+    "NL": 26,
+    "HK": 22,
+    "JP": 19,
+    "KR": 15,
+    "IN": 14,
+    "SG": 13,
+    "FR": 11,
+    "BR": 11,
+    "BD": 10,
+    "MY": 9,
+    "PH": 9,
+    "KH": 9,
+    "CO": 8,
+    "TR": 8
   },
   "by_anonymity": {
-    "elite": 1080,
-    "transparent": 122,
-    "anonymous": 18
+    "transparent": 109,
+    "elite": 804,
+    "anonymous": 68
   },
   "by_speed": {
-    "fast": 361,
-    "medium": 438,
-    "slow": 421
+    "fast": 381,
+    "medium": 216,
+    "slow": 384
   },
-  "avg_speed_ms": 2977.77,
+  "avg_speed_ms": 3126.53,
   "fastest_proxy": {
     "ip": "172.200.72.48",
     "port": 80,
@@ -53,13 +53,13 @@
     "country_code": "US",
     "city": "Boydton",
     "anonymity": "transparent",
-    "speed_ms": 118.68,
+    "speed_ms": 180.47,
     "speed_tier": "fast",
     "is_alive": true,
-    "last_checked": "2026-04-27 14:04:29 UTC",
+    "last_checked": "2026-04-27 19:39:59 UTC",
     "org": "Microsoft Azure Cloud (eastus2)",
     "source": "ProxyScrape HTTP"
   },
-  "duration_seconds": 2352.17,
-  "timestamp": "2026-04-27T14:43:16.901495+00:00"
+  "duration_seconds": 1942.78,
+  "timestamp": "2026-04-27T20:11:36.774791+00:00"
 }
