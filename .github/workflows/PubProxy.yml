@@ -9,13 +9,21 @@ on:
         description: 'Number of proxies to fetch'
         required: true
         default: '1000'
+      check_timeout:
+        description: 'Proxy check timeout (seconds)'
+        required: false
+        default: '10'
+      max_workers:
+        description: 'Concurrent checker threads'
+        required: false
+        default: '100'
 
 jobs:
   fetch-proxies:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # required for git push
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
@@ -27,6 +35,9 @@ jobs:
       - name: Install Dependencies
         run: pip install requests
 
+      # ─────────────────────────────────────────────────────────────
+      # STEP 1 – FETCH
+      # ─────────────────────────────────────────────────────────────
       - name: Fetch Proxies
         run: |
           python3 << 'EOF'
@@ -36,16 +47,11 @@ jobs:
           import json
           from datetime import datetime
 
-          # ─── Config ──────────────────────────────────────────────────────────
           TARGET    = int(os.environ.get("TARGET_COUNT", "1000"))
-          DELAY     = 1.0          # seconds between requests
-          MAX_FAILS = 10           # consecutive failures before giving up
+          DELAY     = 1.0
+          MAX_FAILS = 10
 
-          # ─── Proxy Sources ────────────────────────────────────────────────────
-          # Each source is a dict with:
-          #   url      - endpoint to GET
-          #   parser   - callable(response) -> list of {"ipPort","ip","port",...}
-          # ─────────────────────────────────────────────────────────────────────
+          # ── Parsers ──────────────────────────────────────────────
 
           def parse_pubproxy(resp):
               items = []
@@ -54,97 +60,130 @@ jobs:
                       key = item.get("ipPort", "")
                       if key:
                           items.append({
-                              "ipPort"    : key,
-                              "ip"        : item.get("ip", ""),
-                              "port"      : item.get("port", ""),
-                              "protocol"  : item.get("type", "http"),
-                              "anonymity" : item.get("anonymityLevel", ""),
-                              "country"   : item.get("country", ""),
-                              "speed"     : str(item.get("speed", "")),
-                              "uptime"    : str(item.get("upTime", "")),
+                              "ipPort"   : key,
+                              "ip"       : item.get("ip", ""),
+                              "port"     : item.get("port", ""),
+                              "protocol" : item.get("type", "http"),
+                              "anonymity": item.get("anonymityLevel", ""),
+                              "country"  : item.get("country", ""),
+                              "speed"    : str(item.get("speed", "")),
+                              "uptime"   : str(item.get("upTime", "")),
                           })
               except Exception as e:
                   print(f"  [parse_pubproxy] {e}")
               return items
 
-          def parse_plaintext(resp):
-              """Generic parser for plain ip:port lists (one per line)."""
+          def parse_plaintext(resp, protocol="http"):
               items = []
               try:
                   for line in resp.text.splitlines():
                       line = line.strip()
                       if line and not line.startswith("#") and ":" in line:
-                          ip, port = line.split(":", 1)
-                          items.append({
-                              "ipPort"   : line,
-                              "ip"       : ip,
-                              "port"     : port,
-                              "protocol" : "http",
-                              "anonymity": "",
-                              "country"  : "",
-                              "speed"    : "",
-                              "uptime"   : "",
-                          })
+                          parts = line.split(":")
+                          if len(parts) == 2:
+                              ip, port = parts
+                              items.append({
+                                  "ipPort"   : line,
+                                  "ip"       : ip,
+                                  "port"     : port,
+                                  "protocol" : protocol,
+                                  "anonymity": "",
+                                  "country"  : "",
+                                  "speed"    : "",
+                                  "uptime"   : "",
+                              })
               except Exception as e:
                   print(f"  [parse_plaintext] {e}")
               return items
 
+          # ── Sources ──────────────────────────────────────────────
           SOURCES = [
-              # pubproxy – JSON API (rate-limited; max 5 per call on free tier)
               {
-                  "url"    : "http://pubproxy.com/api/proxy?limit=5&format=json",
-                  "parser" : parse_pubproxy,
-                  "delay"  : 2.0,   # extra delay for this source
+                  "url"      : "http://pubproxy.com/api/proxy?limit=5&format=json",
+                  "parser"   : parse_pubproxy,
+                  "delay"    : 2.0,
               },
-              # ProxyScrape – HTTP plain list
               {
-                  "url"    : (
+                  "url"      : (
                       "https://api.proxyscrape.com/v2/"
-                      "?request=displayproxies"
-                      "&protocol=http"
-                      "&timeout=5000"
-                      "&country=all"
-                      "&ssl=all"
-                      "&anonymity=all"
+                      "?request=displayproxies&protocol=http"
+                      "&timeout=5000&country=all&ssl=all&anonymity=all"
                   ),
-                  "parser" : parse_plaintext,
-                  "delay"  : 0,
+                  "parser"   : parse_plaintext,
+                  "delay"    : 0,
               },
-              # ProxyList Download – plain list
               {
-                  "url"    : "https://www.proxy-list.download/api/v1/get?type=http",
-                  "parser" : parse_plaintext,
-                  "delay"  : 0,
+                  "url"      : "https://www.proxy-list.download/api/v1/get?type=http",
+                  "parser"   : parse_plaintext,
+                  "delay"    : 0,
               },
-              # GitHub raw – openproxylist
               {
-                  "url"    : (
+                  "url"      : (
                       "https://raw.githubusercontent.com/"
                       "TheSpeedX/PROXY-List/master/http.txt"
                   ),
-                  "parser" : parse_plaintext,
-                  "delay"  : 0,
+                  "parser"   : parse_plaintext,
+                  "delay"    : 0,
               },
-              # GitHub raw – clarketm proxy list
               {
-                  "url"    : (
+                  "url"      : (
+                      "https://raw.githubusercontent.com/"
+                      "TheSpeedX/PROXY-List/master/socks4.txt"
+                  ),
+                  "parser"   : lambda r: parse_plaintext(r, "socks4"),
+                  "delay"    : 0,
+              },
+              {
+                  "url"      : (
+                      "https://raw.githubusercontent.com/"
+                      "TheSpeedX/PROXY-List/master/socks5.txt"
+                  ),
+                  "parser"   : lambda r: parse_plaintext(r, "socks5"),
+                  "delay"    : 0,
+              },
+              {
+                  "url"      : (
                       "https://raw.githubusercontent.com/"
                       "clarketm/proxy-list/master/proxy-list-raw.txt"
                   ),
-                  "parser" : parse_plaintext,
-                  "delay"  : 0,
+                  "parser"   : parse_plaintext,
+                  "delay"    : 0,
+              },
+              {
+                  "url"      : (
+                      "https://raw.githubusercontent.com/"
+                      "monosans/proxy-list/main/proxies/http.txt"
+                  ),
+                  "parser"   : parse_plaintext,
+                  "delay"    : 0,
+              },
+              {
+                  "url"      : (
+                      "https://raw.githubusercontent.com/"
+                      "monosans/proxy-list/main/proxies/socks4.txt"
+                  ),
+                  "parser"   : lambda r: parse_plaintext(r, "socks4"),
+                  "delay"    : 0,
+              },
+              {
+                  "url"      : (
+                      "https://raw.githubusercontent.com/"
+                      "monosans/proxy-list/main/proxies/socks5.txt"
+                  ),
+                  "parser"   : lambda r: parse_plaintext(r, "socks5"),
+                  "delay"    : 0,
               },
           ]
 
-          # ─── Fetch loop ───────────────────────────────────────────────────────
-          collected   = {}   # "ip:port" -> proxy dict
+          # ── Fetch loop ───────────────────────────────────────────
+          collected   = {}
           total_reqs  = 0
           source_idx  = 0
-          consecutive = 0    # consecutive failures across all sources
+          consecutive = 0
 
           print(f"Target  : {TARGET}")
           print(f"Sources : {len(SOURCES)}")
-          print("-" * 55)
+          print("-" * 60)
 
           while len(collected) < TARGET and consecutive < MAX_FAILS:
               source      = SOURCES[source_idx % len(SOURCES)]
@@ -164,7 +203,6 @@ jobs:
                           if key and key not in collected:
                               collected[key] = item
                               new += 1
-
                       consecutive = 0
                       print(
                           f"[+] {len(collected):>5}/{TARGET}"
@@ -176,10 +214,10 @@ jobs:
 
                   elif resp.status_code == 429:
                       wait = min(60, 15 * (consecutive + 1))
-                      print(f"\n[Rate Limit] {url[:40]} → sleeping {wait}s …")
+                      print(f"\n[Rate Limit] sleeping {wait}s …")
                       time.sleep(wait)
                       consecutive += 1
-                      continue   # skip normal delay
+                      continue
 
                   else:
                       consecutive += 1
@@ -190,7 +228,6 @@ jobs:
                   consecutive += 1
                   print(f"\n[Timeout] {url[:55]}")
                   time.sleep(3)
-
               except Exception as exc:
                   consecutive += 1
                   print(f"\n[Error] {exc}")
@@ -198,17 +235,12 @@ jobs:
 
               time.sleep(DELAY + extra_delay)
 
-          # ─── Report ───────────────────────────────────────────────────────────
-          print(
-              f"\n\n✅ Done!  Collected: {len(collected)} proxies"
-              f" in {total_reqs} requests"
-          )
+          print(f"\n✅ Fetched {len(collected)} proxies in {total_reqs} requests")
 
-          # ─── Save files ───────────────────────────────────────────────────────
+          # ── Save raw list ────────────────────────────────────────
           os.makedirs("proxies", exist_ok=True)
           timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-          # 1. Plain TXT (ip:port only)
           with open("proxies/proxy_list.txt", "w") as fh:
               fh.write(f"# Generated : {timestamp}\n")
               fh.write(f"# Total     : {len(collected)}\n")
@@ -216,7 +248,6 @@ jobs:
               for k in sorted(collected):
                   fh.write(k + "\n")
 
-          # 2. Detailed TXT
           with open("proxies/proxy_list_detailed.txt", "w") as fh:
               fh.write(f"# Generated : {timestamp}\n")
               fh.write(f"# Total     : {len(collected)}\n")
@@ -228,52 +259,279 @@ jobs:
               fh.write("-" * 90 + "\n")
               for k, v in sorted(collected.items()):
                   fh.write(
-                      f"{v['ipPort']:<25} "
-                      f"{v['protocol']:<10} "
-                      f"{v['anonymity']:<15} "
-                      f"{v['country']:<8} "
-                      f"{v['speed']:<8} "
-                      f"{v['uptime']}\n"
+                      f"{v['ipPort']:<25} {v['protocol']:<10} "
+                      f"{v['anonymity']:<15} {v['country']:<8} "
+                      f"{v['speed']:<8} {v['uptime']}\n"
                   )
 
-          # 3. JSON
           with open("proxies/proxy_list.json", "w") as fh:
               json.dump(
-                  {
-                      "generated": timestamp,
-                      "total"    : len(collected),
-                      "proxies"  : list(collected.values()),
-                  },
-                  fh,
-                  indent=2,
+                  {"generated": timestamp, "total": len(collected),
+                   "proxies": list(collected.values())},
+                  fh, indent=2,
               )
 
-          print("📁 Files written:")
-          print("   proxies/proxy_list.txt")
-          print("   proxies/proxy_list_detailed.txt")
-          print("   proxies/proxy_list.json")
+          print("📁 Raw files saved.")
           EOF
         env:
           TARGET_COUNT: ${{ github.event.inputs.target_count || '1000' }}
 
+      # ─────────────────────────────────────────────────────────────
+      # STEP 2 – CHECK LIVE
+      # ─────────────────────────────────────────────────────────────
+      - name: Check Live Proxies
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import time
+          import socket
+          import urllib.request
+          import urllib.error
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from datetime import datetime
+
+          # ── Config ───────────────────────────────────────────────
+          TIMEOUT     = int(os.environ.get("CHECK_TIMEOUT", "10"))
+          MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "100"))
+          # Test URLs tried in order — first success = proxy is live
+          TEST_URLS   = [
+              "http://httpbin.org/ip",
+              "http://ip-api.com/json",
+              "http://checkip.amazonaws.com",
+          ]
+          # ─────────────────────────────────────────────────────────
+
+          # ── Load proxies ─────────────────────────────────────────
+          with open("proxies/proxy_list.json") as fh:
+              data    = json.load(fh)
+              proxies = data["proxies"]
+
+          print(f"Loaded  : {len(proxies)} proxies to check")
+          print(f"Timeout : {TIMEOUT}s  |  Workers : {MAX_WORKERS}")
+          print("-" * 60)
+
+          # ── Checker ──────────────────────────────────────────────
+          def check_proxy(proxy: dict) -> dict:
+              """
+              Returns the proxy dict enriched with:
+                live    : bool
+                latency : float | None   (seconds)
+                checked : str            (UTC timestamp)
+              """
+              ip       = proxy.get("ip", "")
+              port     = proxy.get("port", "")
+              protocol = proxy.get("protocol", "http").lower()
+              ip_port  = proxy.get("ipPort", f"{ip}:{port}")
+
+              # Build proxy URL
+              if protocol in ("socks4", "socks5"):
+                  # urllib doesn't natively support SOCKS;
+                  # do a raw TCP connect as a fast liveness check
+                  try:
+                      start = time.perf_counter()
+                      with socket.create_connection((ip, int(port)), timeout=TIMEOUT):
+                          latency = round(time.perf_counter() - start, 3)
+                      return {**proxy,
+                              "live": True, "latency": latency,
+                              "checked": datetime.utcnow().isoformat()}
+                  except Exception:
+                      return {**proxy,
+                              "live": False, "latency": None,
+                              "checked": datetime.utcnow().isoformat()}
+
+              # HTTP / HTTPS — try each test URL
+              proxy_url = f"http://{ip_port}"
+              proxy_map = {"http": proxy_url, "https": proxy_url}
+
+              for test_url in TEST_URLS:
+                  try:
+                      opener = urllib.request.build_opener(
+                          urllib.request.ProxyHandler(proxy_map)
+                      )
+                      opener.addheaders = [("User-Agent", "Mozilla/5.0")]
+                      start = time.perf_counter()
+                      with opener.open(test_url, timeout=TIMEOUT) as resp:
+                          resp.read(512)          # consume enough to confirm connection
+                          latency = round(time.perf_counter() - start, 3)
+                      return {**proxy,
+                              "live": True, "latency": latency,
+                              "checked": datetime.utcnow().isoformat()}
+                  except Exception:
+                      continue   # try next test URL
+
+              return {**proxy,
+                      "live": False, "latency": None,
+                      "checked": datetime.utcnow().isoformat()}
+
+          # ── Run concurrent checks ─────────────────────────────────
+          live_proxies  = []
+          dead_proxies  = []
+          done          = 0
+          total         = len(proxies)
+          start_all     = time.perf_counter()
+
+          with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+              futures = {pool.submit(check_proxy, p): p for p in proxies}
+
+              for future in as_completed(futures):
+                  result = future.result()
+                  done  += 1
+
+                  if result["live"]:
+                      live_proxies.append(result)
+                      status = f"✅ {result['ipPort']:<25} {result['latency']}s"
+                  else:
+                      dead_proxies.append(result)
+                      status = f"❌ {result['ipPort']:<25} dead"
+
+                  # Progress line every 50 results
+                  if done % 50 == 0 or done == total:
+                      pct = done / total * 100
+                      print(
+                          f"[{done:>5}/{total}] {pct:5.1f}% "
+                          f"| live={len(live_proxies)} dead={len(dead_proxies)}",
+                          flush=True,
+                      )
+
+          elapsed = round(time.perf_counter() - start_all, 1)
+
+          # Sort live proxies by latency (fastest first)
+          live_proxies.sort(key=lambda x: x.get("latency") or 9999)
+
+          print(f"\n{'='*60}")
+          print(f"  Total checked : {total}")
+          print(f"  Live          : {len(live_proxies)}")
+          print(f"  Dead          : {len(dead_proxies)}")
+          print(f"  Success rate  : {len(live_proxies)/total*100:.1f}%")
+          print(f"  Time elapsed  : {elapsed}s")
+          if live_proxies:
+              avg_lat = sum(p["latency"] for p in live_proxies) / len(live_proxies)
+              print(f"  Avg latency   : {avg_lat:.3f}s")
+              print(f"  Fastest proxy : {live_proxies[0]['ipPort']} ({live_proxies[0]['latency']}s)")
+          print(f"{'='*60}")
+
+          # ── Statistics ───────────────────────────────────────────
+          def count_by(key, items):
+              out = {}
+              for p in items:
+                  v = p.get(key) or "unknown"
+                  out[v] = out.get(v, 0) + 1
+              return dict(sorted(out.items(), key=lambda x: -x[1]))
+
+          stats = {
+              "generated"   : datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+              "total"       : total,
+              "live"        : len(live_proxies),
+              "dead"        : len(dead_proxies),
+              "success_rate": round(len(live_proxies) / total * 100, 2) if total else 0,
+              "avg_latency" : round(
+                  sum(p["latency"] for p in live_proxies) / len(live_proxies), 3
+              ) if live_proxies else None,
+              "by_protocol" : count_by("protocol", live_proxies),
+              "by_country"  : count_by("country",  live_proxies),
+              "by_anonymity": count_by("anonymity", live_proxies),
+          }
+
+          # ── Save live-only files ─────────────────────────────────
+          timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+
+          # 1. live plain TXT
+          with open("proxies/live_proxies.txt", "w") as fh:
+              fh.write(f"# Generated : {timestamp}\n")
+              fh.write(f"# Live      : {len(live_proxies)}\n")
+              fh.write(f"# Timeout   : {TIMEOUT}s\n")
+              fh.write("#" * 40 + "\n")
+              for p in live_proxies:
+                  fh.write(p["ipPort"] + "\n")
+
+          # 2. live detailed TXT (sorted by latency)
+          with open("proxies/live_proxies_detailed.txt", "w") as fh:
+              fh.write(f"# Generated : {timestamp}\n")
+              fh.write(f"# Live      : {len(live_proxies)}\n")
+              fh.write(
+                  f"{'IP:PORT':<25} {'LATENCY':<10} {'PROTOCOL':<10}"
+                  f" {'COUNTRY':<8} {'ANONYMITY':<15} CHECKED\n"
+              )
+              fh.write("-" * 100 + "\n")
+              for p in live_proxies:
+                  lat = f"{p['latency']}s" if p["latency"] else "-"
+                  fh.write(
+                      f"{p['ipPort']:<25} {lat:<10} {p['protocol']:<10}"
+                      f" {p.get('country',''):<8} {p.get('anonymity',''):<15}"
+                      f" {p['checked']}\n"
+                  )
+
+          # 3. live JSON (full detail)
+          with open("proxies/live_proxies.json", "w") as fh:
+              json.dump(
+                  {"generated": timestamp, "stats": stats,
+                   "proxies": live_proxies},
+                  fh, indent=2,
+              )
+
+          # 4. Stats JSON
+          with open("proxies/stats.json", "w") as fh:
+              json.dump(stats, fh, indent=2)
+
+          # 5. Protocol-split TXT files
+          protocols = set(p["protocol"] for p in live_proxies)
+          for proto in protocols:
+              subset = [p for p in live_proxies if p["protocol"] == proto]
+              fname  = f"proxies/live_{proto}.txt"
+              with open(fname, "w") as fh:
+                  fh.write(f"# Generated : {timestamp}\n")
+                  fh.write(f"# Protocol  : {proto}\n")
+                  fh.write(f"# Live      : {len(subset)}\n")
+                  fh.write("#" * 40 + "\n")
+                  for p in subset:
+                      fh.write(p["ipPort"] + "\n")
+              print(f"   {fname} ({len(subset)} proxies)")
+
+          print("\n📁 Live-check files saved:")
+          print("   proxies/live_proxies.txt")
+          print("   proxies/live_proxies_detailed.txt")
+          print("   proxies/live_proxies.json")
+          print("   proxies/stats.json")
+          EOF
+        env:
+          CHECK_TIMEOUT: ${{ github.event.inputs.check_timeout || '10' }}
+          MAX_WORKERS:   ${{ github.event.inputs.max_workers   || '100' }}
+
+      # ─────────────────────────────────────────────────────────────
+      # STEP 3 – SUMMARY
+      # ─────────────────────────────────────────────────────────────
       - name: Print Summary
         run: |
-          echo "=============================="
-          echo "       PROXY LIST STATS       "
-          echo "=============================="
+          echo "╔══════════════════════════════════════╗"
+          echo "║        PROXY FETCH & CHECK STATS     ║"
+          echo "╚══════════════════════════════════════╝"
 
           echo ""
-          echo "--- proxy_list.txt ---"
-          wc -l proxies/proxy_list.txt
+          echo "── Raw list ──────────────────────────"
+          TOTAL=$(grep -c '^[^#]' proxies/proxy_list.txt || echo 0)
+          echo "Total fetched : $TOTAL"
 
           echo ""
-          echo "--- First 10 proxies ---"
-          grep -v "^#" proxies/proxy_list.txt | head -10
+          echo "── Live list ─────────────────────────"
+          LIVE=$(grep -c '^[^#]' proxies/live_proxies.txt || echo 0)
+          echo "Total live    : $LIVE"
 
           echo ""
-          echo "--- proxy_list_detailed.txt (head) ---"
-          head -15 proxies/proxy_list_detailed.txt
+          echo "── Stats (stats.json) ────────────────"
+          cat proxies/stats.json
 
+          echo ""
+          echo "── Top 20 fastest live proxies ───────"
+          grep -v "^#" proxies/live_proxies_detailed.txt | head -20
+
+          echo ""
+          echo "── Protocol split files ──────────────"
+          ls -lh proxies/live_*.txt 2>/dev/null || echo "none"
+
+      # ─────────────────────────────────────────────────────────────
+      # STEP 4 – COMMIT
+      # ─────────────────────────────────────────────────────────────
       - name: Commit & Push
         run: |
           git config user.name  "github-actions[bot]"
@@ -281,26 +539,27 @@ jobs:
 
           git add proxies/
 
-          # Only commit when something actually changed
           if git diff --staged --quiet; then
             echo "No changes to commit."
             exit 0
           fi
 
-          PROXY_COUNT=$(grep -c '^[^#]' proxies/proxy_list.txt || true)
-          MSG="🔄 Proxy update: $(date -u '+%Y-%m-%d %H:%M UTC') | ${PROXY_COUNT} proxies"
+          LIVE=$(grep -c '^[^#]' proxies/live_proxies.txt  || echo 0)
+          TOTAL=$(grep -c '^[^#]' proxies/proxy_list.txt   || echo 0)
 
-          git commit -m "${MSG}"
-
-          # Pull with rebase to avoid conflicts from concurrent runs
+          git commit -m "🔄 $(date -u '+%Y-%m-%d %H:%M UTC') | fetched=${TOTAL} live=${LIVE}"
           git pull --rebase origin "${{ github.ref_name }}" || true
           git push origin "${{ github.ref_name }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # ─────────────────────────────────────────────────────────────
+      # STEP 5 – ARTIFACTS
+      # ─────────────────────────────────────────────────────────────
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4      # v3 is deprecated
+        uses: actions/upload-artifact@v4
         with:
           name: proxy-lists-${{ github.run_number }}
           path: proxies/
           retention-days: 30
+          
