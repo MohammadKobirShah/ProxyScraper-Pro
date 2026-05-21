@@ -1,0 +1,171 @@
+name: Fetch Proxies (Advanced)
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      target_count:
+        description: 'Number of proxies to fetch'
+        required: true
+        default: '1000'
+
+jobs:
+  fetch-proxies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch Proxies
+        run: |
+          python3 << 'EOF'
+          import requests
+          import time
+          import os
+          import json
+          from datetime import datetime
+
+          # ─── Config ──────────────────────────────────────
+          TARGET    = int(os.environ.get("TARGET_COUNT", "1000"))
+          API_URL   = "http://pubproxy.com/api/proxy?limit=5"
+          DELAY     = 1.5
+          MAX_FAILS = 30
+          # ─────────────────────────────────────────────────
+
+          collected = {}   # ip:port -> full proxy data
+          failed    = 0
+          requests_ = 0
+
+          print(f"Target  : {TARGET}")
+          print(f"API URL : {API_URL}")
+          print("-" * 50)
+
+          while len(collected) < TARGET and failed < MAX_FAILS:
+              try:
+                  r = requests.get(API_URL, timeout=15)
+                  requests_ += 1
+
+                  if r.status_code == 200:
+                      data = r.json().get("data", [])
+                      
+                      for item in data:
+                          key = item.get("ipPort", "")
+                          if key and key not in collected:
+                              collected[key] = {
+                                  "ip"          : item.get("ip", ""),
+                                  "port"        : item.get("port", ""),
+                                  "ipPort"      : key,
+                                  "protocol"    : item.get("type", "http"),
+                                  "anonymity"   : item.get("anonymityLevel", ""),
+                                  "country"     : item.get("country", ""),
+                                  "speed"       : item.get("speed", ""),
+                                  "uptime"      : item.get("upTime", ""),
+                                  "last_checked": item.get("last_checked", ""),
+                              }
+                      
+                      failed = 0
+                      print(f"[+] {len(collected):>5}/{TARGET} | Requests: {requests_}", end="\r")
+
+                  elif r.status_code == 429:
+                      print(f"\n[Rate Limit] Sleeping 15s...")
+                      time.sleep(15)
+
+                  else:
+                      failed += 1
+                      print(f"\n[Error] HTTP {r.status_code}")
+                      time.sleep(3)
+
+              except Exception as e:
+                  failed += 1
+                  print(f"\n[Exception] {e}")
+                  time.sleep(5)
+
+              time.sleep(DELAY)
+
+          print(f"\n\n✅ Done! Collected: {len(collected)} proxies in {requests_} requests")
+
+          os.makedirs("proxies", exist_ok=True)
+          timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+
+          # ── 1. Plain TXT (ip:port only) ──────────────────
+          with open("proxies/proxy_list.txt", "w") as f:
+              f.write(f"# Generated : {timestamp}\n")
+              f.write(f"# Total     : {len(collected)}\n")
+              f.write(f"# Source    : {API_URL}\n")
+              f.write("#" * 40 + "\n")
+              for k in sorted(collected.keys()):
+                  f.write(k + "\n")
+
+          # ── 2. Detailed TXT ──────────────────────────────
+          with open("proxies/proxy_list_detailed.txt", "w") as f:
+              f.write(f"# Generated : {timestamp}\n")
+              f.write(f"# Total     : {len(collected)}\n")
+              f.write(f"{'IP:PORT':<25} {'PROTOCOL':<10} {'ANONYMITY':<15} {'COUNTRY':<8} {'SPEED':<8} {'UPTIME'}\n")
+              f.write("-" * 90 + "\n")
+              for k, v in sorted(collected.items()):
+                  f.write(
+                      f"{v['ipPort']:<25} "
+                      f"{v['protocol']:<10} "
+                      f"{v['anonymity']:<15} "
+                      f"{v['country']:<8} "
+                      f"{v['speed']:<8} "
+                      f"{v['uptime']}\n"
+                  )
+
+          # ── 3. JSON ───────────────────────────────────────
+          with open("proxies/proxy_list.json", "w") as f:
+              json.dump({
+                  "generated" : timestamp,
+                  "total"     : len(collected),
+                  "source"    : API_URL,
+                  "proxies"   : list(collected.values())
+              }, f, indent=2)
+
+          print("📁 Files saved:")
+          print("   proxies/proxy_list.txt")
+          print("   proxies/proxy_list_detailed.txt")
+          print("   proxies/proxy_list.json")
+          EOF
+        env:
+          TARGET_COUNT: ${{ github.event.inputs.target_count || '1000' }}
+
+      - name: Print Summary
+        run: |
+          echo "=============================="
+          echo "       PROXY LIST STATS       "
+          echo "=============================="
+          echo ""
+          echo "--- proxy_list.txt ---"
+          wc -l proxies/proxy_list.txt
+          echo ""
+          echo "--- First 10 Proxies ---"
+          grep -v "^#" proxies/proxy_list.txt | head -10
+          echo ""
+          echo "--- proxy_list_detailed.txt (head) ---"
+          head -15 proxies/proxy_list_detailed.txt
+
+      - name: Commit Files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add proxies/
+          git diff --staged --quiet || \
+            git commit -m "🔄 Proxy update: $(date -u '+%Y-%m-%d %H:%M UTC') | $(grep -c '^[^#]' proxies/proxy_list.txt) proxies"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: proxy-lists-${{ github.run_number }}
+          path: proxies/
+          retention-days: 30
