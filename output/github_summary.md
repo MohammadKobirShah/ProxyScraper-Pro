@@ -1,25 +1,25 @@
 # 🔥 ProxyScraper Pro — Run Report
 
-**Generated:** `2026-06-18T10:55:26.503796+00:00`
+**Generated:** `2026-06-19T11:15:05.638506+00:00`
 
 ## 📊 Overview
 
 | Metric | Value |
 |--------|-------|
-| ⏱ Duration | `1755.3s` |
+| ⏱ Duration | `1907.8s` |
 | 📡 Sources | `19/24` |
-| 🔎 Scraped | `22,869` |
-| 🧹 Unique | `15,591` |
-| ✅ **Alive** | **`776`** |
-| ❌ Dead | `14,815` |
-| ⚡ Avg Speed | `4124ms` |
-| 📈 Success Rate | `5.0%` |
+| 🔎 Scraped | `21,825` |
+| 🧹 Unique | `14,608` |
+| ✅ **Alive** | **`913`** |
+| ❌ Dead | `13,695` |
+| ⚡ Avg Speed | `4178ms` |
+| 📈 Success Rate | `6.2%` |
 
 ### 🚀 Fastest Proxy
 
 ```
-52.34.243.150:8080 (HTTP)
-Speed: 259ms | United States (US)
+104.129.194.43:10336 (HTTP)
+Speed: 132ms | United States (US)
 Anonymity: Anonymous
 ```
 
@@ -27,63 +27,63 @@ Anonymity: Anonymous
 
 | Protocol | Count | Bar |
 |----------|-------|-----|
-| 🌐 HTTP | `417` | `████████████████████` |
-| 🔒 HTTPS | `24` | `█░░░░░░░░░░░░░░░░░░░` |
-| 🧦 SOCKS4 | `167` | `████████░░░░░░░░░░░░` |
-| 🧦 SOCKS5 | `168` | `████████░░░░░░░░░░░░` |
+| 🌐 HTTP | `491` | `████████████████████` |
+| 🔒 HTTPS | `27` | `█░░░░░░░░░░░░░░░░░░░` |
+| 🧦 SOCKS4 | `244` | `█████████░░░░░░░░░░░` |
+| 🧦 SOCKS5 | `151` | `██████░░░░░░░░░░░░░░` |
 
 ## 🎭 By Anonymity
 
 | Level | Count |
 |-------|-------|
-| 🥇 Elite | `604` |
-| 🥈 Anonymous | `22` |
-| 🥉 Transparent | `150` |
+| 🥇 Elite | `735` |
+| 🥈 Anonymous | `27` |
+| 🥉 Transparent | `151` |
 
 ## ⚡ By Speed Tier
 
 | Tier | Count | Criteria |
 |------|-------|----------|
-| ⚡ Fast | `29` | < 1000ms |
-| 🔶 Medium | `360` | 1000-3000ms |
-| 🐢 Slow | `387` | > 3000ms |
+| ⚡ Fast | `49` | < 1000ms |
+| 🔶 Medium | `427` | 1000-3000ms |
+| 🐢 Slow | `437` | > 3000ms |
 
 ## 🌍 Top Countries
 
 | # | Country | Count |
 |---|---------|-------|
-| 1 | 🇺🇸 US | `117` |
-| 2 | 🇨🇳 CN | `109` |
-| 3 | 🇬🇧 GB | `87` |
-| 4 | 🇮🇩 ID | `74` |
-| 5 | 🇯🇵 JP | `36` |
-| 6 | 🇩🇪 DE | `28` |
-| 7 | 🇭🇰 HK | `24` |
-| 8 | 🇷🇺 RU | `24` |
-| 9 | 🇰🇷 KR | `23` |
-| 10 | 🇹🇭 TH | `21` |
-| 11 | 🇲🇾 MY | `16` |
-| 12 | 🇵🇭 PH | `16` |
-| 13 | 🇸🇬 SG | `16` |
-| 14 | 🇳🇱 NL | `14` |
-| 15 | 🇦🇪 AE | `13` |
+| 1 | 🇺🇸 US | `195` |
+| 2 | 🇨🇳 CN | `119` |
+| 3 | 🇮🇩 ID | `82` |
+| 4 | 🇬🇧 GB | `59` |
+| 5 | 🇩🇪 DE | `41` |
+| 6 | 🇯🇵 JP | `38` |
+| 7 | 🇷🇺 RU | `35` |
+| 8 | 🇭🇰 HK | `29` |
+| 9 | 🇰🇷 KR | `27` |
+| 10 | 🇹🇭 TH | `23` |
+| 11 | 🇻🇳 VN | `18` |
+| 12 | 🇨🇴 CO | `17` |
+| 13 | 🇵🇭 PH | `17` |
+| 14 | 🇧🇩 BD | `16` |
+| 15 | 🇸🇬 SG | `14` |
 
 ## 📁 Output Files
 
 | File | Size |
 |------|------|
-| `proxies_all.csv` | 119.8 KB |
-| `proxies_all.json` | 337.9 KB |
-| `proxies_all.txt` | 14.5 KB |
-| `proxies_anonymous.txt` | 407 B |
-| `proxies_elite.txt` | 11.3 KB |
-| `proxies_fast.txt` | 551 B |
-| `proxies_http.txt` | 7.6 KB |
-| `proxies_https.txt` | 450 B |
-| `proxies_medium.txt` | 6.6 KB |
-| `proxies_slow.txt` | 7.3 KB |
-| `proxies_socks4.txt` | 3.2 KB |
-| `proxies_socks5.txt` | 3.3 KB |
+| `proxies_all.csv` | 140.5 KB |
+| `proxies_all.json` | 397.0 KB |
+| `proxies_all.txt` | 17.0 KB |
+| `proxies_anonymous.txt` | 514 B |
+| `proxies_elite.txt` | 13.7 KB |
+| `proxies_fast.txt` | 941 B |
+| `proxies_http.txt` | 8.9 KB |
+| `proxies_https.txt` | 510 B |
+| `proxies_medium.txt` | 7.8 KB |
+| `proxies_slow.txt` | 8.3 KB |
+| `proxies_socks4.txt` | 4.6 KB |
+| `proxies_socks5.txt` | 2.9 KB |
 | `proxies_transparent.txt` | 2.8 KB |
 
 ---
