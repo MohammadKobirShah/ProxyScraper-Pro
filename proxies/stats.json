@@ -1,19 +1,19 @@
 {
-  "generated": "2026-07-20 13:38:12 UTC",
-  "total": 3567,
-  "live": 1246,
-  "dead": 2321,
-  "success_rate": 34.93,
-  "avg_latency": 4.66,
+  "generated": "2026-07-20 15:41:29 UTC",
+  "total": 3328,
+  "live": 1067,
+  "dead": 2261,
+  "success_rate": 32.06,
+  "avg_latency": 4.524,
   "by_protocol": {
-    "http": 1246
+    "http": 1067
   },
   "by_country": {
-    "unknown": 1244,
-    "JP": 1,
-    "BD": 1
+    "unknown": 1065,
+    "FR": 1,
+    "US": 1
   },
   "by_anonymity": {
-    "unknown": 1246
+    "unknown": 1067
   }
 }
