@@ -1,465 +1,342 @@
 ip,port,protocol,address,country,country_code,city,anonymity,speed_ms,speed_tier,is_alive,last_checked,org,source
-52.34.243.150,8080,http,52.34.243.150:8080,United States,US,Portland,anonymous,188.12,fast,True,2026-08-16 12:46:37 UTC,AWS EC2 (us-west-2),TheSpeedX HTTP
-93.123.16.14,80,http,93.123.16.14:80,Bulgaria,BG,Sofia,anonymous,245.52,fast,True,2026-08-16 12:44:48 UTC,Ohost LLC,ProxyScrape HTTP
-67.203.23.88,8081,http,67.203.23.88:8081,United States,US,Los Angeles,anonymous,276.63,fast,True,2026-08-16 12:44:48 UTC,T3 Web Hosting,ProxyScrape HTTP
-67.203.23.79,8081,http,67.203.23.79:8081,United States,US,Los Angeles,anonymous,276.75,fast,True,2026-08-16 12:44:58 UTC,T3 Web Hosting,ProxyScrape HTTP
-178.212.144.7,80,http,178.212.144.7:80,Poland,PL,Sokółka,anonymous,288.88,fast,True,2026-08-16 12:44:48 UTC,IDEALAN Sp. z o.o,ProxyScrape HTTP
-109.199.119.160,80,http,109.199.119.160:80,France,FR,Lauterbourg,elite,300.52,fast,True,2026-08-16 12:44:48 UTC,Contabo GmbH,ProxyScrape HTTP
-93.123.16.38,80,http,93.123.16.38:80,Bulgaria,BG,Sofia,anonymous,308.82,fast,True,2026-08-16 12:44:48 UTC,Ohost LLC,ProxyScrape HTTP
-47.91.104.88,3128,http,47.91.104.88:3128,United Arab Emirates,AE,Dubai,anonymous,359.07,fast,True,2026-08-16 12:45:31 UTC,ALICLOUD-UAE,TheSpeedX HTTP
-94.78.67.171,80,http,94.78.67.171:80,Cyprus,CY,Kyrenia,anonymous,363.38,fast,True,2026-08-16 12:44:58 UTC,Netonline Bilisim Sirketi LTD,ProxyScrape HTTP
-23.228.86.236,8081,http,23.228.86.236:8081,United States,US,Dallas,anonymous,386.82,fast,True,2026-08-16 12:44:58 UTC,Equinox Servers,ProxyScrape HTTP
-16.163.88.228,80,http,16.163.88.228:80,Hong Kong,HK,Hong Kong,elite,414.97,fast,True,2026-08-16 12:45:31 UTC,AWS EC2 (ap-east-1),TheSpeedX HTTP
-185.135.69.34,80,http,185.135.69.34:80,Iraq,IQ,Al Mansour,anonymous,444.68,fast,True,2026-08-16 12:44:48 UTC,,ProxyScrape HTTP
-88.247.49.47,19053,http,88.247.49.47:19053,Turkey,TR,Adana,anonymous,482.66,fast,True,2026-08-16 12:47:01 UTC,TurkTelecom,MoNoSplit HTTP
-168.184.84.82,9443,http,168.184.84.82:9443,United States,US,Orlando,anonymous,484.18,fast,True,2026-08-16 12:45:09 UTC,Orange County Public Schools,TheSpeedX HTTP
-130.110.103.245,3128,http,130.110.103.245:3128,Saudi Arabia,SA,Jeddah,anonymous,506.1,fast,True,2026-08-16 12:46:37 UTC,Oracle Cloud Infrastructure (me-jeddah-1),TheSpeedX HTTP
-13.38.217.179,39170,socks5,13.38.217.179:39170,France,FR,Paris,elite,522.87,fast,True,2026-08-16 12:52:29 UTC,AWS EC2 (eu-west-3),TheSpeedX SOCKS5
-192.252.211.197,14921,socks5,192.252.211.197:14921,United States,US,Atlanta,elite,556.45,fast,True,2026-08-16 12:51:34 UTC,Performive LLC,ProxyScrape SOCKS5
-192.252.209.155,14455,socks5,192.252.209.155:14455,United States,US,Atlanta,elite,598.3,fast,True,2026-08-16 12:52:51 UTC,Performive LLC,TheSpeedX SOCKS5
-199.102.106.94,4145,socks5,199.102.106.94:4145,United States,US,Beverly Hills,elite,607.5,fast,True,2026-08-16 12:52:07 UTC,ZeroLag Communications,TheSpeedX SOCKS5
-103.147.109.250,3128,http,103.147.109.250:3128,Singapore,SG,Singapore,anonymous,682.63,fast,True,2026-08-16 12:45:42 UTC,Duke Host Pte. Ltd,TheSpeedX HTTP
-192.111.134.10,4145,socks5,192.111.134.10:4145,United States,US,Los Angeles,elite,706.9,fast,True,2026-08-16 12:52:29 UTC,Total Server Solutions L.L.C.,TheSpeedX SOCKS5
-47.85.161.37,3128,http,47.85.161.37:3128,United States,US,Charlottesville,anonymous,737.32,fast,True,2026-08-16 12:46:37 UTC,"Midwest Cable, Delta Centric LLC, Zenlayer Inc",TheSpeedX HTTP
-186.190.224.86,999,http,186.190.224.86:999,Colombia,CO,Puerto López,transparent,780.82,fast,True,2026-08-16 12:46:04 UTC,TV AZTECA SUCURSAL COLOMBIA,TheSpeedX HTTP
-66.163.127.204,10006,https,66.163.127.204:10006,Netherlands,NL,Amsterdam,elite,890.03,fast,True,2026-08-16 12:49:33 UTC,GTHost,ProxyScrape HTTPS
-174.77.111.196,4145,socks5,174.77.111.196:4145,United States,US,Pensacola,elite,907.43,fast,True,2026-08-16 12:51:57 UTC,Cox Communications,TheSpeedX SOCKS5
-42.96.18.62,1311,http,42.96.18.62:1311,Vietnam,VN,Quận Một,anonymous,959.36,fast,True,2026-08-16 12:46:49 UTC,,MoNoSplit HTTP
-181.78.74.253,999,https,181.78.74.253:999,Colombia,CO,Montelíbano,transparent,1044.93,medium,True,2026-08-16 12:49:34 UTC,UFINET,ProxyScrape HTTPS
-89.251.21.11,8080,http,89.251.21.11:8080,The Netherlands,NL,Amsterdam,transparent,1061.74,medium,True,2026-08-16 12:49:23 UTC,ipbnb,OpenProxyList HTTP
-192.111.139.162,4145,socks5,192.111.139.162:4145,United States,US,Atlanta,elite,1096.49,medium,True,2026-08-16 12:52:52 UTC,Performive LLC,TheSpeedX SOCKS5
-213.232.192.215,4567,http,213.232.192.215:4567,Russia,RU,Moscow,transparent,1104.52,medium,True,2026-08-16 12:48:50 UTC,Selectel,OpenProxyList HTTP
-147.161.234.13,11901,http,147.161.234.13:11901,Germany,DE,Frankfurt am Main,anonymous,1125.44,medium,True,2026-08-16 12:46:49 UTC,Zscaler Fra4,MoNoSplit HTTP
-165.225.73.114,12450,http,165.225.73.114:12450,Germany,DE,Frankfurt am Main,anonymous,1128.89,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-184.181.217.201,4145,socks5,184.181.217.201:4145,United States,US,Pensacola,elite,1129.99,medium,True,2026-08-16 12:52:08 UTC,Cox Communications,TheSpeedX SOCKS5
-184.178.172.14,4145,socks5,184.178.172.14:4145,United States,US,Roanoke,elite,1133.77,medium,True,2026-08-16 12:51:46 UTC,Cox Communications Inc.,TheSpeedX SOCKS5
-68.71.247.130,4145,socks5,68.71.247.130:4145,United States,US,Los Angeles,elite,1170.0,medium,True,2026-08-16 12:52:19 UTC,Wonderwall.com,TheSpeedX SOCKS5
-70.166.167.38,57728,socks5,70.166.167.38:57728,United States,US,Pensacola,elite,1199.37,medium,True,2026-08-16 12:51:24 UTC,Cox Communications,ProxyScrape SOCKS5
-95.66.138.21,8880,http,95.66.138.21:8880,Russia,RU,Vladimir,elite,1203.08,medium,True,2026-08-16 12:45:43 UTC,Limited Liability Company,TheSpeedX HTTP
-147.161.136.14,12345,http,147.161.136.14:12345,Germany,DE,Frankfurt am Main,anonymous,1203.38,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-147.161.136.14,10101,http,147.161.136.14:10101,Germany,DE,Frankfurt am Main,anonymous,1207.58,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-136.226.198.13,12138,http,136.226.198.13:12138,Austria,AT,Vienna,anonymous,1208.7,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-147.161.136.14,10013,http,147.161.136.14:10013,Germany,DE,Frankfurt am Main,anonymous,1213.37,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-136.226.198.13,11154,http,136.226.198.13:11154,Austria,AT,Vienna,anonymous,1217.5,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-165.225.200.17,11691,http,165.225.200.17:11691,Austria,AT,Vienna,anonymous,1218.24,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-165.225.200.16,30001,http,165.225.200.16:30001,Austria,AT,Vienna,anonymous,1218.34,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-136.226.198.13,12838,http,136.226.198.13:12838,Austria,AT,Vienna,anonymous,1223.96,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-136.226.198.13,10977,http,136.226.198.13:10977,Austria,AT,Vienna,anonymous,1226.27,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-165.225.200.17,11276,http,165.225.200.17:11276,Austria,AT,Vienna,anonymous,1226.91,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-136.226.198.13,9401,http,136.226.198.13:9401,Austria,AT,Vienna,anonymous,1230.7,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-165.225.200.16,12345,http,165.225.200.16:12345,Austria,AT,Vienna,anonymous,1231.22,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc",MoNoSplit HTTP
-165.225.73.114,12020,http,165.225.73.114:12020,Germany,DE,Frankfurt am Main,anonymous,1232.44,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-147.161.234.13,12345,http,147.161.234.13:12345,Germany,DE,Frankfurt am Main,anonymous,1233.83,medium,True,2026-08-16 12:46:49 UTC,Zscaler Fra4,MoNoSplit HTTP
-142.54.231.38,4145,socks5,142.54.231.38:4145,United States,US,Los Angeles,elite,1261.46,medium,True,2026-08-16 12:52:41 UTC,Performive LLC,TheSpeedX SOCKS5
-72.37.216.68,4145,socks5,72.37.216.68:4145,United States,US,Beverly Hills,elite,1300.42,medium,True,2026-08-16 12:52:08 UTC,ZeroLag Communications,TheSpeedX SOCKS5
-195.191.158.128,8080,http,195.191.158.128:8080,Russia,RU,Elektrougli,elite,1305.37,medium,True,2026-08-16 12:46:16 UTC,Intelsc Ltd,TheSpeedX HTTP
-192.252.214.20,15864,socks5,192.252.214.20:15864,United States,US,Atlanta,elite,1315.55,medium,True,2026-08-16 12:51:24 UTC,Performive LLC,ProxyScrape SOCKS5
-147.161.248.13,10883,http,147.161.248.13:10883,Poland,PL,Warsaw,anonymous,1319.66,medium,True,2026-08-16 12:46:49 UTC,Zscaler Waw2,MoNoSplit HTTP
-147.161.168.62,11368,http,147.161.168.62:11368,Germany,DE,Munich,anonymous,1324.44,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-147.161.177.23,10919,http,147.161.177.23:10919,Germany,DE,Munich,anonymous,1335.02,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-165.225.206.17,12217,http,165.225.206.17:12217,Poland,PL,Warsaw,anonymous,1341.85,medium,True,2026-08-16 12:46:49 UTC,"Zscaler, Inc.",MoNoSplit HTTP
-147.161.248.13,10611,http,147.161.248.13:10611,Poland,PL,Warsaw,anonymous,1370.54,medium,True,2026-08-16 12:46:49 UTC,Zscaler Waw2,MoNoSplit HTTP
-80.74.54.148,3128,http,80.74.54.148:3128,Germany,DE,Viersen,elite,1383.34,medium,True,2026-08-16 12:46:05 UTC,inexio Informationstechnologie und Telekommunikation Gmbh,TheSpeedX HTTP
-222.98.121.226,80,http,222.98.121.226:80,South Korea,KR,Ansan-si,transparent,1409.0,medium,True,2026-08-16 12:49:34 UTC,,Sunny9577 HTTP
-78.188.230.81,3310,http,78.188.230.81:3310,Turkey,TR,Adana,elite,1412.64,medium,True,2026-08-16 12:45:54 UTC,TurkTelecom,TheSpeedX HTTP
-202.28.194.139,31280,http,202.28.194.139:31280,Thailand,TH,Chiang Mai,elite,1432.75,medium,True,2026-08-16 12:46:16 UTC,Office of Info.Tech. Admin. Educational Development,TheSpeedX HTTP
-192.252.220.92,17328,socks5,192.252.220.92:17328,United States,US,Los Angeles,elite,1437.99,medium,True,2026-08-16 12:51:57 UTC,Total Server Solutions L.L.C,TheSpeedX SOCKS5
-192.111.137.35,4145,socks5,192.111.137.35:4145,United States,US,Atlanta,elite,1441.02,medium,True,2026-08-16 12:51:35 UTC,Performive LLC,ProxyScrape SOCKS5
-219.249.37.107,80,http,219.249.37.107:80,South Korea,KR,Busan,elite,1445.76,medium,True,2026-08-16 12:49:34 UTC,broadNnet,Sunny9577 HTTP
-39.101.175.37,17691,http,39.101.175.37:17691,China,CN,Beijing,elite,1461.08,medium,True,2026-08-16 12:48:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-104.200.135.46,4145,socks5,104.200.135.46:4145,United States,US,Los Angeles,elite,1474.15,medium,True,2026-08-16 12:52:19 UTC,Total Server Solutions L.L.C.,TheSpeedX SOCKS5
-115.239.234.43,7302,http,115.239.234.43:7302,China,CN,Beijing,elite,1541.15,medium,True,2026-08-16 12:46:38 UTC,Shaoxing Library,TheSpeedX HTTP
-184.178.172.26,4145,socks5,184.178.172.26:4145,United States,US,Roanoke,elite,1563.11,medium,True,2026-08-16 12:51:35 UTC,Cox Communications Inc.,ProxyScrape SOCKS5
-212.58.132.5,8888,http,212.58.132.5:8888,United Kingdom,GB,London,anonymous,1572.68,medium,True,2026-08-16 12:44:49 UTC,"NSFOCUS, Inc",ProxyScrape HTTP
-98.175.31.195,4145,socks5,98.175.31.195:4145,United States,US,Norfolk,elite,1603.45,medium,True,2026-08-16 12:51:35 UTC,Cox Communications Inc,ProxyScrape SOCKS5
-216.106.179.216,49383,http,216.106.179.216:49383,United States,US,Dallas,elite,1603.5,medium,True,2026-08-16 12:46:27 UTC,GTHost,TheSpeedX HTTP
-15.235.21.254,8080,https,15.235.21.254:8080,Canada,CA,Beauharnois,elite,1646.71,medium,True,2026-08-16 12:49:34 UTC,Forcepoint International Technology Limited,ProxyScrape HTTPS
-174.75.211.193,4145,socks5,174.75.211.193:4145,United States,US,Pensacola,elite,1658.29,medium,True,2026-08-16 12:52:52 UTC,Cox Communications,HookZOf SOCKS5
-68.71.251.134,4145,socks5,68.71.251.134:4145,United States,US,Los Angeles,elite,1667.6,medium,True,2026-08-16 12:51:57 UTC,Total Server Solutions L.L.C,TheSpeedX SOCKS5
-107.152.98.5,4145,socks5,107.152.98.5:4145,United States,US,Los Angeles,elite,1679.2,medium,True,2026-08-16 12:51:35 UTC,Performive LLC,ProxyScrape SOCKS5
-119.188.131.55,17981,https,119.188.131.55:17981,China,CN,Jinan,elite,1698.27,medium,True,2026-08-16 12:49:34 UTC,,ProxyScrape HTTPS
-103.217.201.96,7890,http,103.217.201.96:7890,China,CN,Beijing,elite,1735.38,medium,True,2026-08-16 12:45:10 UTC,"Hubei Feixun Network Co., Ltd",ProxyScrape HTTP
-45.144.53.63,5103,https,45.144.53.63:5103,Finland,FI,Helsinki,anonymous,1747.26,medium,True,2026-08-16 12:49:35 UTC,H2nexus LTD,ProxyScrape HTTPS
-184.181.217.194,4145,socks5,184.181.217.194:4145,United States,US,Pensacola,elite,1769.14,medium,True,2026-08-16 12:51:35 UTC,Cox Communications,ProxyScrape SOCKS5
-72.223.188.92,4145,socks5,72.223.188.92:4145,United States,US,Pensacola,elite,1771.41,medium,True,2026-08-16 12:51:35 UTC,Cox Communications Inc.,ProxyScrape SOCKS5
-157.230.178.216,40000,https,157.230.178.216:40000,United States,US,North Bergen,anonymous,1774.5,medium,True,2026-08-16 12:49:34 UTC,"DigitalOcean, LLC",ProxyScrape HTTPS
-199.102.105.242,4145,socks5,199.102.105.242:4145,United States,US,Beverly Hills,elite,1793.72,medium,True,2026-08-16 12:51:35 UTC,ZeroLag Communications,ProxyScrape SOCKS5
-202.40.179.33,9090,http,202.40.179.33:9090,Bangladesh,BD,Dhaka,transparent,1806.05,medium,True,2026-08-16 12:46:05 UTC,Ranks ITT Ltd.,TheSpeedX HTTP
-85.30.219.207,8080,http,85.30.219.207:8080,Russia,RU,Shchyolkovo,transparent,1847.74,medium,True,2026-08-16 12:46:49 UTC,,TheSpeedX HTTP
-1.116.47.171,7777,http,1.116.47.171:7777,China,CN,Shanghai,anonymous,1856.74,medium,True,2026-08-16 12:46:50 UTC,"Tencent cloud computing (Beijing) Co., Ltd.",MoNoSplit HTTP
-85.99.248.64,1453,http,85.99.248.64:1453,Türkiye,TR,Istanbul,anonymous,1865.66,medium,True,2026-08-16 12:47:03 UTC,TurkTelecom,MoNoSplit HTTP
-94.103.224.103,8080,http,94.103.224.103:8080,Russia,RU,Odintsovo,transparent,1900.41,medium,True,2026-08-16 12:49:35 UTC,Ltd Alfa Net Telecom,Sunny9577 HTTP
-176.57.189.138,3128,http,176.57.189.138:3128,France,FR,Lauterbourg,transparent,1912.3,medium,True,2026-08-16 12:45:44 UTC,Contabo GmbH,TheSpeedX HTTP
-120.232.115.170,17981,http,120.232.115.170:17981,China,CN,Guangzhou,elite,1930.73,medium,True,2026-08-16 12:46:28 UTC,China Mobile,TheSpeedX HTTP
-68.71.243.14,4145,socks5,68.71.243.14:4145,United States,US,Beverly Hills,elite,1973.28,medium,True,2026-08-16 12:52:20 UTC,ZeroLag Communications,TheSpeedX SOCKS5
-47.89.159.212,9098,http,47.89.159.212:9098,United States,US,Charlottesville,elite,2007.69,medium,True,2026-08-16 12:46:28 UTC,ALICLOUD-US,TheSpeedX HTTP
-47.89.159.212,13,http,47.89.159.212:13,United States,US,Charlottesville,elite,2007.81,medium,True,2026-08-16 12:46:17 UTC,ALICLOUD-US,TheSpeedX HTTP
-47.252.11.233,6379,http,47.252.11.233:6379,United States,US,Charlottesville,elite,2008.03,medium,True,2026-08-16 12:44:49 UTC,Alibaba Cloud - US,ProxyScrape HTTP
-47.90.167.27,8880,http,47.90.167.27:8880,United States,US,Charlottesville,elite,2008.22,medium,True,2026-08-16 12:45:22 UTC,ALICLOUD-US,TheSpeedX HTTP
-112.28.149.152,8443,http,112.28.149.152:8443,China,CN,Guangzhou,elite,2008.26,medium,True,2026-08-16 12:46:50 UTC,China Mobile,MoNoSplit HTTP
-47.252.18.37,8443,http,47.252.18.37:8443,United States,US,Charlottesville,elite,2008.88,medium,True,2026-08-16 12:46:50 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.252.11.233,8085,http,47.252.11.233:8085,United States,US,Charlottesville,elite,2009.9,medium,True,2026-08-16 12:44:49 UTC,Alibaba Cloud - US,ProxyScrape HTTP
-47.90.167.27,6379,http,47.90.167.27:6379,United States,US,Charlottesville,elite,2009.98,medium,True,2026-08-16 12:45:44 UTC,ALICLOUD-US,TheSpeedX HTTP
-47.89.159.212,80,http,47.89.159.212:80,United States,US,Charlottesville,elite,2010.71,medium,True,2026-08-16 12:46:28 UTC,ALICLOUD-US,TheSpeedX HTTP
-47.90.167.27,8080,http,47.90.167.27:8080,United States,US,Charlottesville,elite,2011.67,medium,True,2026-08-16 12:45:33 UTC,ALICLOUD-US,TheSpeedX HTTP
-47.252.18.37,8080,http,47.252.18.37:8080,United States,US,Charlottesville,elite,2011.78,medium,True,2026-08-16 12:46:28 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-171.253.95.241,2052,https,171.253.95.241:2052,Vietnam,VN,Hanoi,elite,2013.38,medium,True,2026-08-16 12:49:35 UTC,VIETEL,ProxyScrape HTTPS
-104.200.152.30,4145,socks5,104.200.152.30:4145,United States,US,Los Angeles,elite,2015.0,medium,True,2026-08-16 12:52:09 UTC,Total Server Solutions L.L.C.,TheSpeedX SOCKS5
-47.252.18.37,45,http,47.252.18.37:45,United States,US,Charlottesville,elite,2016.85,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-38.180.9.158,4422,https,38.180.9.158:4422,Singapore,SG,Singapore,elite,2079.31,medium,True,2026-08-16 12:49:35 UTC,3NT SOLUTIONS LLP,ProxyScrape HTTPS
-47.251.87.199,8080,http,47.251.87.199:8080,United States,US,Minkler,elite,2133.97,medium,True,2026-08-16 12:46:17 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.87.74,4145,http,47.251.87.74:4145,United States,US,Minkler,elite,2134.82,medium,True,2026-08-16 12:45:55 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.73.54,5060,http,47.251.73.54:5060,United States,US,Minkler,elite,2141.23,medium,True,2026-08-16 12:46:50 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.73.54,64,http,47.251.73.54:64,United States,US,Minkler,elite,2141.3,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-47.254.36.213,20000,http,47.254.36.213:20000,United States,US,Minkler,elite,2142.67,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-47.251.87.199,8123,http,47.251.87.199:8123,United States,US,Minkler,elite,2142.76,medium,True,2026-08-16 12:46:17 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.73.54,888,http,47.251.73.54:888,United States,US,Minkler,elite,2142.92,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-47.251.87.199,20125,http,47.251.87.199:20125,United States,US,Minkler,elite,2142.99,medium,True,2026-08-16 12:46:06 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.254.36.213,199,http,47.254.36.213:199,United States,US,Minkler,elite,2143.11,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-47.251.74.38,161,http,47.251.74.38:161,United States,US,Minkler,elite,2143.24,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.74.38,1081,http,47.251.74.38:1081,United States,US,Minkler,elite,2143.83,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-47.251.87.74,8443,http,47.251.87.74:8443,United States,US,Minkler,elite,2144.86,medium,True,2026-08-16 12:46:17 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-8.211.200.183,8080,http,8.211.200.183:8080,United Kingdom,GB,London,elite,2157.97,medium,True,2026-08-16 12:46:06 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.85,312,http,8.211.194.85:312,United Kingdom,GB,London,elite,2158.02,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.85,31433,http,8.211.194.85:31433,United Kingdom,GB,London,elite,2158.3,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.78,4002,http,8.211.194.78:4002,United Kingdom,GB,London,elite,2159.26,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.78,8005,http,8.211.194.78:8005,United Kingdom,GB,London,elite,2159.29,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.195.173,3129,http,8.211.195.173:3129,United Kingdom,GB,London,elite,2159.54,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.78,8008,http,8.211.194.78:8008,United Kingdom,GB,London,elite,2160.21,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.194.85,100,http,8.211.194.85:100,United Kingdom,GB,London,elite,2160.85,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.200.183,8081,http,8.211.200.183:8081,United Kingdom,GB,London,elite,2161.34,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.254.36.213,8080,http,47.254.36.213:8080,United States,US,Minkler,elite,2161.66,medium,True,2026-08-16 12:46:17 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-72.195.114.169,4145,socks5,72.195.114.169:4145,United States,US,Irvine,elite,2165.73,medium,True,2026-08-16 12:52:09 UTC,Cox Communications,TheSpeedX SOCKS5
-8.211.42.167,1080,http,8.211.42.167:1080,Germany,DE,Frankfurt am Main,elite,2184.23,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.49.86,6969,http,8.211.49.86:6969,Germany,DE,Frankfurt am Main,elite,2185.17,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTP
-8.211.42.167,8081,http,8.211.42.167:8081,Germany,DE,Frankfurt am Main,elite,2185.42,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.251.87.74,6379,http,47.251.87.74:6379,United States,US,Minkler,elite,2187.66,medium,True,2026-08-16 12:49:13 UTC,Alibaba Cloud - US,OpenProxyList HTTP
-8.209.96.245,8080,http,8.209.96.245:8080,Germany,DE,Frankfurt am Main,elite,2189.33,medium,True,2026-08-16 12:45:22 UTC,,TheSpeedX HTTP
-8.211.49.86,50070,http,8.211.49.86:50070,Germany,DE,Frankfurt am Main,elite,2189.68,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.209.96.245,8081,http,8.209.96.245:8081,Germany,DE,Frankfurt am Main,elite,2190.28,medium,True,2026-08-16 12:45:33 UTC,,TheSpeedX HTTP
-47.91.89.3,9080,http,47.91.89.3:9080,Germany,DE,Frankfurt am Main,elite,2190.5,medium,True,2026-08-16 12:46:39 UTC,ALICLOUD-GM,TheSpeedX HTTP
-8.211.51.115,144,http,8.211.51.115:144,Germany,DE,Frankfurt am Main,elite,2190.96,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.49.86,20002,http,8.211.49.86:20002,Germany,DE,Frankfurt am Main,elite,2191.35,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.209.96.245,6379,http,8.209.96.245:6379,Germany,DE,Frankfurt am Main,elite,2191.6,medium,True,2026-08-16 12:45:22 UTC,,TheSpeedX HTTP
-8.211.42.167,1234,http,8.211.42.167:1234,Germany,DE,Frankfurt am Main,elite,2193.9,medium,True,2026-08-16 12:46:28 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.91.89.3,8888,http,47.91.89.3:8888,Germany,DE,Frankfurt am Main,elite,2194.72,medium,True,2026-08-16 12:45:33 UTC,ALICLOUD-GM,TheSpeedX HTTP
-47.91.89.3,8081,http,47.91.89.3:8081,Germany,DE,Frankfurt am Main,elite,2198.56,medium,True,2026-08-16 12:45:44 UTC,ALICLOUD-GM,TheSpeedX HTTP
-120.78.191.225,80,http,120.78.191.225:80,China,CN,Shenzhen,elite,2205.49,medium,True,2026-08-16 12:46:28 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.211.200.183,100,http,8.211.200.183:100,United Kingdom,GB,London,elite,2236.3,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.211.51.115,1900,http,8.211.51.115:1900,Germany,DE,Frankfurt am Main,elite,2262.94,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-83.219.145.106,3128,http,83.219.145.106:3128,Russia,RU,Kaliningrad,transparent,2279.71,medium,True,2026-08-16 12:46:28 UTC,,TheSpeedX HTTP
-8.221.138.111,3129,http,8.221.138.111:3129,Japan,JP,Tokyo,elite,2324.78,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.221.138.111,100,http,8.221.138.111:100,Japan,JP,Tokyo,elite,2326.3,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.74.46.81,9090,http,47.74.46.81:9090,Japan,JP,Tokyo,elite,2326.99,medium,True,2026-08-16 12:45:11 UTC,Alibaba Cloud - JP,TheSpeedX HTTP
-47.74.46.81,98,http,47.74.46.81:98,Japan,JP,Tokyo,elite,2327.86,medium,True,2026-08-16 12:45:11 UTC,Alibaba Cloud - JP,TheSpeedX HTTP
-47.91.29.151,4145,http,47.91.29.151:4145,Japan,JP,Tokyo,elite,2328.66,medium,True,2026-08-16 12:45:22 UTC,ALICLOUD-JP,TheSpeedX HTTP
-8.221.138.111,2000,http,8.221.138.111:2000,Japan,JP,Tokyo,elite,2335.31,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.74.46.81,6379,http,47.74.46.81:6379,Japan,JP,Tokyo,elite,2336.01,medium,True,2026-08-16 12:45:11 UTC,Alibaba Cloud - JP,TheSpeedX HTTP
-47.91.29.151,9080,http,47.91.29.151:9080,Japan,JP,Tokyo,elite,2339.49,medium,True,2026-08-16 12:46:28 UTC,ALICLOUD-JP,TheSpeedX HTTP
-8.221.139.222,6666,http,8.221.139.222:6666,Japan,JP,Tokyo,elite,2350.06,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.91.120.190,8080,http,47.91.120.190:8080,United Arab Emirates,AE,Dubai,elite,2363.1,medium,True,2026-08-16 12:49:13 UTC,ALICLOUD-UAE,OpenProxyList HTTP
-47.91.115.179,1081,http,47.91.115.179:1081,United Arab Emirates,AE,Dubai,elite,2363.77,medium,True,2026-08-16 12:46:06 UTC,ALICLOUD-UAE,TheSpeedX HTTP
-8.220.204.215,443,http,8.220.204.215:443,South Korea,KR,Seoul,elite,2364.04,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.91.120.190,8080,https,47.91.120.190:8080,United Arab Emirates,AE,Dubai,elite,2366.18,medium,True,2026-08-16 12:49:35 UTC,ALICLOUD-UAE,ProxyScrape HTTPS
-8.220.205.172,9020,http,8.220.205.172:9020,South Korea,KR,Seoul,elite,2366.63,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.156.191,20,http,8.213.156.191:20,South Korea,KR,Seoul,elite,2366.65,medium,True,2026-08-16 12:46:06 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.221.139.222,8443,http,8.221.139.222:8443,Japan,JP,Tokyo,elite,2366.75,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.204.215,8000,http,8.220.204.215:8000,South Korea,KR,Seoul,elite,2367.07,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.91.121.127,1234,http,47.91.121.127:1234,United Arab Emirates,AE,Dubai,elite,2368.02,medium,True,2026-08-16 12:45:44 UTC,ALICLOUD-UAE,TheSpeedX HTTP
-8.213.134.213,50,http,8.213.134.213:50,South Korea,KR,Seoul,elite,2369.55,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.205.172,9098,http,8.220.205.172:9098,South Korea,KR,Seoul,elite,2371.01,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.134.213,41,http,8.213.134.213:41,South Korea,KR,Seoul,elite,2371.65,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.205.172,8081,http,8.220.205.172:8081,South Korea,KR,Seoul,elite,2371.91,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-201.116.64.226,7734,http,201.116.64.226:7734,Mexico,MX,Azcapotzalco,elite,2373.84,medium,True,2026-08-16 12:46:06 UTC,Gestión de direccionamiento UniNet,TheSpeedX HTTP
-8.213.134.213,8008,http,8.213.134.213:8008,South Korea,KR,Seoul,elite,2373.94,medium,True,2026-08-16 12:46:39 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.204.92,19,http,8.220.204.92:19,South Korea,KR,Seoul,elite,2374.18,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.156.191,8008,http,8.213.156.191:8008,South Korea,KR,Seoul,elite,2375.1,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.204.215,1080,http,8.220.204.215:1080,South Korea,KR,Seoul,elite,2376.07,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.220.204.92,8008,http,8.220.204.92:8008,South Korea,KR,Seoul,elite,2376.16,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-152.69.167.87,1080,socks5,152.69.167.87:1080,Australia,AU,Sydney,elite,2379.28,medium,True,2026-08-16 12:52:31 UTC,Oracle Cloud Infrastructure (ap-sydney-1),TheSpeedX SOCKS5
-8.220.204.92,12000,http,8.220.204.92:12000,South Korea,KR,Seoul,elite,2379.68,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-185.238.238.29,58080,http,185.238.238.29:58080,Poland,PL,Gmina Strzelin,anonymous,2383.89,medium,True,2026-08-16 12:48:18 UTC,RADIO,OpenProxyList HTTP
-8.213.156.191,1080,http,8.213.156.191:1080,South Korea,KR,Seoul,elite,2386.06,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.238.130.212,5060,http,47.238.130.212:5060,Hong Kong,HK,Hong Kong,elite,2404.67,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.134.126,8081,http,47.238.134.126:8081,Hong Kong,HK,Hong Kong,elite,2405.29,medium,True,2026-08-16 12:45:44 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.134.126,5060,http,47.238.134.126:5060,Hong Kong,HK,Hong Kong,elite,2405.69,medium,True,2026-08-16 12:45:55 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.130.212,80,http,47.238.130.212:80,Hong Kong,HK,Hong Kong,elite,2406.53,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.128.246,8181,http,47.238.128.246:8181,Hong Kong,HK,Hong Kong,elite,2407.35,medium,True,2026-08-16 12:45:11 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.60.156,3128,http,47.238.60.156:3128,Hong Kong,HK,Hong Kong,elite,2407.65,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.76.144.139,8081,http,47.76.144.139:8081,Hong Kong,HK,Hong Kong,elite,2408.18,medium,True,2026-08-16 12:45:22 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-8.210.17.35,8081,http,8.210.17.35:8081,Hong Kong,HK,Hong Kong,elite,2408.68,medium,True,2026-08-16 12:45:22 UTC,Hong Kong,TheSpeedX HTTP
-140.238.58.115,3128,http,140.238.58.115:3128,Japan,JP,Tokyo,anonymous,2409.17,medium,True,2026-08-16 12:46:50 UTC,Oracle Cloud Infrastructure (ap-tokyo-1),TheSpeedX HTTP
-8.210.17.35,8082,http,8.210.17.35:8082,Hong Kong,HK,Hong Kong,elite,2409.58,medium,True,2026-08-16 12:45:22 UTC,Hong Kong,TheSpeedX HTTP
-47.238.128.246,8080,http,47.238.128.246:8080,Hong Kong,HK,Hong Kong,elite,2409.72,medium,True,2026-08-16 12:45:22 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.76.144.139,59394,http,47.76.144.139:59394,Hong Kong,HK,Hong Kong,elite,2413.68,medium,True,2026-08-16 12:45:22 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.128.246,9200,http,47.238.128.246:9200,Hong Kong,HK,Hong Kong,elite,2422.79,medium,True,2026-08-16 12:45:44 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.134.126,8004,http,47.238.134.126:8004,Hong Kong,HK,Hong Kong,elite,2424.71,medium,True,2026-08-16 12:45:33 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.238.60.156,8080,http,47.238.60.156:8080,Hong Kong,HK,Hong Kong,elite,2430.82,medium,True,2026-08-16 12:45:55 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-8.211.195.173,1000,http,8.211.195.173:1000,United Kingdom,GB,London,elite,2436.46,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.221.139.222,8108,http,8.221.139.222:8108,Japan,JP,Tokyo,elite,2440.81,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.237.2.245,80,http,47.237.2.245:80,Singapore,SG,Singapore,elite,2448.74,medium,True,2026-08-16 12:45:55 UTC,Alibaba Cloud LLC,TheSpeedX HTTP
-47.237.92.86,3129,http,47.237.92.86:3129,Singapore,SG,Singapore,elite,2451.81,medium,True,2026-08-16 12:46:28 UTC,Alibaba.com LLC,TheSpeedX HTTP
-47.237.2.245,6379,http,47.237.2.245:6379,Singapore,SG,Singapore,elite,2454.88,medium,True,2026-08-16 12:46:39 UTC,Alibaba Cloud LLC,TheSpeedX HTTP
-47.250.51.110,9000,http,47.250.51.110:9000,Malaysia,MY,Kuala Lumpur,elite,2459.4,medium,True,2026-08-16 12:46:17 UTC,Alibaba Cloud - MY,TheSpeedX HTTP
-47.250.159.65,443,http,47.250.159.65:443,Malaysia,MY,Kuala Lumpur,elite,2459.98,medium,True,2026-08-16 12:46:17 UTC,Alibaba.com LLC,TheSpeedX HTTP
-8.220.141.8,8889,http,8.220.141.8:8889,Philippines,PH,Manila,elite,2469.18,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-8.220.141.8,8123,http,8.220.141.8:8123,Philippines,PH,Manila,elite,2470.77,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.250.159.65,10002,http,47.250.159.65:10002,Malaysia,MY,Kuala Lumpur,elite,2471.99,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com LLC,ProxyScrape HTTP
-149.129.255.179,1081,http,149.129.255.179:1081,Indonesia,ID,Jakarta,elite,2476.35,medium,True,2026-08-16 12:45:22 UTC,,TheSpeedX HTTP
-8.212.168.170,2080,http,8.212.168.170:2080,Philippines,PH,Manila,elite,2478.09,medium,True,2026-08-16 12:46:06 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.215.15.163,4145,http,8.215.15.163:4145,Indonesia,ID,Jakarta,elite,2478.31,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-149.129.226.9,4002,http,149.129.226.9:4002,Indonesia,ID,Jakarta,elite,2478.35,medium,True,2026-08-16 12:47:56 UTC,,OpenProxyList HTTP
-149.129.226.9,8080,http,149.129.226.9:8080,Indonesia,ID,Jakarta,elite,2478.5,medium,True,2026-08-16 12:46:06 UTC,,TheSpeedX HTTP
-149.129.255.179,9091,http,149.129.255.179:9091,Indonesia,ID,Jakarta,elite,2478.91,medium,True,2026-08-16 12:45:00 UTC,,ProxyScrape HTTP
-47.90.149.238,9098,http,47.90.149.238:9098,United States,US,Charlottesville,elite,2479.88,medium,True,2026-08-16 12:46:06 UTC,ALICLOUD-US,TheSpeedX HTTP
-120.26.52.35,8899,http,120.26.52.35:8899,China,CN,Hangzhou,elite,2480.53,medium,True,2026-08-16 12:46:50 UTC,Alibaba.com LLC,TheSpeedX HTTP
-8.215.12.103,8888,http,8.215.12.103:8888,Indonesia,ID,Jakarta,elite,2481.71,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-106.14.91.83,4000,http,106.14.91.83:4000,China,CN,Shanghai,elite,2483.69,medium,True,2026-08-16 12:46:06 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.215.12.103,8007,http,8.215.12.103:8007,Indonesia,ID,Jakarta,elite,2484.72,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-47.116.181.146,80,http,47.116.181.146:80,China,CN,Shanghai,elite,2485.34,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-47.116.210.163,5060,http,47.116.210.163:5060,China,CN,Shanghai,elite,2487.42,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-8.212.165.164,1111,http,8.212.165.164:1111,Philippines,PH,Manila,elite,2487.93,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-8.215.12.103,8081,http,8.215.12.103:8081,Indonesia,ID,Jakarta,elite,2491.25,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
-47.119.20.8,8081,http,47.119.20.8:8081,China,CN,Shenzhen,elite,2493.34,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-149.129.226.9,8081,http,149.129.226.9:8081,Indonesia,ID,Jakarta,elite,2493.97,medium,True,2026-08-16 12:47:56 UTC,,OpenProxyList HTTP
-8.215.3.250,4002,http,8.215.3.250:4002,Indonesia,ID,Jakarta,elite,2494.16,medium,True,2026-08-16 12:46:06 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-121.43.154.123,20000,http,121.43.154.123:20000,China,CN,Hangzhou,elite,2494.48,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com LLC,TheSpeedX HTTP
-149.129.255.179,10443,http,149.129.255.179:10443,Indonesia,ID,Jakarta,elite,2495.81,medium,True,2026-08-16 12:45:00 UTC,,ProxyScrape HTTP
-47.99.112.148,9098,http,47.99.112.148:9098,China,CN,Hangzhou,elite,2495.93,medium,True,2026-08-16 12:46:17 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.213.197.208,8001,http,8.213.197.208:8001,Thailand,TH,Bangkok,elite,2496.48,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.222.157,3128,http,8.213.222.157:3128,Thailand,TH,Bangkok,elite,2497.91,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.99.112.148,4006,http,47.99.112.148:4006,China,CN,Hangzhou,elite,2498.07,medium,True,2026-08-16 12:46:06 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.213.195.191,80,http,8.213.195.191:80,Thailand,TH,Bangkok,elite,2498.22,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.195.191,9091,http,8.213.195.191:9091,Thailand,TH,Bangkok,elite,2498.74,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.121.129.129,9098,http,47.121.129.129:9098,China,CN,Shenzhen,elite,2499.08,medium,True,2026-08-16 12:46:28 UTC,Alibaba.com LLC,TheSpeedX HTTP
-8.213.215.187,8080,http,8.213.215.187:8080,Thailand,TH,Bangkok,elite,2499.24,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.197.208,3128,http,8.213.197.208:3128,Thailand,TH,Bangkok,elite,2499.73,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.213.197.208,1081,http,8.213.197.208:1081,Thailand,TH,Bangkok,elite,2500.91,medium,True,2026-08-16 12:45:11 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTP
-8.213.222.247,8080,http,8.213.222.247:8080,Thailand,TH,Bangkok,elite,2501.02,medium,True,2026-08-16 12:46:39 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-111.119.162.248,10930,socks5,111.119.162.248:10930,Pakistan,PK,Tando Adam,elite,2501.83,medium,True,2026-08-16 12:52:53 UTC,WANGSU,MoNoSplit SOCKS5
-47.104.198.111,80,http,47.104.198.111:80,China,CN,Qingdao,elite,2501.92,medium,True,2026-08-16 12:46:17 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-47.119.19.221,80,http,47.119.19.221:80,China,CN,Shenzhen,elite,2503.03,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.102.214.199,57114,http,39.102.214.199:57114,China,CN,Beijing,elite,2503.49,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-47.237.113.119,1720,http,47.237.113.119:1720,Singapore,SG,Singapore,elite,2504.47,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-39.102.209.128,12000,http,39.102.209.128:12000,China,CN,Beijing,elite,2505.17,medium,True,2026-08-16 12:45:33 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.213.222.247,3128,http,8.213.222.247:3128,Thailand,TH,Bangkok,elite,2505.61,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.138.125.130,8081,http,8.138.125.130:8081,China,CN,Guangzhou,elite,2506.38,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-176.99.134.183,8090,http,176.99.134.183:8090,Russia,RU,Moscow,elite,2506.64,medium,True,2026-08-16 12:46:07 UTC,Inetcom LLC,TheSpeedX HTTP
-39.102.209.163,80,http,39.102.209.163:80,China,CN,Beijing,elite,2507.18,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-47.238.60.156,81,http,47.238.60.156:81,Hong Kong,HK,Hong Kong,elite,2507.97,medium,True,2026-08-16 12:45:55 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-39.102.208.189,3128,http,39.102.208.189:3128,China,CN,Beijing,elite,2508.25,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-47.92.219.102,6379,http,47.92.219.102:6379,China,CN,Beijing,elite,2508.37,medium,True,2026-08-16 12:46:39 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.213.222.247,4002,http,8.213.222.247:4002,Thailand,TH,Bangkok,elite,2508.77,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.104.198.111,8443,http,47.104.198.111:8443,China,CN,Qingdao,elite,2509.91,medium,True,2026-08-16 12:46:39 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-47.104.27.165,8443,http,47.104.27.165:8443,China,CN,Qingdao,elite,2509.94,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.102.214.208,9098,http,39.102.214.208:9098,China,CN,Beijing,elite,2510.79,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.210.222,8008,http,39.102.210.222:8008,China,CN,Beijing,elite,2511.97,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-8.130.71.75,80,http,8.130.71.75:80,China,CN,Beijing,elite,2513.48,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-8.138.149.37,8008,http,8.138.149.37:8008,China,CN,Guangzhou,elite,2514.23,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-8.138.82.6,8443,http,8.138.82.6:8443,China,CN,Guangzhou,elite,2514.71,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-8.138.149.37,8889,http,8.138.149.37:8889,China,CN,Guangzhou,elite,2515.84,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-39.102.213.187,9098,http,39.102.213.187:9098,China,CN,Beijing,elite,2515.86,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-8.213.195.191,30000,http,8.213.195.191:30000,Thailand,TH,Bangkok,elite,2516.16,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-39.104.57.33,9098,http,39.104.57.33:9098,China,CN,Beijing,elite,2516.38,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.208.23,5566,http,39.102.208.23:5566,China,CN,Beijing,elite,2516.75,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-8.148.24.225,8443,http,8.148.24.225:8443,China,CN,Hangzhou,elite,2517.07,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-39.102.213.187,3128,http,39.102.213.187:3128,China,CN,Beijing,elite,2518.33,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.100.88.89,9080,http,39.100.88.89:9080,China,CN,Beijing,elite,2519.74,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.208.236,9098,http,39.102.208.236:9098,China,CN,Beijing,elite,2519.74,medium,True,2026-08-16 12:45:22 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-39.102.211.64,9098,http,39.102.211.64:9098,China,CN,Beijing,elite,2519.8,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.208.236,80,http,39.102.208.236:80,China,CN,Beijing,elite,2520.64,medium,True,2026-08-16 12:45:55 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-39.102.210.176,2022,http,39.102.210.176:2022,China,CN,Beijing,elite,2521.8,medium,True,2026-08-16 12:46:50 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-47.92.143.92,5060,http,47.92.143.92:5060,China,CN,Beijing,elite,2522.1,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-140.238.32.108,3128,http,140.238.32.108:3128,Japan,JP,Tokyo,elite,2522.92,medium,True,2026-08-16 12:45:55 UTC,Oracle Cloud Infrastructure (ap-tokyo-1),TheSpeedX HTTP
-39.102.210.222,8888,http,39.102.210.222:8888,China,CN,Beijing,elite,2523.4,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.209.163,8443,http,39.102.209.163:8443,China,CN,Beijing,elite,2523.73,medium,True,2026-08-16 12:45:44 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-47.121.183.107,31281,http,47.121.183.107:31281,China,CN,Shenzhen,elite,2523.91,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-39.102.210.222,80,http,39.102.210.222:80,China,CN,Beijing,elite,2524.14,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-47.90.149.238,3128,http,47.90.149.238:3128,United States,US,Charlottesville,elite,2524.37,medium,True,2026-08-16 12:46:06 UTC,ALICLOUD-US,TheSpeedX HTTP
-39.102.214.152,8090,http,39.102.214.152:8090,China,CN,Beijing,elite,2524.67,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.100.88.89,80,http,39.100.88.89:80,China,CN,Beijing,elite,2526.06,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.102.214.152,3128,http,39.102.214.152:3128,China,CN,Beijing,elite,2526.21,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-47.104.28.135,8888,http,47.104.28.135:8888,China,CN,Qingdao,elite,2526.43,medium,True,2026-08-16 12:46:39 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-47.104.27.249,3128,http,47.104.27.249:3128,China,CN,Qingdao,elite,2526.67,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-8.130.37.235,3128,http,8.130.37.235:3128,China,CN,Beijing,elite,2527.16,medium,True,2026-08-16 12:49:24 UTC,Alibaba.com LLC,Sunny9577 HTTP
-47.92.194.235,80,http,47.92.194.235:80,China,CN,Beijing,elite,2528.16,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-8.130.36.163,9098,http,8.130.36.163:9098,China,CN,Beijing,elite,2529.23,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com LLC,TheSpeedX HTTP
-39.104.57.33,8081,http,39.104.57.33:8081,China,CN,Beijing,elite,2530.91,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-8.213.215.187,9080,http,8.213.215.187:9080,Thailand,TH,Bangkok,elite,2531.17,medium,True,2026-08-16 12:45:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.120.0.231,1081,http,47.120.0.231:1081,China,CN,Shenzhen,elite,2531.39,medium,True,2026-08-16 12:45:55 UTC,Alibaba.com LLC,TheSpeedX HTTP
-8.148.23.165,21025,http,8.148.23.165:21025,China,CN,Hangzhou,elite,2534.23,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-39.104.59.56,8889,http,39.104.59.56:8889,China,CN,Beijing,elite,2534.96,medium,True,2026-08-16 12:46:17 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-39.104.69.76,8080,http,39.104.69.76:8080,China,CN,Beijing,elite,2535.04,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.104.69.76,80,http,39.104.69.76:80,China,CN,Beijing,elite,2535.09,medium,True,2026-08-16 12:46:39 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-8.130.54.67,8800,http,8.130.54.67:8800,China,CN,Beijing,elite,2535.66,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-8.130.37.235,8081,http,8.130.37.235:8081,China,CN,Beijing,elite,2535.71,medium,True,2026-08-16 12:45:33 UTC,Alibaba.com LLC,TheSpeedX HTTP
-39.102.214.208,3128,http,39.102.214.208:3128,China,CN,Beijing,elite,2536.71,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-8.212.168.170,2067,http,8.212.168.170:2067,Philippines,PH,Manila,elite,2537.45,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-39.102.211.162,8080,http,39.102.211.162:8080,China,CN,Beijing,elite,2539.38,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-47.92.143.92,8443,http,47.92.143.92:8443,China,CN,Beijing,elite,2541.7,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-8.130.37.235,8080,http,8.130.37.235:8080,China,CN,Beijing,elite,2542.51,medium,True,2026-08-16 12:45:44 UTC,Alibaba.com LLC,TheSpeedX HTTP
-8.137.62.53,8443,http,8.137.62.53:8443,China,CN,Chengdu,elite,2544.03,medium,True,2026-08-16 12:49:13 UTC,Alibaba.com LLC,OpenProxyList HTTP
-47.92.152.43,8081,http,47.92.152.43:8081,China,CN,Beijing,elite,2545.42,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.100.88.89,8443,http,39.100.88.89:8443,China,CN,Beijing,elite,2546.83,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-39.104.23.154,8081,http,39.104.23.154:8081,China,CN,Beijing,elite,2547.25,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-47.105.122.72,808,http,47.105.122.72:808,China,CN,Qingdao,elite,2551.05,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-121.43.109.88,8008,http,121.43.109.88:8008,China,CN,Hangzhou,elite,2552.91,medium,True,2026-08-16 12:46:39 UTC,Alibaba.com LLC,TheSpeedX HTTP
-39.104.16.201,8080,http,39.104.16.201:8080,China,CN,Beijing,elite,2555.91,medium,True,2026-08-16 12:49:02 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-47.105.122.72,3128,http,47.105.122.72:3128,China,CN,Qingdao,elite,2561.99,medium,True,2026-08-16 12:49:24 UTC,"Aliyun Computing Co., LTD",Sunny9577 HTTP
-195.46.183.181,1080,socks5,195.46.183.181:1080,Russia,RU,Moscow,elite,2563.28,medium,True,2026-08-16 12:52:09 UTC,CITY LINE Interface,TheSpeedX SOCKS5
-47.108.159.113,8080,http,47.108.159.113:8080,China,CN,Chengdu,elite,2567.38,medium,True,2026-08-16 12:49:13 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
-39.104.69.76,8081,http,39.104.69.76:8081,China,CN,Beijing,elite,2568.12,medium,True,2026-08-16 12:45:11 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
-219.142.66.244,9090,http,219.142.66.244:9090,China,CN,Beijing,transparent,2577.66,medium,True,2026-08-16 12:45:00 UTC,SMS Demag Technology Corporation,ProxyScrape HTTP
-66.163.127.204,10006,socks4,66.163.127.204:10006,Netherlands,NL,Amsterdam,elite,2694.17,medium,True,2026-08-16 12:49:46 UTC,GTHost,ProxyScrape SOCKS4
-85.105.172.161,1453,http,85.105.172.161:1453,Türkiye,TR,Istanbul,anonymous,2695.36,medium,True,2026-08-16 12:47:05 UTC,TurkTelecom,MoNoSplit HTTP
-47.238.130.212,4145,http,47.238.130.212:4145,Hong Kong,HK,Hong Kong,elite,2736.92,medium,True,2026-08-16 12:45:22 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-45.43.60.220,8080,http,45.43.60.220:8080,Japan,JP,Tokyo,elite,2737.44,medium,True,2026-08-16 12:46:18 UTC,UCLOUD,TheSpeedX HTTP
-168.194.147.18,8080,http,168.194.147.18:8080,Brazil,BR,Igarapava,transparent,2807.96,medium,True,2026-08-16 12:49:25 UTC,Link Net Provedor de Internet LTDA,Sunny9577 HTTP
-59.38.113.185,20000,socks5,59.38.113.185:20000,China,CN,Guangzhou,elite,2831.38,medium,True,2026-08-16 12:51:36 UTC,Chinanet GD,ProxyScrape SOCKS5
-183.215.23.242,9091,http,183.215.23.242:9091,China,CN,Guangzhou,elite,2916.77,medium,True,2026-08-16 12:49:25 UTC,China Mobile,Sunny9577 HTTP
-79.137.196.250,1080,socks5,79.137.196.250:1080,The Netherlands,NL,Amsterdam,elite,2924.73,medium,True,2026-08-16 12:52:54 UTC,Aeza Group LLC,TheSpeedX SOCKS5
-66.163.118.99,10006,http,66.163.118.99:10006,Spain,ES,Madrid,elite,2949.38,medium,True,2026-08-16 12:45:01 UTC,GTHost,ProxyScrape HTTP
-111.119.162.248,10926,https,111.119.162.248:10926,Pakistan,PK,Tando Adam,elite,2966.18,medium,True,2026-08-16 12:49:36 UTC,WANGSU,ProxyScrape HTTPS
-95.9.67.158,3310,http,95.9.67.158:3310,Turkey,TR,Adana,anonymous,2968.74,medium,True,2026-08-16 12:47:02 UTC,Turk Telekomunikasyon A.S,MoNoSplit HTTP
-8.210.17.35,4321,http,8.210.17.35:4321,Hong Kong,HK,Hong Kong,elite,2993.36,medium,True,2026-08-16 12:45:45 UTC,Hong Kong,TheSpeedX HTTP
-67.201.59.70,4145,socks5,67.201.59.70:4145,United States,US,El Segundo,elite,3002.73,slow,True,2026-08-16 12:51:26 UTC,Total server solutions,ProxyScrape SOCKS5
-186.33.45.218,999,https,186.33.45.218:999,Ecuador,EC,Latacunga,transparent,3008.1,slow,True,2026-08-16 12:49:36 UTC,UFINET,ProxyScrape HTTPS
-41.184.92.220,80,http,41.184.92.220:80,Nigeria,NG,Abuja,elite,3030.56,slow,True,2026-08-16 12:46:07 UTC,ipNX NIGERIA LIMITED,TheSpeedX HTTP
-123.138.24.113,9401,http,123.138.24.113:9401,China,CN,Xi'an,anonymous,3039.75,slow,True,2026-08-16 12:46:40 UTC,,TheSpeedX HTTP
-38.175.197.50,5555,socks5,38.175.197.50:5555,Hong Kong,HK,Hong Kong,elite,3140.12,slow,True,2026-08-16 12:51:37 UTC,NetLab Global,ProxyScrape SOCKS5
-131.196.245.120,999,http,131.196.245.120:999,Mexico,MX,La Cañada,transparent,3146.51,slow,True,2026-08-16 12:45:01 UTC,NDI.COM.MX SA DE CV,ProxyScrape HTTP
-170.245.50.65,8080,http,170.245.50.65:8080,Chile,CL,Santiago,transparent,3164.11,slow,True,2026-08-16 12:45:45 UTC,MI INTERNET SPA,TheSpeedX HTTP
-121.43.154.123,8008,http,121.43.154.123:8008,China,CN,Hangzhou,elite,3170.87,slow,True,2026-08-16 12:49:25 UTC,Alibaba.com LLC,Sunny9577 HTTP
-121.43.154.123,80,http,121.43.154.123:80,China,CN,Hangzhou,elite,3173.73,slow,True,2026-08-16 12:49:25 UTC,Alibaba.com LLC,Sunny9577 HTTP
-176.111.37.216,39811,http,176.111.37.216:39811,Hong Kong,HK,Tsim Sha Tsui,transparent,3181.22,slow,True,2026-08-16 12:46:07 UTC,Cogento Backbone Limited,TheSpeedX HTTP
-175.136.239.173,8181,https,175.136.239.173:8181,Malaysia,MY,Kuala Lumpur,transparent,3235.53,slow,True,2026-08-16 12:49:36 UTC,,ProxyScrape HTTPS
-188.132.221.8,8080,http,188.132.221.8:8080,Türkiye,TR,Antakya,transparent,3316.42,slow,True,2026-08-16 12:45:56 UTC,High Speed Telekomunikasyon VE Haberlesme Hizmetleri Ltd. STI,TheSpeedX HTTP
-165.154.162.73,8888,http,165.154.162.73:8888,United States,US,Los Angeles,elite,3351.67,slow,True,2026-08-16 12:46:07 UTC,Ucloud Information Technology,TheSpeedX HTTP
-8.211.51.115,4022,http,8.211.51.115:4022,Germany,DE,Frankfurt am Main,elite,3363.26,slow,True,2026-08-16 12:46:18 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-163.61.112.245,8080,http,163.61.112.245:8080,Indonesia,ID,Palembang,anonymous,3434.47,slow,True,2026-08-16 12:45:23 UTC,Indonesia Network Information Center,TheSpeedX HTTP
-154.18.196.6,8083,http,154.18.196.6:8083,Philippines,PH,Quezon City,transparent,3505.05,slow,True,2026-08-16 12:46:18 UTC,Ping Networks PH,TheSpeedX HTTP
-103.73.66.232,24444,http,103.73.66.232:24444,Hong Kong,HK,Hong Kong,anonymous,3527.59,slow,True,2026-08-16 12:45:12 UTC,"HostHatch, LLC",ProxyScrape HTTP
-120.26.52.35,8899,socks4,120.26.52.35:8899,China,CN,Hangzhou,elite,3539.13,slow,True,2026-08-16 12:51:15 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-192.111.135.18,18301,socks5,192.111.135.18:18301,United States,US,Atlanta,elite,3547.9,slow,True,2026-08-16 12:52:21 UTC,Performive LLC,TheSpeedX SOCKS5
-47.92.219.102,6379,socks4,47.92.219.102:6379,China,CN,Beijing,elite,3562.4,slow,True,2026-08-16 12:51:04 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-47.99.112.148,4006,socks4,47.99.112.148:4006,China,CN,Hangzhou,elite,3568.73,slow,True,2026-08-16 12:50:42 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-47.237.2.245,6379,socks4,47.237.2.245:6379,Singapore,SG,Singapore,elite,3582.35,slow,True,2026-08-16 12:51:15 UTC,Alibaba Cloud LLC,TheSpeedX SOCKS4
-47.120.0.231,1081,socks4,47.120.0.231:1081,China,CN,Shenzhen,elite,3589.14,slow,True,2026-08-16 12:50:31 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-47.250.159.65,443,socks4,47.250.159.65:443,Malaysia,MY,Kuala Lumpur,elite,3622.45,slow,True,2026-08-16 12:50:53 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-106.14.91.83,4000,socks4,106.14.91.83:4000,China,CN,Shanghai,elite,3636.49,slow,True,2026-08-16 12:50:42 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-39.102.209.163,8443,socks4,39.102.209.163:8443,China,CN,Beijing,elite,3639.75,slow,True,2026-08-16 12:50:20 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-47.121.129.129,9098,socks4,47.121.129.129:9098,China,CN,Shenzhen,elite,3647.7,slow,True,2026-08-16 12:51:04 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-121.43.109.88,8008,socks4,121.43.109.88:8008,China,CN,Hangzhou,elite,3652.97,slow,True,2026-08-16 12:51:15 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-47.104.198.111,80,socks4,47.104.198.111:80,China,CN,Qingdao,elite,3655.32,slow,True,2026-08-16 12:50:53 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-47.252.11.233,80,http,47.252.11.233:80,United States,US,Charlottesville,elite,3656.82,slow,True,2026-08-16 12:45:56 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-134.249.185.223,41890,http,134.249.185.223:41890,Ukraine,UA,Kyiv,transparent,3669.61,slow,True,2026-08-16 12:46:29 UTC,Kyivstar LLC,TheSpeedX HTTP
-39.102.208.236,9098,socks4,39.102.208.236:9098,China,CN,Beijing,elite,3682.81,slow,True,2026-08-16 12:49:58 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-8.215.3.250,4002,socks4,8.215.3.250:4002,Indonesia,ID,Jakarta,elite,3698.53,slow,True,2026-08-16 12:50:42 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX SOCKS4
-39.102.209.128,12000,socks4,39.102.209.128:12000,China,CN,Beijing,elite,3699.33,slow,True,2026-08-16 12:50:20 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-149.62.186.244,1080,socks5,149.62.186.244:1080,Italy,IT,Milan,elite,3715.87,slow,True,2026-08-16 12:52:21 UTC,Host VDC,TheSpeedX SOCKS5
-8.130.36.163,9098,socks4,8.130.36.163:9098,China,CN,Beijing,elite,3718.41,slow,True,2026-08-16 12:50:31 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
-47.104.28.135,8888,socks4,47.104.28.135:8888,China,CN,Qingdao,elite,3725.56,slow,True,2026-08-16 12:51:15 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-39.102.210.176,2022,socks4,39.102.210.176:2022,China,CN,Beijing,elite,3746.49,slow,True,2026-08-16 12:51:26 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-111.230.27.213,3128,http,111.230.27.213:3128,China,CN,Guangzhou,anonymous,3776.13,slow,True,2026-08-16 12:46:54 UTC,"Tencent cloud computing (Beijing) Co., Ltd.",MoNoSplit HTTP
-47.250.211.53,1080,socks5,47.250.211.53:1080,Malaysia,MY,Kuala Lumpur,elite,3832.32,slow,True,2026-08-16 12:52:43 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-187.102.211.244,999,http,187.102.211.244:999,Peru,PE,Lima,transparent,3978.49,slow,True,2026-08-16 12:45:57 UTC,INTEL COMUNICACIONES PERÚ SAC,TheSpeedX HTTP
-8.213.215.187,9098,http,8.213.215.187:9098,Thailand,TH,Bangkok,elite,4094.13,slow,True,2026-08-16 12:45:13 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-45.144.53.63,5103,http,45.144.53.63:5103,Finland,FI,Helsinki,anonymous,4136.04,slow,True,2026-08-16 12:44:52 UTC,H2nexus LTD,ProxyScrape HTTP
-114.31.15.190,2024,http,114.31.15.190:2024,Bangladesh,BD,Comilla,transparent,4148.07,slow,True,2026-08-16 12:45:24 UTC,,TheSpeedX HTTP
-8.211.195.139,8889,http,8.211.195.139:8889,United Kingdom,GB,London,anonymous,4160.47,slow,True,2026-08-16 12:45:46 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-102.218.41.98,8082,http,102.218.41.98:8082,South Africa,ZA,Durban,transparent,4227.16,slow,True,2026-08-16 12:46:42 UTC,Net11,TheSpeedX HTTP
-45.225.204.192,999,http,45.225.204.192:999,Chile,CL,Las Cabras,transparent,4242.14,slow,True,2026-08-16 12:49:04 UTC,Netdelsur Telecomunicaciones SPA,OpenProxyList HTTP
-154.91.176.171,1080,socks5,154.91.176.171:1080,Hong Kong,HK,Tseung Kwan O,elite,4274.46,slow,True,2026-08-16 12:52:55 UTC,Arosscloud INC,MoNoSplit SOCKS5
-8.213.222.157,443,http,8.213.222.157:443,Thailand,TH,Bangkok,elite,4281.0,slow,True,2026-08-16 12:45:46 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-175.139.255.25,8181,https,175.139.255.25:8181,Malaysia,MY,Kuala Lumpur,transparent,4324.8,slow,True,2026-08-16 12:49:37 UTC,Adsl Streamyx,ProxyScrape HTTPS
-8.221.141.88,9080,http,8.221.141.88:9080,Japan,JP,Tokyo,anonymous,4328.58,slow,True,2026-08-16 12:45:35 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.219.97.248,80,https,8.219.97.248:80,Singapore,SG,Singapore,elite,4360.44,slow,True,2026-08-16 12:49:37 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTPS
-8.213.222.157,45,http,8.213.222.157:45,Thailand,TH,Bangkok,elite,4376.91,slow,True,2026-08-16 12:45:46 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-47.76.144.139,80,http,47.76.144.139:80,Hong Kong,HK,Hong Kong,elite,4405.77,slow,True,2026-08-16 12:45:57 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
-47.251.74.38,8080,http,47.251.74.38:8080,United States,US,Minkler,elite,4456.43,slow,True,2026-08-16 12:46:30 UTC,Alibaba Cloud - US,TheSpeedX HTTP
-39.104.59.56,8889,socks4,39.104.59.56:8889,China,CN,Beijing,elite,4600.47,slow,True,2026-08-16 12:50:54 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
-103.135.189.6,83,http,103.135.189.6:83,India,IN,Tālakkudi,transparent,4674.38,slow,True,2026-08-16 12:46:19 UTC,Swibi Airnet Broadband Services Pvt Ltd,TheSpeedX HTTP
-162.255.110.24,8080,http,162.255.110.24:8080,United States,US,Richland,transparent,4678.53,slow,True,2026-08-16 12:45:46 UTC,Desert Winds Wireless Inc,TheSpeedX HTTP
-20.83.140.251,8080,http,20.83.140.251:8080,United States,US,Boydton,elite,4752.01,slow,True,2026-08-16 12:46:08 UTC,Microsoft Azure Cloud (eastus),TheSpeedX HTTP
-8.213.128.6,5555,http,8.213.128.6:5555,South Korea,KR,Seoul,elite,4836.63,slow,True,2026-08-16 12:46:41 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-195.26.230.202,8080,http,195.26.230.202:8080,Finland,FI,Helsinki,elite,4914.07,slow,True,2026-08-16 12:45:13 UTC,Hostkey B.V,ProxyScrape HTTP
-103.247.13.134,8080,http,103.247.13.134:8080,Indonesia,ID,Magelang,transparent,4968.75,slow,True,2026-08-16 12:45:03 UTC,,ProxyScrape HTTP
-5.181.178.46,8080,http,5.181.178.46:8080,Japan,JP,Koto City,anonymous,4981.44,slow,True,2026-08-16 12:46:20 UTC,YUWAN NETWORK LIMITED,TheSpeedX HTTP
-47.91.115.179,1081,socks4,47.91.115.179:1081,United Arab Emirates,AE,Dubai,elite,5054.31,slow,True,2026-08-16 12:50:44 UTC,ALICLOUD-UAE,TheSpeedX SOCKS4
-43.134.34.29,7890,http,43.134.34.29:7890,Singapore,SG,Singapore,elite,5091.82,slow,True,2026-08-16 12:49:05 UTC,Tencent Cloud Computing,OpenProxyList HTTP
-190.83.40.166,3128,http,190.83.40.166:3128,Brazil,BR,Vitorino Freire,transparent,5097.97,slow,True,2026-08-16 12:46:09 UTC,Jose DAS Gracas Soares De Lima Eireli,TheSpeedX HTTP
-45.71.0.121,999,http,45.71.0.121:999,Ecuador,EC,Cañar,transparent,5203.4,slow,True,2026-08-16 12:49:16 UTC,Sysnovelltel S.A,OpenProxyList HTTP
-5.161.50.82,8118,http,5.161.50.82:8118,United States,US,Ashburn,elite,5354.91,slow,True,2026-08-16 12:46:20 UTC,Hetzner Online GmbH,TheSpeedX HTTP
-101.255.209.158,8181,http,101.255.209.158:8181,Indonesia,ID,North Jakarta,transparent,5365.62,slow,True,2026-08-16 12:46:09 UTC,,TheSpeedX HTTP
-36.66.130.147,8080,http,36.66.130.147:8080,Indonesia,ID,East Jakarta,transparent,5396.58,slow,True,2026-08-16 12:49:38 UTC,,Sunny9577 HTTP
-103.159.195.7,7777,https,103.159.195.7:7777,Indonesia,ID,Batang,transparent,5426.3,slow,True,2026-08-16 12:49:38 UTC,Giganet,ProxyScrape HTTPS
-181.204.81.178,999,http,181.204.81.178:999,Colombia,CO,Pereira,transparent,5475.73,slow,True,2026-08-16 12:45:36 UTC,Colombia Móvil,TheSpeedX HTTP
-8.211.170.91,14680,http,8.211.170.91:14680,Japan,JP,Tokyo,elite,5498.18,slow,True,2026-08-16 12:45:14 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTP
-223.85.21.195,8080,http,223.85.21.195:8080,China,CN,Jinrongjie,elite,5504.59,slow,True,2026-08-16 12:45:03 UTC,China Mobile,ProxyScrape HTTP
-36.64.181.83,8080,http,36.64.181.83:8080,Indonesia,ID,Depok,transparent,5551.73,slow,True,2026-08-16 12:45:59 UTC,,TheSpeedX HTTP
-186.96.111.214,999,http,186.96.111.214:999,Colombia,CO,Bogotá,transparent,5617.47,slow,True,2026-08-16 12:46:09 UTC,TV AZTECA SUCURSAL COLOMBIA,TheSpeedX HTTP
-190.97.229.118,999,https,190.97.229.118:999,Venezuela,VE,El Tocuyo,transparent,5635.72,slow,True,2026-08-16 12:49:38 UTC,,ProxyScrape HTTPS
-103.43.191.71,8888,http,103.43.191.71:8888,Hong Kong,HK,Kwai Chung,elite,5753.28,slow,True,2026-08-16 12:44:53 UTC,Zhongya PTE LTD,ProxyScrape HTTP
-103.160.205.86,8080,http,103.160.205.86:8080,Indonesia,ID,Pendaleman,transparent,5804.71,slow,True,2026-08-16 12:46:09 UTC,,TheSpeedX HTTP
-195.226.213.254,8888,http,195.226.213.254:8888,Ukraine,UA,Fontanka,transparent,5821.21,slow,True,2026-08-16 12:46:10 UTC,ISP AIDA,TheSpeedX HTTP
-47.91.29.151,1311,http,47.91.29.151:1311,Japan,JP,Tokyo,elite,5946.77,slow,True,2026-08-16 12:45:37 UTC,ALICLOUD-JP,TheSpeedX HTTP
-223.254.141.102,6611,socks5,223.254.141.102:6611,Hong Kong,HK,Tsuen Wan,elite,5967.84,slow,True,2026-08-16 12:51:40 UTC,The Media Network Ltd,ProxyScrape SOCKS5
-111.119.162.248,10920,socks5,111.119.162.248:10920,Pakistan,PK,Tando Adam,elite,6032.3,slow,True,2026-08-16 12:51:40 UTC,WANGSU,ProxyScrape SOCKS5
-195.62.50.17,8080,http,195.62.50.17:8080,Turkey,TR,Istanbul,elite,6042.59,slow,True,2026-08-16 12:46:21 UTC,hiperonline iletisim hizmetleri san. tic. ltd. sti,TheSpeedX HTTP
-47.91.115.179,1081,socks5,47.91.115.179:1081,United Arab Emirates,AE,Dubai,elite,6421.34,slow,True,2026-08-16 12:52:24 UTC,ALICLOUD-UAE,TheSpeedX SOCKS5
-47.121.129.129,9098,socks5,47.121.129.129:9098,China,CN,Shenzhen,elite,6533.42,slow,True,2026-08-16 12:52:35 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-121.43.109.88,8008,socks5,121.43.109.88:8008,China,CN,Hangzhou,elite,6577.52,slow,True,2026-08-16 12:52:46 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-106.14.91.83,4000,socks5,106.14.91.83:4000,China,CN,Shanghai,elite,6587.3,slow,True,2026-08-16 12:52:24 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-39.102.209.128,12000,socks5,39.102.209.128:12000,China,CN,Beijing,elite,6601.74,slow,True,2026-08-16 12:52:02 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-8.130.36.163,9098,socks5,8.130.36.163:9098,China,CN,Beijing,elite,6640.67,slow,True,2026-08-16 12:52:13 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-47.104.28.135,8888,socks5,47.104.28.135:8888,China,CN,Qingdao,elite,6641.5,slow,True,2026-08-16 12:52:46 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-8.215.3.250,4002,socks5,8.215.3.250:4002,Indonesia,ID,Jakarta,elite,6670.79,slow,True,2026-08-16 12:52:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX SOCKS5
-39.104.59.56,8889,socks5,39.104.59.56:8889,China,CN,Beijing,elite,6677.87,slow,True,2026-08-16 12:52:35 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-47.92.219.102,6379,socks5,47.92.219.102:6379,China,CN,Beijing,elite,6688.32,slow,True,2026-08-16 12:52:46 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-47.239.140.6,80,socks5,47.239.140.6:80,Hong Kong,HK,Hong Kong,elite,6702.88,slow,True,2026-08-16 12:51:51 UTC,Alibaba Cloud - HK,TheSpeedX SOCKS5
-58.254.153.146,17981,http,58.254.153.146:17981,China,CN,Shanwei,elite,6720.71,slow,True,2026-08-16 12:45:04 UTC,,ProxyScrape HTTP
-47.120.0.231,1081,socks5,47.120.0.231:1081,China,CN,Shenzhen,elite,6754.7,slow,True,2026-08-16 12:52:24 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-39.102.210.176,2022,socks5,39.102.210.176:2022,China,CN,Beijing,elite,6757.78,slow,True,2026-08-16 12:52:57 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
-38.199.26.44,999,http,38.199.26.44:999,Colombia,CO,Armenia,transparent,6837.8,slow,True,2026-08-16 12:48:56 UTC,Conexion Comercializacion De Servicios De Telecomunicaciones Empalmeria Y Construccion De Redes HFC Del SUR Colombia,OpenProxyList HTTP
-178.130.47.21,1082,socks5,178.130.47.21:1082,United States,US,Phoenix,elite,6877.96,slow,True,2026-08-16 12:51:30 UTC,Global Connectivity Solutions LLP,ProxyScrape SOCKS5
-79.137.192.65,30081,http,79.137.192.65:30081,Russia,RU,Moscow,anonymous,6924.09,slow,True,2026-08-16 12:45:38 UTC,AEZA GROUP Ltd,TheSpeedX HTTP
-8.213.128.6,5678,http,8.213.128.6:5678,South Korea,KR,Seoul,elite,6933.49,slow,True,2026-08-16 12:46:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-177.234.217.88,999,https,177.234.217.88:999,Ecuador,EC,Quito,transparent,6977.72,slow,True,2026-08-16 12:49:40 UTC,,ProxyScrape HTTPS
-8.221.141.88,8080,http,8.221.141.88:8080,Japan,JP,Tokyo,elite,6980.29,slow,True,2026-08-16 12:46:00 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-8.221.141.88,11,http,8.221.141.88:11,Japan,JP,Tokyo,elite,7025.88,slow,True,2026-08-16 12:46:00 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
-147.45.66.117,1082,socks5,147.45.66.117:1082,Germany,DE,Frankfurt am Main,elite,7059.46,slow,True,2026-08-16 12:52:25 UTC,Global Connectivity Solutions LLP,TheSpeedX SOCKS5
-153.0.171.163,8085,http,153.0.171.163:8085,China,CN,Haikou,elite,7116.42,slow,True,2026-08-16 12:44:54 UTC,,ProxyScrape HTTP
-180.211.93.106,8080,http,180.211.93.106:8080,Indonesia,ID,Bekasi,anonymous,7176.92,slow,True,2026-08-16 12:48:23 UTC,,OpenProxyList HTTP
-103.124.251.12,8080,http,103.124.251.12:8080,Bangladesh,BD,Jessore,transparent,7183.82,slow,True,2026-08-16 12:46:22 UTC,,TheSpeedX HTTP
-190.97.232.182,999,http,190.97.232.182:999,Venezuela,VE,Sabaneta,transparent,7202.17,slow,True,2026-08-16 12:45:49 UTC,Viginet C.A,TheSpeedX HTTP
-113.11.121.33,2505,http,113.11.121.33:2505,Bangladesh,BD,Jessore,transparent,7261.52,slow,True,2026-08-16 12:45:27 UTC,BDCOM Online Limited,TheSpeedX HTTP
-95.85.233.144,18443,http,95.85.233.144:18443,Germany,DE,Frankfurt am Main,elite,7276.47,slow,True,2026-08-16 12:44:55 UTC,WAIcore Ltd,ProxyScrape HTTP
-203.175.102.67,3125,https,203.175.102.67:3125,Indonesia,ID,Manis Subang,transparent,7279.39,slow,True,2026-08-16 12:49:40 UTC,PT. Mitra Kita Brilian,ProxyScrape HTTPS
-120.26.52.35,8899,socks5,120.26.52.35:8899,China,CN,Hangzhou,elite,7301.34,slow,True,2026-08-16 12:52:58 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
-216.106.179.216,49493,socks5,216.106.179.216:49493,United States,US,Dallas,elite,7392.29,slow,True,2026-08-16 12:51:41 UTC,GTHost,ProxyScrape SOCKS5
-202.47.185.162,8080,http,202.47.185.162:8080,Indonesia,ID,South Jakarta,transparent,7425.08,slow,True,2026-08-16 12:49:40 UTC,PT Putra Garsel Interkoneksi,Sunny9577 HTTP
-103.247.21.83,8446,http,103.247.21.83:8446,Indonesia,ID,Bekasi,transparent,7497.74,slow,True,2026-08-16 12:46:22 UTC,,TheSpeedX HTTP
-71.14.23.121,8080,http,71.14.23.121:8080,United States,US,Birmingham,transparent,7681.7,slow,True,2026-08-16 12:49:18 UTC,Days Inn - Galleria,OpenProxyList HTTP
-103.109.174.43,8080,http,103.109.174.43:8080,Indonesia,ID,Medan,transparent,7686.29,slow,True,2026-08-16 12:46:22 UTC,,TheSpeedX HTTP
-103.173.128.179,8080,http,103.173.128.179:8080,Indonesia,ID,Pekanbaru,transparent,7746.71,slow,True,2026-08-16 12:46:12 UTC,PT Sol One Indonesia,TheSpeedX HTTP
-202.179.69.216,58080,http,202.179.69.216:58080,India,IN,Pune,transparent,7969.37,slow,True,2026-08-16 12:48:46 UTC,Ankhnet Informations Pvt. Ltd.,OpenProxyList HTTP
-160.19.19.43,8080,http,160.19.19.43:8080,Indonesia,ID,Subang,transparent,8190.96,slow,True,2026-08-16 12:46:34 UTC,PT. SMART COMPUTER SERVICE,TheSpeedX HTTP
-89.110.115.238,80,http,89.110.115.238:80,The Netherlands,NL,Amsterdam,elite,8372.21,slow,True,2026-08-16 12:45:50 UTC,Servers Tech Fzco,TheSpeedX HTTP
-69.61.200.104,36181,socks5,69.61.200.104:36181,United States,US,Cincinnati,elite,8606.83,slow,True,2026-08-16 12:51:31 UTC,Maximum Communications,ProxyScrape SOCKS5
-91.210.151.184,1080,socks5,91.210.151.184:1080,Russia,RU,Moscow,elite,8750.72,slow,True,2026-08-16 12:52:04 UTC,Skyinet,TheSpeedX SOCKS5
-111.119.162.248,10920,https,111.119.162.248:10920,Pakistan,PK,Tando Adam,elite,8827.75,slow,True,2026-08-16 12:49:42 UTC,WANGSU,ProxyScrape HTTPS
-45.86.229.39,11000,socks5,45.86.229.39:11000,Spain,ES,Madrid,elite,9127.62,slow,True,2026-08-16 12:51:32 UTC,BV Na26,ProxyScrape SOCKS5
-45.137.12.90,8080,http,45.137.12.90:8080,Mexico,MX,Tetela de Ocampo,transparent,9189.61,slow,True,2026-08-16 12:49:09 UTC,ISGA Comunicaciones S.A. de C.V,OpenProxyList HTTP
-103.106.119.217,8081,http,103.106.119.217:8081,Bangladesh,BD,Nowlamary,transparent,9285.31,slow,True,2026-08-16 12:46:13 UTC,PLANET SATELLITE ISP Internet,TheSpeedX HTTP
-187.102.210.138,999,http,187.102.210.138:999,Peru,PE,Lima,transparent,9310.17,slow,True,2026-08-16 12:46:13 UTC,INTEL COMUNICACIONES PERÚ SAC,TheSpeedX HTTP
-194.67.207.95,19080,socks5,194.67.207.95:19080,Russia,RU,Moscow,elite,9829.51,slow,True,2026-08-16 12:52:49 UTC,I-servers LTD,TheSpeedX SOCKS5
-62.60.230.196,1080,socks5,62.60.230.196:1080,Sweden,SE,Stockholm,elite,9899.97,slow,True,2026-08-16 12:53:01 UTC,NetCrafters OU,MoNoSplit SOCKS5
-223.205.180.228,8080,http,223.205.180.228:8080,Thailand,TH,Hat Yai,transparent,9952.18,slow,True,2026-08-16 12:48:59 UTC,Triple T Broadband Public Company Limited,OpenProxyList HTTP
-103.101.162.127,9090,https,103.101.162.127:9090,Vietnam,VN,Làng Hà,elite,9980.83,slow,True,2026-08-16 12:49:43 UTC,WALLE,ProxyScrape HTTPS
-195.133.53.59,10808,socks5,195.133.53.59:10808,Russia,RU,Novosibirsk,elite,9994.63,slow,True,2026-08-16 12:53:01 UTC,Baxet Group Inc,MoNoSplit SOCKS5
-186.33.45.219,999,http,186.33.45.219:999,Ecuador,EC,Latacunga,transparent,10095.28,slow,True,2026-08-16 12:46:14 UTC,UFINET,TheSpeedX HTTP
-45.95.232.35,3128,http,45.95.232.35:3128,Switzerland,CH,Zurich,elite,10153.41,slow,True,2026-08-16 12:46:03 UTC,Global Connectivity Solutions LLP,TheSpeedX HTTP
-61.118.38.234,60808,http,61.118.38.234:60808,Japan,JP,Ishigaki,elite,10210.34,slow,True,2026-08-16 12:49:21 UTC,Open Computer Network,OpenProxyList HTTP
-177.102.15.221,8085,http,177.102.15.221:8085,Brazil,BR,São Paulo,transparent,10515.35,slow,True,2026-08-16 12:45:08 UTC,TELEF�NICA BRASIL S.A,ProxyScrape HTTP
-190.94.212.247,999,http,190.94.212.247:999,Venezuela,VE,Caracas,transparent,10594.66,slow,True,2026-08-16 12:45:52 UTC,IFX Networks Venezuela C.A,TheSpeedX HTTP
-202.4.116.26,81,http,202.4.116.26:81,Bangladesh,BD,Dhaka,transparent,10629.26,slow,True,2026-08-16 12:45:52 UTC,dhakaCom Limited,TheSpeedX HTTP
+52.34.243.150,8080,http,52.34.243.150:8080,United States,US,Portland,anonymous,84.87,fast,True,2026-08-17 07:02:52 UTC,AWS EC2 (us-west-2),TheSpeedX HTTP
+67.203.23.79,8081,http,67.203.23.79:8081,United States,US,Los Angeles,anonymous,122.56,fast,True,2026-08-17 07:02:08 UTC,T3 Web Hosting,ProxyScrape HTTP
+47.85.161.37,3128,http,47.85.161.37:3128,United States,US,Charlottesville,anonymous,198.91,fast,True,2026-08-17 07:02:41 UTC,"Midwest Cable, Delta Centric LLC, Zenlayer Inc",TheSpeedX HTTP
+67.203.23.88,8081,http,67.203.23.88:8081,United States,US,Los Angeles,anonymous,239.63,fast,True,2026-08-17 07:01:57 UTC,T3 Web Hosting,ProxyScrape HTTP
+118.45.2.136,80,http,118.45.2.136:80,South Korea,KR,Pohang-si,transparent,288.54,fast,True,2026-08-17 07:02:41 UTC,Kornet,TheSpeedX HTTP
+109.199.119.160,80,http,109.199.119.160:80,France,FR,Lauterbourg,elite,297.15,fast,True,2026-08-17 07:01:57 UTC,Contabo GmbH,ProxyScrape HTTP
+16.163.88.228,80,http,16.163.88.228:80,Hong Kong,HK,Hong Kong,elite,316.58,fast,True,2026-08-17 07:03:14 UTC,AWS EC2 (ap-east-1),TheSpeedX HTTP
+178.212.144.7,80,http,178.212.144.7:80,Poland,PL,Sokółka,anonymous,359.87,fast,True,2026-08-17 07:02:08 UTC,IDEALAN Sp. z o.o,ProxyScrape HTTP
+93.123.16.38,80,http,93.123.16.38:80,Bulgaria,BG,Sofia,anonymous,366.2,fast,True,2026-08-17 07:01:57 UTC,Ohost LLC,ProxyScrape HTTP
+94.78.67.171,80,http,94.78.67.171:80,Cyprus,CY,Kyrenia,anonymous,371.52,fast,True,2026-08-17 07:01:57 UTC,Netonline Bilisim Sirketi LTD,ProxyScrape HTTP
+95.211.174.135,3128,http,95.211.174.135:3128,The Netherlands,NL,Haarlem,elite,384.94,fast,True,2026-08-17 07:02:41 UTC,LeaseWeb Netherlands B.V.,TheSpeedX HTTP
+115.239.234.43,7302,http,115.239.234.43:7302,China,CN,Beijing,elite,405.47,fast,True,2026-08-17 07:03:36 UTC,Shaoxing Library,TheSpeedX HTTP
+176.57.189.138,3128,http,176.57.189.138:3128,France,FR,Lauterbourg,anonymous,448.77,fast,True,2026-08-17 07:03:36 UTC,Contabo GmbH,TheSpeedX HTTP
+216.106.182.177,3128,http,216.106.182.177:3128,United States,US,Miami,transparent,449.88,fast,True,2026-08-17 07:03:47 UTC,GTHost,TheSpeedX HTTP
+47.91.104.88,3128,http,47.91.104.88:3128,United Arab Emirates,AE,Dubai,anonymous,475.8,fast,True,2026-08-17 07:03:03 UTC,ALICLOUD-UAE,TheSpeedX HTTP
+67.201.33.10,25283,socks4,67.201.33.10:25283,United States,US,El Segundo,elite,520.95,fast,True,2026-08-17 07:07:05 UTC,Total server solutions,TheSpeedX SOCKS4
+68.71.249.153,48606,socks4,68.71.249.153:48606,United States,US,Los Angeles,elite,525.69,fast,True,2026-08-17 07:06:32 UTC,Family Guy Online,TheSpeedX SOCKS4
+185.135.69.34,80,http,185.135.69.34:80,Iraq,IQ,Al Mansour,anonymous,552.4,fast,True,2026-08-17 07:01:58 UTC,,ProxyScrape HTTP
+142.54.228.193,4145,socks4,142.54.228.193:4145,United States,US,Los Angeles,elite,576.13,fast,True,2026-08-17 07:06:43 UTC,Performive LLC,TheSpeedX SOCKS4
+192.111.139.165,4145,socks4,192.111.139.165:4145,United States,US,Atlanta,elite,662.45,fast,True,2026-08-17 07:07:05 UTC,Performive LLC,TheSpeedX SOCKS4
+184.181.217.213,4145,socks4,184.181.217.213:4145,United States,US,Pensacola,elite,677.65,fast,True,2026-08-17 07:06:54 UTC,Cox Communications,TheSpeedX SOCKS4
+45.66.249.187,3128,http,45.66.249.187:3128,United States,US,Los Angeles,elite,685.52,fast,True,2026-08-17 07:03:36 UTC,BlueVPS OU,TheSpeedX HTTP
+109.172.55.177,1082,socks4,109.172.55.177:1082,France,FR,Paris,elite,730.78,fast,True,2026-08-17 07:06:54 UTC,Global Connectivity Solutions LLP,TheSpeedX SOCKS4
+192.252.211.197,14921,socks4,192.252.211.197:14921,United States,US,Atlanta,elite,777.04,fast,True,2026-08-17 07:06:32 UTC,Performive LLC,TheSpeedX SOCKS4
+130.110.103.245,3128,http,130.110.103.245:3128,Saudi Arabia,SA,Jeddah,anonymous,873.0,fast,True,2026-08-17 07:03:25 UTC,Oracle Cloud Infrastructure (me-jeddah-1),TheSpeedX HTTP
+184.182.240.12,4145,socks4,184.182.240.12:4145,United States,US,Macon,elite,889.38,fast,True,2026-08-17 07:06:11 UTC,Cox Communications Inc.,ProxyScrape SOCKS4
+198.8.94.174,39078,socks4,198.8.94.174:39078,United States,US,Atlanta,elite,942.97,fast,True,2026-08-17 07:06:55 UTC,Performive LLC,TheSpeedX SOCKS4
+70.166.167.55,57745,socks4,70.166.167.55:57745,United States,US,Pensacola,elite,964.82,fast,True,2026-08-17 07:07:06 UTC,Cox Communications,TheSpeedX SOCKS4
+192.252.220.92,17328,socks4,192.252.220.92:17328,United States,US,Los Angeles,elite,977.62,fast,True,2026-08-17 07:06:55 UTC,Total Server Solutions L.L.C,TheSpeedX SOCKS4
+42.96.18.62,1311,http,42.96.18.62:1311,Vietnam,VN,Quận Một,anonymous,980.04,fast,True,2026-08-17 07:03:48 UTC,,MoNoSplit HTTP
+192.111.139.162,4145,socks4,192.111.139.162:4145,United States,US,Atlanta,elite,1013.42,medium,True,2026-08-17 07:07:06 UTC,Performive LLC,TheSpeedX SOCKS4
+129.151.9.55,10808,socks4,129.151.9.55:10808,United States,US,Phoenix,elite,1102.29,medium,True,2026-08-17 07:07:06 UTC,Oracle Cloud Infrastructure (us-phoenix-1),TheSpeedX SOCKS4
+192.111.129.145,16894,socks4,192.111.129.145:16894,United States,US,Atlanta,elite,1114.11,medium,True,2026-08-17 07:06:33 UTC,Performive LLC,TheSpeedX SOCKS4
+31.10.83.158,8080,http,31.10.83.158:8080,Russia,RU,Ramenskoye,elite,1125.8,medium,True,2026-08-17 07:03:26 UTC,"JSC ""AVIEL""",TheSpeedX HTTP
+172.237.73.24,80,http,172.237.73.24:80,Singapore,SG,Singapore,elite,1143.5,medium,True,2026-08-17 07:03:26 UTC,"Akamai Technologies, Inc.",TheSpeedX HTTP
+184.170.249.65,4145,socks5,184.170.249.65:4145,United States,US,Atlanta,elite,1194.18,medium,True,2026-08-17 07:08:56 UTC,Performive LLC,TheSpeedX SOCKS5
+72.195.34.58,4145,socks4,72.195.34.58:4145,United States,US,Irvine,elite,1250.29,medium,True,2026-08-17 07:07:06 UTC,Cox Communications,TheSpeedX SOCKS4
+185.141.26.131,3128,http,185.141.26.131:3128,Romania,RO,Bucharest,transparent,1279.45,medium,True,2026-08-17 07:03:48 UTC,IP Solus Inc,MoNoSplit HTTP
+107.181.161.81,4145,socks4,107.181.161.81:4145,United States,US,Los Angeles,elite,1326.33,medium,True,2026-08-17 07:06:44 UTC,Total Server Solutions L.L.C,TheSpeedX SOCKS4
+43.133.128.153,16012,https,43.133.128.153:16012,Indonesia,ID,Jakarta,elite,1332.28,medium,True,2026-08-17 07:06:11 UTC,Tencent Cloud Computing,ProxyScrape HTTPS
+47.107.82.96,30051,http,47.107.82.96:30051,China,CN,Shenzhen,elite,1345.96,medium,True,2026-08-17 07:03:26 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+140.238.58.115,3128,http,140.238.58.115:3128,Japan,JP,Tokyo,anonymous,1406.08,medium,True,2026-08-17 07:02:31 UTC,Oracle Cloud Infrastructure (ap-tokyo-1),TheSpeedX HTTP
+24.249.199.12,4145,socks4,24.249.199.12:4145,United States,US,El Cajon,elite,1423.23,medium,True,2026-08-17 07:06:11 UTC,Cox Communications,ProxyScrape SOCKS4
+157.230.178.216,40000,http,157.230.178.216:40000,United States,US,North Bergen,anonymous,1425.44,medium,True,2026-08-17 07:02:09 UTC,"DigitalOcean, LLC",ProxyScrape HTTP
+154.203.132.81,1080,http,154.203.132.81:1080,Hong Kong,HK,Hong Kong,elite,1558.3,medium,True,2026-08-17 07:03:04 UTC,Kaopu Cloud HK Limited,TheSpeedX HTTP
+190.89.104.76,5432,socks4,190.89.104.76:5432,Brazil,BR,Joaçaba,elite,1570.8,medium,True,2026-08-17 07:06:55 UTC,Acessoline Telecomunicacoes Ltda,TheSpeedX SOCKS4
+46.171.28.162,59311,socks4,46.171.28.162:59311,Poland,PL,Warsaw,elite,1624.1,medium,True,2026-08-17 07:06:11 UTC,Orange Polska S.A.,ProxyScrape SOCKS4
+95.66.138.21,8880,http,95.66.138.21:8880,Russia,RU,Vladimir,elite,1650.59,medium,True,2026-08-17 07:03:37 UTC,Limited Liability Company,TheSpeedX HTTP
+43.160.242.118,3128,http,43.160.242.118:3128,Singapore,SG,Singapore,elite,1678.89,medium,True,2026-08-17 07:03:26 UTC,"Tencent Cloud Computing (Beijing) Co., Ltd",TheSpeedX HTTP
+176.111.37.216,39811,http,176.111.37.216:39811,Hong Kong,HK,Tsim Sha Tsui,transparent,1701.17,medium,True,2026-08-17 07:03:48 UTC,Cogento Backbone Limited,MoNoSplit HTTP
+95.9.67.158,3310,http,95.9.67.158:3310,Turkey,TR,Adana,anonymous,1727.33,medium,True,2026-08-17 07:03:48 UTC,Turk Telekomunikasyon A.S,MoNoSplit HTTP
+142.54.236.97,4145,socks4,142.54.236.97:4145,United States,US,Los Angeles,elite,1788.54,medium,True,2026-08-17 07:06:55 UTC,Performive LLC,TheSpeedX SOCKS4
+103.28.37.131,3128,http,103.28.37.131:3128,Vietnam,VN,Đống Đa,transparent,1904.12,medium,True,2026-08-17 07:03:27 UTC,NHANHOA,TheSpeedX HTTP
+217.77.102.18,3128,http,217.77.102.18:3128,Russia,RU,Samara,transparent,2025.46,medium,True,2026-08-17 07:02:32 UTC,"""Region Svyaz Konsalt"" LLC",TheSpeedX HTTP
+47.251.87.199,8080,http,47.251.87.199:8080,United States,US,Minkler,elite,2042.39,medium,True,2026-08-17 07:03:16 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.254.36.213,8080,http,47.254.36.213:8080,United States,US,Minkler,elite,2044.61,medium,True,2026-08-17 07:03:27 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.254.36.213,104,http,47.254.36.213:104,United States,US,Minkler,elite,2044.62,medium,True,2026-08-17 07:03:05 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.251.73.54,5060,http,47.251.73.54:5060,United States,US,Minkler,elite,2047.97,medium,True,2026-08-17 07:03:16 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.254.36.213,9098,http,47.254.36.213:9098,United States,US,Minkler,elite,2055.49,medium,True,2026-08-17 07:03:05 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+192.111.135.17,18302,socks4,192.111.135.17:18302,United States,US,Atlanta,elite,2106.34,medium,True,2026-08-17 07:06:23 UTC,Performive LLC,TheSpeedX SOCKS4
+47.252.11.233,1081,http,47.252.11.233:1081,United States,US,Charlottesville,elite,2117.44,medium,True,2026-08-17 07:02:32 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.90.149.238,90,http,47.90.149.238:90,United States,US,Charlottesville,elite,2130.12,medium,True,2026-08-17 07:02:21 UTC,ALICLOUD-US,TheSpeedX HTTP
+47.252.11.233,20,http,47.252.11.233:20,United States,US,Charlottesville,elite,2136.35,medium,True,2026-08-17 07:02:21 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+216.106.179.216,49229,socks4,216.106.179.216:49229,United States,US,Dallas,elite,2197.34,medium,True,2026-08-17 07:06:45 UTC,GTHost,TheSpeedX SOCKS4
+47.91.29.151,81,http,47.91.29.151:81,Japan,JP,Tokyo,elite,2229.81,medium,True,2026-08-17 07:03:16 UTC,ALICLOUD-JP,TheSpeedX HTTP
+47.91.29.151,90,http,47.91.29.151:90,Japan,JP,Tokyo,elite,2230.13,medium,True,2026-08-17 07:03:27 UTC,ALICLOUD-JP,TheSpeedX HTTP
+131.222.248.195,5678,socks4,131.222.248.195:5678,Türkiye,TR,Istanbul,elite,2272.49,medium,True,2026-08-17 07:06:45 UTC,Turk Telekomunikasyon Anonim Sirketi,TheSpeedX SOCKS4
+216.106.179.216,49207,https,216.106.179.216:49207,United States,US,Dallas,elite,2291.66,medium,True,2026-08-17 07:06:01 UTC,GTHost,ProxyScrape HTTPS
+185.200.188.234,10001,http,185.200.188.234:10001,Russia,RU,Moscow,elite,2309.23,medium,True,2026-08-17 07:03:49 UTC,Gorizont LLC,MoNoSplit HTTP
+47.76.144.139,18080,http,47.76.144.139:18080,Hong Kong,HK,Hong Kong,elite,2311.98,medium,True,2026-08-17 07:03:16 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.134.126,9098,http,47.238.134.126:9098,Hong Kong,HK,Hong Kong,elite,2312.83,medium,True,2026-08-17 07:02:54 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.130.212,80,http,47.238.130.212:80,Hong Kong,HK,Hong Kong,elite,2313.06,medium,True,2026-08-17 07:03:16 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.76.144.139,59394,http,47.76.144.139:59394,Hong Kong,HK,Hong Kong,elite,2313.95,medium,True,2026-08-17 07:03:38 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.134.126,5060,http,47.238.134.126:5060,Hong Kong,HK,Hong Kong,elite,2317.25,medium,True,2026-08-17 07:02:32 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.76.144.139,80,http,47.76.144.139:80,Hong Kong,HK,Hong Kong,elite,2317.56,medium,True,2026-08-17 07:02:32 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.134.126,999,http,47.238.134.126:999,Hong Kong,HK,Hong Kong,elite,2322.63,medium,True,2026-08-17 07:02:43 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+8.209.96.245,8080,http,8.209.96.245:8080,Germany,DE,Frankfurt am Main,elite,2322.99,medium,True,2026-08-17 07:02:43 UTC,,TheSpeedX HTTP
+45.144.53.63,6019,http,45.144.53.63:6019,Finland,FI,Helsinki,anonymous,2349.46,medium,True,2026-08-17 07:01:59 UTC,H2nexus LTD,ProxyScrape HTTP
+47.250.155.254,5060,http,47.250.155.254:5060,Malaysia,MY,Kuala Lumpur,elite,2378.4,medium,True,2026-08-17 07:05:50 UTC,Alibaba.com LLC,OpenProxyList HTTP
+8.219.229.53,8081,http,8.219.229.53:8081,Singapore,SG,Singapore,elite,2381.35,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com Singapore E-Commerce Private Limited,OpenProxyList HTTP
+47.250.177.202,80,http,47.250.177.202:80,Malaysia,MY,Kuala Lumpur,elite,2387.26,medium,True,2026-08-17 07:05:50 UTC,Alibaba.com LLC,OpenProxyList HTTP
+8.215.3.250,264,http,8.215.3.250:264,Indonesia,ID,Jakarta,elite,2390.63,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.215.3.250,41,http,8.215.3.250:41,Indonesia,ID,Jakarta,elite,2393.45,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.215.3.250,90,http,8.215.3.250:90,Indonesia,ID,Jakarta,elite,2394.98,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.116.210.163,5060,http,47.116.210.163:5060,China,CN,Shanghai,elite,2396.19,medium,True,2026-08-17 07:05:50 UTC,Alibaba.com LLC,OpenProxyList HTTP
+149.129.226.9,93,http,149.129.226.9:93,Indonesia,ID,Jakarta,elite,2397.45,medium,True,2026-08-17 07:04:44 UTC,,OpenProxyList HTTP
+149.129.226.9,8443,http,149.129.226.9:8443,Indonesia,ID,Jakarta,elite,2397.74,medium,True,2026-08-17 07:04:44 UTC,,OpenProxyList HTTP
+47.250.155.254,8004,http,47.250.155.254:8004,Malaysia,MY,Kuala Lumpur,elite,2397.91,medium,True,2026-08-17 07:02:54 UTC,Alibaba.com LLC,TheSpeedX HTTP
+8.215.15.163,5060,http,8.215.15.163:5060,Indonesia,ID,Jakarta,elite,2398.42,medium,True,2026-08-17 07:03:27 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.138.149.37,8008,http,8.138.149.37:8008,China,CN,Guangzhou,elite,2398.48,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+149.129.226.9,2020,http,149.129.226.9:2020,Indonesia,ID,Jakarta,elite,2400.48,medium,True,2026-08-17 07:04:44 UTC,,OpenProxyList HTTP
+120.25.189.254,8800,http,120.25.189.254:8800,China,CN,Shenzhen,elite,2400.92,medium,True,2026-08-17 07:02:43 UTC,Alibaba.com LLC,TheSpeedX HTTP
+8.212.168.170,1081,http,8.212.168.170:1081,Philippines,PH,Manila,elite,2402.37,medium,True,2026-08-17 07:03:16 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.99.112.148,9098,http,47.99.112.148:9098,China,CN,Hangzhou,elite,2403.07,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.215.15.163,51,http,8.215.15.163:51,Indonesia,ID,Jakarta,elite,2403.28,medium,True,2026-08-17 07:02:54 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.138.131.110,8008,http,8.138.131.110:8008,China,CN,Guangzhou,elite,2404.5,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+8.138.149.37,8889,http,8.138.149.37:8889,China,CN,Guangzhou,elite,2407.55,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+120.26.104.146,9098,http,120.26.104.146:9098,China,CN,Hangzhou,elite,2411.58,medium,True,2026-08-17 07:02:54 UTC,Alibaba.com LLC,TheSpeedX HTTP
+47.119.164.33,2080,http,47.119.164.33:2080,China,CN,Shenzhen,elite,2411.79,medium,True,2026-08-17 07:03:05 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+47.121.133.212,4006,http,47.121.133.212:4006,China,CN,Shenzhen,elite,2412.26,medium,True,2026-08-17 07:02:54 UTC,Alibaba.com LLC,TheSpeedX HTTP
+120.26.52.35,8080,http,120.26.52.35:8080,China,CN,Hangzhou,elite,2412.63,medium,True,2026-08-17 07:03:38 UTC,Alibaba.com LLC,TheSpeedX HTTP
+47.116.210.163,8888,http,47.116.210.163:8888,China,CN,Shanghai,elite,2414.05,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com LLC,TheSpeedX HTTP
+141.98.50.119,6000,https,141.98.50.119:6000,Turkey,TR,Istanbul,elite,2414.66,medium,True,2026-08-17 07:06:12 UTC,Nerzen-Bilisim-Teknolojileri,ProxyScrape HTTPS
+47.121.133.212,9200,http,47.121.133.212:9200,China,CN,Shenzhen,elite,2416.48,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com LLC,TheSpeedX HTTP
+47.104.27.165,8443,http,47.104.27.165:8443,China,CN,Qingdao,elite,2417.2,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.102.214.152,3128,http,39.102.214.152:3128,China,CN,Beijing,elite,2418.2,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+47.104.27.249,4006,http,47.104.27.249:4006,China,CN,Qingdao,elite,2419.48,medium,True,2026-08-17 07:03:38 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.102.213.50,3333,http,39.102.213.50:3333,China,CN,Beijing,elite,2420.46,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.102.208.189,1081,http,39.102.208.189:1081,China,CN,Beijing,elite,2421.79,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.212.151.166,3129,http,8.212.151.166:3129,Philippines,PH,Manila,elite,2422.58,medium,True,2026-08-17 07:02:00 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTP
+39.102.208.23,5566,http,39.102.208.23:5566,China,CN,Beijing,elite,2422.94,medium,True,2026-08-17 07:03:38 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+47.120.0.231,1081,http,47.120.0.231:1081,China,CN,Shenzhen,elite,2423.45,medium,True,2026-08-17 07:02:54 UTC,Alibaba.com LLC,TheSpeedX HTTP
+39.102.209.121,31281,http,39.102.209.121:31281,China,CN,Beijing,elite,2425.67,medium,True,2026-08-17 07:03:05 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+8.215.15.163,1080,http,8.215.15.163:1080,Indonesia,ID,Jakarta,elite,2429.08,medium,True,2026-08-17 07:03:38 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+39.102.209.128,13,http,39.102.209.128:13,China,CN,Beijing,elite,2429.09,medium,True,2026-08-17 07:03:49 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.102.209.163,20002,http,39.102.209.163:20002,China,CN,Beijing,elite,2429.48,medium,True,2026-08-17 07:02:54 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+8.212.168.170,10000,http,8.212.168.170:10000,Philippines,PH,Manila,elite,2429.73,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,ProxyScrape HTTP
+39.102.208.149,9050,http,39.102.208.149:9050,China,CN,Beijing,elite,2430.04,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.148.23.165,8080,http,8.148.23.165:8080,China,CN,Hangzhou,elite,2430.26,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com LLC,TheSpeedX HTTP
+39.102.208.23,3129,http,39.102.208.23:3129,China,CN,Beijing,elite,2430.48,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+3.224.58.155,3128,http,3.224.58.155:3128,United States,US,Ashburn,transparent,2431.12,medium,True,2026-08-17 07:02:32 UTC,AWS EC2 (us-east-1),TheSpeedX HTTP
+39.102.208.149,1081,http,39.102.208.149:1081,China,CN,Beijing,elite,2433.34,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.148.4.166,13,http,8.148.4.166:13,China,CN,Hangzhou,elite,2434.09,medium,True,2026-08-17 07:03:38 UTC,Alibaba.com LLC,TheSpeedX HTTP
+47.119.20.8,8081,http,47.119.20.8:8081,China,CN,Shenzhen,elite,2434.23,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.104.27.89,8001,http,39.104.27.89:8001,China,CN,Beijing,elite,2434.42,medium,True,2026-08-17 07:03:49 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.102.208.149,443,http,39.102.208.149:443,China,CN,Beijing,elite,2436.51,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.104.69.76,80,http,39.104.69.76:80,China,CN,Beijing,elite,2436.92,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.102.208.149,3129,http,39.102.208.149:3129,China,CN,Beijing,elite,2437.58,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.148.23.165,21025,http,8.148.23.165:21025,China,CN,Hangzhou,elite,2439.43,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+8.130.54.67,8004,http,8.130.54.67:8004,China,CN,Beijing,elite,2439.52,medium,True,2026-08-17 07:02:43 UTC,Alibaba.com LLC,TheSpeedX HTTP
+39.102.208.149,8090,http,39.102.208.149:8090,China,CN,Beijing,elite,2440.14,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+47.92.194.235,9999,http,47.92.194.235:9999,China,CN,Beijing,elite,2440.39,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+8.130.54.67,8800,http,8.130.54.67:8800,China,CN,Beijing,elite,2443.89,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+39.102.209.163,8000,http,39.102.209.163:8000,China,CN,Beijing,elite,2444.31,medium,True,2026-08-17 07:03:05 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.104.59.56,8081,http,39.104.59.56:8081,China,CN,Beijing,elite,2445.39,medium,True,2026-08-17 07:02:43 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+8.137.13.191,9098,http,8.137.13.191:9098,China,CN,Chengdu,elite,2445.79,medium,True,2026-08-17 07:03:16 UTC,Alibaba.com LLC,TheSpeedX HTTP
+39.104.23.154,8081,http,39.104.23.154:8081,China,CN,Beijing,elite,2446.52,medium,True,2026-08-17 07:02:43 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.104.69.76,8081,http,39.104.69.76:8081,China,CN,Beijing,elite,2447.75,medium,True,2026-08-17 07:03:38 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.102.208.189,8080,http,39.102.208.189:8080,China,CN,Beijing,elite,2450.38,medium,True,2026-08-17 07:03:27 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+185.186.17.57,5678,socks4,185.186.17.57:5678,Poland,PL,Siedlce,elite,2450.74,medium,True,2026-08-17 07:06:56 UTC,Media Telekom Sp. z o.o,TheSpeedX SOCKS4
+8.137.38.48,18080,http,8.137.38.48:18080,China,CN,Chengdu,elite,2453.98,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+47.109.83.196,8888,http,47.109.83.196:8888,China,CN,Chengdu,elite,2455.85,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.104.57.33,7777,http,39.104.57.33:7777,China,CN,Beijing,elite,2463.38,medium,True,2026-08-17 07:03:05 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+39.104.57.33,8081,http,39.104.57.33:8081,China,CN,Beijing,elite,2470.85,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+144.124.227.88,3129,socks5,144.124.227.88:3129,The Netherlands,NL,Amsterdam,elite,2471.5,medium,True,2026-08-17 07:07:51 UTC,Servers Tech Fzco,ProxyScrape SOCKS5
+39.104.27.89,31281,http,39.104.27.89:31281,China,CN,Beijing,elite,2472.08,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.104.16.201,8080,http,39.104.16.201:8080,China,CN,Beijing,elite,2477.54,medium,True,2026-08-17 07:05:39 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+47.109.83.196,8080,http,47.109.83.196:8080,China,CN,Chengdu,elite,2483.14,medium,True,2026-08-17 07:05:50 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+47.91.110.148,8888,http,47.91.110.148:8888,United Arab Emirates,AE,Dubai,elite,2483.89,medium,True,2026-08-17 07:03:16 UTC,ALICLOUD-UAE,TheSpeedX HTTP
+8.137.38.48,8081,http,8.137.38.48:8081,China,CN,Chengdu,elite,2491.56,medium,True,2026-08-17 07:06:01 UTC,Alibaba.com LLC,OpenProxyList HTTP
+175.139.255.25,8181,http,175.139.255.25:8181,Malaysia,MY,Kuala Lumpur,transparent,2570.67,medium,True,2026-08-17 07:03:38 UTC,Adsl Streamyx,TheSpeedX HTTP
+39.106.165.196,8080,http,39.106.165.196:8080,China,CN,Beijing,elite,2576.75,medium,True,2026-08-17 07:03:49 UTC,"Aliyun Computing Co., LTD",MoNoSplit HTTP
+184.170.245.148,4145,socks4,184.170.245.148:4145,United States,US,Atlanta,elite,2692.95,medium,True,2026-08-17 07:06:23 UTC,Performive LLC,TheSpeedX SOCKS4
+8.213.128.6,5555,http,8.213.128.6:5555,South Korea,KR,Seoul,elite,2697.78,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+109.69.211.18,1080,socks4,109.69.211.18:1080,Czechia,CZ,Přerov,elite,2722.9,medium,True,2026-08-17 07:07:07 UTC,LANservis s.r.o,TheSpeedX SOCKS4
+8.213.128.6,2020,http,8.213.128.6:2020,South Korea,KR,Seoul,elite,2725.75,medium,True,2026-08-17 07:02:21 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+121.43.154.123,6379,http,121.43.154.123:6379,China,CN,Hangzhou,elite,2765.7,medium,True,2026-08-17 07:03:27 UTC,Alibaba.com LLC,TheSpeedX HTTP
+193.106.250.197,3128,http,193.106.250.197:3128,United States,US,Newark,elite,2923.98,medium,True,2026-08-17 07:03:28 UTC,INETCLOUD Inc,TheSpeedX HTTP
+8.213.197.208,8889,http,8.213.197.208:8889,Thailand,TH,Bangkok,elite,3079.82,slow,True,2026-08-17 07:02:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.213.197.208,1080,http,8.213.197.208:1080,Thailand,TH,Bangkok,elite,3081.53,slow,True,2026-08-17 07:02:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.238.130.212,5060,http,47.238.130.212:5060,Hong Kong,HK,Hong Kong,elite,3116.35,slow,True,2026-08-17 07:02:44 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.60.156,9080,http,47.238.60.156:9080,Hong Kong,HK,Hong Kong,elite,3280.6,slow,True,2026-08-17 07:02:44 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.60.156,3128,http,47.238.60.156:3128,Hong Kong,HK,Hong Kong,elite,3286.75,slow,True,2026-08-17 07:02:44 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+8.213.197.208,2083,http,8.213.197.208:2083,Thailand,TH,Bangkok,elite,3288.42,slow,True,2026-08-17 07:02:33 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+92.118.234.124,1080,http,92.118.234.124:1080,Finland,FI,Helsinki,elite,3370.79,slow,True,2026-08-17 07:03:17 UTC,WorkTitans B.V,TheSpeedX HTTP
+8.221.138.111,3128,http,8.221.138.111:3128,Japan,JP,Tokyo,elite,3419.28,slow,True,2026-08-17 07:02:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+39.102.209.163,20002,socks4,39.102.209.163:20002,China,CN,Beijing,elite,3450.88,slow,True,2026-08-17 07:06:57 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+39.102.209.121,31281,socks4,39.102.209.121:31281,China,CN,Beijing,elite,3459.99,slow,True,2026-08-17 07:07:08 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+47.238.128.246,41451,http,47.238.128.246:41451,Hong Kong,HK,Hong Kong,elite,3476.89,slow,True,2026-08-17 07:03:28 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+120.26.52.35,8080,socks4,120.26.52.35:8080,China,CN,Hangzhou,elite,3482.13,slow,True,2026-08-17 07:07:41 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+8.148.4.166,13,socks4,8.148.4.166:13,China,CN,Hangzhou,elite,3486.44,slow,True,2026-08-17 07:07:41 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+8.134.149.133,8008,http,8.134.149.133:8008,China,CN,Guangzhou,elite,3487.94,slow,True,2026-08-17 07:06:02 UTC,Alibaba.com LLC,OpenProxyList HTTP
+8.137.13.191,9098,socks4,8.137.13.191:9098,China,CN,Chengdu,elite,3497.82,slow,True,2026-08-17 07:07:19 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+8.134.149.133,8080,http,8.134.149.133:8080,China,CN,Guangzhou,elite,3501.85,slow,True,2026-08-17 07:06:02 UTC,Alibaba.com LLC,OpenProxyList HTTP
+47.104.27.249,4006,socks4,47.104.27.249:4006,China,CN,Qingdao,elite,3506.15,slow,True,2026-08-17 07:07:41 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+47.121.133.212,9200,socks4,47.121.133.212:9200,China,CN,Shenzhen,elite,3514.12,slow,True,2026-08-17 07:06:24 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+115.171.238.77,5080,socks4,115.171.238.77:5080,China,CN,Beijing,elite,3521.96,slow,True,2026-08-17 07:06:13 UTC,Chinanet Cdma,ProxyScrape SOCKS4
+47.120.0.231,1081,socks4,47.120.0.231:1081,China,CN,Shenzhen,elite,3529.54,slow,True,2026-08-17 07:06:57 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+8.130.54.67,8004,socks4,8.130.54.67:8004,China,CN,Beijing,elite,3530.79,slow,True,2026-08-17 07:06:46 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+47.116.210.163,8888,socks4,47.116.210.163:8888,China,CN,Shanghai,elite,3539.76,slow,True,2026-08-17 07:06:35 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+47.237.113.119,8081,socks4,47.237.113.119:8081,Singapore,SG,Singapore,elite,3539.83,slow,True,2026-08-17 07:06:24 UTC,Alibaba.com LLC,ProxyScrape SOCKS4
+47.119.164.33,2080,socks4,47.119.164.33:2080,China,CN,Shenzhen,elite,3540.13,slow,True,2026-08-17 07:07:08 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+39.104.69.76,8081,socks4,39.104.69.76:8081,China,CN,Beijing,elite,3543.03,slow,True,2026-08-17 07:07:41 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+47.238.60.156,81,http,47.238.60.156:81,Hong Kong,HK,Hong Kong,elite,3544.78,slow,True,2026-08-17 07:03:28 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+39.102.209.128,13,socks4,39.102.209.128:13,China,CN,Beijing,elite,3548.35,slow,True,2026-08-17 07:07:52 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+120.25.189.254,8800,socks4,120.25.189.254:8800,China,CN,Shenzhen,elite,3551.46,slow,True,2026-08-17 07:06:46 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+39.102.208.23,5566,socks4,39.102.208.23:5566,China,CN,Beijing,elite,3552.7,slow,True,2026-08-17 07:07:41 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+157.20.253.164,8080,http,157.20.253.164:8080,Indonesia,ID,Jakarta,transparent,3556.01,slow,True,2026-08-17 07:03:17 UTC,,TheSpeedX HTTP
+47.237.113.119,8443,socks4,47.237.113.119:8443,Singapore,SG,Singapore,elite,3557.17,slow,True,2026-08-17 07:06:24 UTC,Alibaba.com LLC,ProxyScrape SOCKS4
+121.43.154.123,6379,socks4,121.43.154.123:6379,China,CN,Hangzhou,elite,3563.56,slow,True,2026-08-17 07:07:30 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+120.26.104.146,9098,socks4,120.26.104.146:9098,China,CN,Hangzhou,elite,3567.69,slow,True,2026-08-17 07:06:57 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+39.104.59.56,8081,socks4,39.104.59.56:8081,China,CN,Beijing,elite,3571.1,slow,True,2026-08-17 07:06:46 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+39.104.57.33,7777,socks4,39.104.57.33:7777,China,CN,Beijing,elite,3574.54,slow,True,2026-08-17 07:07:08 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+39.102.208.189,8080,socks4,39.102.208.189:8080,China,CN,Beijing,elite,3583.11,slow,True,2026-08-17 07:07:30 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+39.104.27.89,8001,socks4,39.104.27.89:8001,China,CN,Beijing,elite,3601.42,slow,True,2026-08-17 07:07:52 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+8.148.23.165,8080,socks4,8.148.23.165:8080,China,CN,Hangzhou,elite,3608.73,slow,True,2026-08-17 07:06:24 UTC,Alibaba.com LLC,TheSpeedX SOCKS4
+212.33.250.53,1080,socks5,212.33.250.53:1080,Russia,RU,Vereshchagino,elite,3609.85,slow,True,2026-08-17 07:09:09 UTC,"JSC ""ER-Telecom Holding""",TheSpeedX SOCKS5
+113.250.183.64,18255,https,113.250.183.64:18255,China,CN,Shanghai,elite,3612.66,slow,True,2026-08-17 07:06:13 UTC,Chinanet CQ,ProxyScrape HTTPS
+47.109.110.100,8089,http,47.109.110.100:8089,China,CN,Chengdu,elite,3623.87,slow,True,2026-08-17 07:03:17 UTC,"Aliyun Computing Co., LTD",TheSpeedX HTTP
+8.213.128.6,20,http,8.213.128.6:20,South Korea,KR,Seoul,elite,3766.95,slow,True,2026-08-17 07:02:22 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+103.69.129.89,24444,http,103.69.129.89:24444,Hong Kong,HK,Hong Kong,anonymous,3806.47,slow,True,2026-08-17 07:02:12 UTC,HH HKG,ProxyScrape HTTP
+47.251.74.38,8888,http,47.251.74.38:8888,United States,US,Minkler,anonymous,4039.65,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.251.74.38,8080,http,47.251.74.38:8080,United States,US,Minkler,anonymous,4042.5,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.252.18.37,3129,http,47.252.18.37:3129,United States,US,Charlottesville,anonymous,4110.22,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.252.18.37,6379,http,47.252.18.37:6379,United States,US,Charlottesville,anonymous,4110.4,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.252.18.37,8081,http,47.252.18.37:8081,United States,US,Charlottesville,anonymous,4112.91,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.89.159.212,6379,http,47.89.159.212:6379,United States,US,Charlottesville,anonymous,4116.48,slow,True,2026-08-17 07:02:34 UTC,ALICLOUD-US,TheSpeedX HTTP
+47.252.18.37,9098,http,47.252.18.37:9098,United States,US,Charlottesville,anonymous,4122.45,slow,True,2026-08-17 07:05:52 UTC,Alibaba Cloud - US,OpenProxyList HTTP
+47.90.167.27,102,http,47.90.167.27:102,United States,US,Charlottesville,anonymous,4124.79,slow,True,2026-08-17 07:02:23 UTC,ALICLOUD-US,TheSpeedX HTTP
+123.253.124.28,5678,socks4,123.253.124.28:5678,India,IN,Udaipur,elite,4163.37,slow,True,2026-08-17 07:06:47 UTC,NIXI,TheSpeedX SOCKS4
+8.130.71.75,80,http,8.130.71.75:80,China,CN,Beijing,elite,4200.43,slow,True,2026-08-17 07:06:03 UTC,Alibaba.com LLC,OpenProxyList HTTP
+88.204.134.234,1080,socks4,88.204.134.234:1080,Kazakhstan,KZ,Almaty,elite,4204.8,slow,True,2026-08-17 07:07:09 UTC,UFC,TheSpeedX SOCKS4
+47.91.29.151,9098,http,47.91.29.151:9098,Japan,JP,Tokyo,anonymous,4225.81,slow,True,2026-08-17 07:02:56 UTC,ALICLOUD-JP,TheSpeedX HTTP
+47.74.46.81,80,http,47.74.46.81:80,Japan,JP,Tokyo,anonymous,4235.15,slow,True,2026-08-17 07:02:34 UTC,Alibaba Cloud - JP,TheSpeedX HTTP
+39.102.213.187,9080,http,39.102.213.187:9080,China,CN,Beijing,elite,4235.38,slow,True,2026-08-17 07:05:41 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+39.102.213.187,5060,http,39.102.213.187:5060,China,CN,Beijing,elite,4236.02,slow,True,2026-08-17 07:05:41 UTC,"Aliyun Computing Co., LTD",OpenProxyList HTTP
+45.43.60.220,8080,http,45.43.60.220:8080,Japan,JP,Tokyo,elite,4243.24,slow,True,2026-08-17 07:03:40 UTC,UCLOUD,TheSpeedX HTTP
+47.74.46.81,5060,http,47.74.46.81:5060,Japan,JP,Tokyo,anonymous,4245.46,slow,True,2026-08-17 07:02:34 UTC,Alibaba Cloud - JP,TheSpeedX HTTP
+91.192.25.158,4145,socks4,91.192.25.158:4145,Italy,IT,San Giovanni Valdarno,elite,4251.3,slow,True,2026-08-17 07:06:36 UTC,T&T Tecnologie e Telecomunicazioni Srl,TheSpeedX SOCKS4
+8.213.134.213,8182,http,8.213.134.213:8182,South Korea,KR,Seoul,anonymous,4267.68,slow,True,2026-08-17 07:03:18 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.211.42.167,8081,http,8.211.42.167:8081,Germany,DE,Frankfurt am Main,anonymous,4284.34,slow,True,2026-08-17 07:02:23 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.91.89.3,9050,http,47.91.89.3:9050,Germany,DE,Frankfurt am Main,anonymous,4343.2,slow,True,2026-08-17 07:02:45 UTC,ALICLOUD-GM,TheSpeedX HTTP
+8.209.96.245,1099,http,8.209.96.245:1099,Germany,DE,Frankfurt am Main,anonymous,4365.53,slow,True,2026-08-17 07:02:23 UTC,,TheSpeedX HTTP
+47.250.155.254,14,http,47.250.155.254:14,Malaysia,MY,Kuala Lumpur,anonymous,4381.05,slow,True,2026-08-17 07:02:12 UTC,Alibaba.com LLC,ProxyScrape HTTP
+159.195.49.27,8888,https,159.195.49.27:8888,Germany,DE,Nuremberg,elite,4411.51,slow,True,2026-08-17 07:06:14 UTC,NETCUP-KVM,ProxyScrape HTTPS
+45.176.99.58,999,https,45.176.99.58:999,Dominican Republic,DO,Santo Domingo Este,transparent,4417.95,slow,True,2026-08-17 07:06:03 UTC,"Cable Onda Oriental, SRL",ProxyScrape HTTPS
+8.209.96.245,45,http,8.209.96.245:45,Germany,DE,Frankfurt am Main,anonymous,4419.93,slow,True,2026-08-17 07:02:23 UTC,,TheSpeedX HTTP
+47.109.110.100,8089,socks4,47.109.110.100:8089,China,CN,Chengdu,elite,4428.94,slow,True,2026-08-17 07:07:20 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+8.210.17.35,4002,http,8.210.17.35:4002,Hong Kong,HK,Hong Kong,anonymous,4435.36,slow,True,2026-08-17 07:02:23 UTC,Hong Kong,TheSpeedX HTTP
+8.211.49.86,8081,http,8.211.49.86:8081,Germany,DE,Frankfurt am Main,anonymous,4459.78,slow,True,2026-08-17 07:03:18 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+103.166.158.193,1080,http,103.166.158.193:1080,Indonesia,ID,Cibungurgardu,transparent,4470.55,slow,True,2026-08-17 07:03:51 UTC,,MoNoSplit HTTP
+47.91.109.17,3129,http,47.91.109.17:3129,United Arab Emirates,AE,Dubai,anonymous,4507.32,slow,True,2026-08-17 07:03:41 UTC,ALICLOUD-UAE,TheSpeedX HTTP
+20.27.13.35,8561,http,20.27.13.35:8561,Japan,JP,Tokyo,elite,4583.5,slow,True,2026-08-17 07:02:02 UTC,Microsoft Azure Cloud (japaneast),ProxyScrape HTTP
+150.241.70.103,6666,https,150.241.70.103:6666,Finland,FI,Helsinki,elite,4665.83,slow,True,2026-08-17 07:06:15 UTC,xorek.cloud International LTD,ProxyScrape HTTPS
+39.104.23.154,8081,socks4,39.104.23.154:8081,China,CN,Beijing,elite,4723.26,slow,True,2026-08-17 07:06:47 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS4
+103.19.228.4,8080,http,103.19.228.4:8080,Indonesia,ID,Banjar Parekan,transparent,4760.55,slow,True,2026-08-17 07:03:18 UTC,,TheSpeedX HTTP
+8.220.204.92,80,http,8.220.204.92:80,South Korea,KR,Seoul,anonymous,4761.01,slow,True,2026-08-17 07:02:57 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+212.126.5.245,42344,socks4,212.126.5.245:42344,Poland,PL,Poznan,elite,4881.51,slow,True,2026-08-17 07:06:58 UTC,Pozman ZOO,TheSpeedX SOCKS4
+47.251.87.74,1081,http,47.251.87.74:1081,United States,US,Minkler,anonymous,4904.19,slow,True,2026-08-17 07:02:24 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+210.16.86.105,5678,socks4,210.16.86.105:5678,India,IN,Chennai,elite,4999.11,slow,True,2026-08-17 07:06:37 UTC,Sri Vari Network Private Limited,TheSpeedX SOCKS4
+8.213.156.191,85,http,8.213.156.191:85,South Korea,KR,Seoul,anonymous,5017.41,slow,True,2026-08-17 07:02:24 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.213.215.187,1081,http,8.213.215.187:1081,Thailand,TH,Bangkok,anonymous,5083.88,slow,True,2026-08-17 07:02:46 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.213.222.157,104,http,8.213.222.157:104,Thailand,TH,Bangkok,anonymous,5121.22,slow,True,2026-08-17 07:03:08 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.213.222.157,100,http,8.213.222.157:100,Thailand,TH,Bangkok,anonymous,5128.42,slow,True,2026-08-17 07:03:08 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.213.222.157,9080,http,8.213.222.157:9080,Thailand,TH,Bangkok,anonymous,5140.74,slow,True,2026-08-17 07:03:08 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+180.92.231.220,6969,socks4,180.92.231.220:6969,Bangladesh,BD,Dhaka,elite,5206.74,slow,True,2026-08-17 07:07:10 UTC,ISN-Sylhet,TheSpeedX SOCKS4
+103.166.33.88,8080,http,103.166.33.88:8080,Indonesia,ID,Jekulo,transparent,5342.5,slow,True,2026-08-17 07:03:52 UTC,PT Daniswara Citra Informatika,MoNoSplit HTTP
+47.238.128.246,8080,http,47.238.128.246:8080,Hong Kong,HK,Hong Kong,anonymous,5361.94,slow,True,2026-08-17 07:03:08 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+47.238.130.212,443,http,47.238.130.212:443,Hong Kong,HK,Hong Kong,elite,5377.29,slow,True,2026-08-17 07:02:24 UTC,Alibaba Cloud - HK,TheSpeedX HTTP
+8.211.51.115,80,http,8.211.51.115:80,Germany,DE,Frankfurt am Main,anonymous,5388.62,slow,True,2026-08-17 07:03:08 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.211.194.85,8443,http,8.211.194.85:8443,United Kingdom,GB,London,anonymous,5391.45,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.211.194.85,1081,http,8.211.194.85:1081,United Kingdom,GB,London,anonymous,5401.32,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.211.194.78,4002,http,8.211.194.78:4002,United Kingdom,GB,London,anonymous,5411.99,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.211.194.85,9080,http,8.211.194.85:9080,United Kingdom,GB,London,anonymous,5428.24,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.221.141.88,3129,http,8.221.141.88:3129,Japan,JP,Tokyo,anonymous,5436.27,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.221.141.88,3389,http,8.221.141.88:3389,Japan,JP,Tokyo,anonymous,5436.61,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+149.129.255.179,3129,http,149.129.255.179:3129,Indonesia,ID,Jakarta,elite,5446.52,slow,True,2026-08-17 07:04:47 UTC,,OpenProxyList HTTP
+149.129.255.179,1081,http,149.129.255.179:1081,Indonesia,ID,Jakarta,elite,5447.84,slow,True,2026-08-17 07:04:47 UTC,,OpenProxyList HTTP
+149.129.255.179,119,http,149.129.255.179:119,Indonesia,ID,Jakarta,elite,5450.17,slow,True,2026-08-17 07:04:47 UTC,,OpenProxyList HTTP
+8.221.141.88,5631,http,8.221.141.88:5631,Japan,JP,Tokyo,anonymous,5450.24,slow,True,2026-08-17 07:02:25 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+71.14.23.121,8080,http,71.14.23.121:8080,United States,US,Birmingham,transparent,5479.61,slow,True,2026-08-17 07:05:53 UTC,Days Inn - Galleria,OpenProxyList HTTP
+8.211.200.183,1080,http,8.211.200.183:1080,United Kingdom,GB,London,anonymous,5492.15,slow,True,2026-08-17 07:02:35 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.220.136.174,8091,http,8.220.136.174:8091,Philippines,PH,Manila,anonymous,5492.92,slow,True,2026-08-17 07:02:47 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.221.139.222,17,http,8.221.139.222:17,Japan,JP,Tokyo,anonymous,5501.5,slow,True,2026-08-17 07:02:47 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+8.220.205.172,9020,http,8.220.205.172:9020,South Korea,KR,Seoul,anonymous,5513.01,slow,True,2026-08-17 07:02:58 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+200.12.48.243,999,http,200.12.48.243:999,Guatemala,GT,San José del Golfo,transparent,5524.55,slow,True,2026-08-17 07:03:52 UTC,"Servicios Innovadores de Comunicación y Entretenimiento, S.A",MoNoSplit HTTP
+8.213.222.247,8080,http,8.213.222.247:8080,Thailand,TH,Bangkok,anonymous,5581.33,slow,True,2026-08-17 07:02:47 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+202.58.77.7,7777,http,202.58.77.7:7777,Indonesia,ID,Trenggalek,anonymous,5584.07,slow,True,2026-08-17 07:02:13 UTC,DBN,ProxyScrape HTTP
+8.220.204.215,90,http,8.220.204.215:90,South Korea,KR,Seoul,anonymous,5606.18,slow,True,2026-08-17 07:02:47 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+184.181.217.201,4145,socks4,184.181.217.201:4145,United States,US,Pensacola,elite,5611.46,slow,True,2026-08-17 07:06:15 UTC,Cox Communications,ProxyScrape SOCKS4
+8.213.195.191,18080,http,8.213.195.191:18080,Thailand,TH,Bangkok,anonymous,5701.12,slow,True,2026-08-17 07:02:58 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.89.159.212,13,http,47.89.159.212:13,United States,US,Charlottesville,elite,5738.36,slow,True,2026-08-17 07:05:53 UTC,ALICLOUD-US,OpenProxyList HTTP
+47.89.159.212,9080,http,47.89.159.212:9080,United States,US,Charlottesville,elite,5743.02,slow,True,2026-08-17 07:05:53 UTC,ALICLOUD-US,OpenProxyList HTTP
+8.211.195.139,8008,http,8.211.195.139:8008,United Kingdom,GB,London,anonymous,5754.94,slow,True,2026-08-17 07:02:40 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+164.152.122.199,19100,socks4,164.152.122.199:19100,United States,US,Dallas,elite,5768.85,slow,True,2026-08-17 07:06:37 UTC,,TheSpeedX SOCKS4
+196.251.222.109,8080,http,196.251.222.109:8080,South Africa,ZA,Brits,transparent,5858.37,slow,True,2026-08-17 07:04:03 UTC,Infogro DSL,RoostKid HTTP
+77.222.60.23,1090,socks4,77.222.60.23:1090,Russia,RU,St Petersburg,elite,5913.42,slow,True,2026-08-17 07:06:59 UTC,SpaceWeb CJSC,TheSpeedX SOCKS4
+111.119.162.248,10903,http,111.119.162.248:10903,Pakistan,PK,Tando Adam,elite,5916.52,slow,True,2026-08-17 07:04:03 UTC,WANGSU,MoNoSplit HTTP
+108.181.115.254,7247,socks5,108.181.115.254:7247,United States,US,Los Angeles,elite,5919.42,slow,True,2026-08-17 07:09:12 UTC,TELUS Communications Inc.,TheSpeedX SOCKS5
+111.119.162.248,10937,http,111.119.162.248:10937,Pakistan,PK,Tando Adam,elite,5981.27,slow,True,2026-08-17 07:03:53 UTC,WANGSU,MoNoSplit HTTP
+193.221.203.14,1080,socks4,193.221.203.14:1080,Finland,FI,Helsinki,elite,6169.19,slow,True,2026-08-17 07:06:27 UTC,OY Creanova Hosting Solutions LTD,TheSpeedX SOCKS4
+120.26.104.146,9098,socks5,120.26.104.146:9098,China,CN,Hangzhou,elite,6436.15,slow,True,2026-08-17 07:08:28 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+47.119.164.33,2080,socks5,47.119.164.33:2080,China,CN,Shenzhen,elite,6445.41,slow,True,2026-08-17 07:08:39 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+193.106.250.197,8181,http,193.106.250.197:8181,United States,US,Newark,elite,6450.97,slow,True,2026-08-17 07:03:09 UTC,INETCLOUD Inc,TheSpeedX HTTP
+8.148.4.166,13,socks5,8.148.4.166:13,China,CN,Hangzhou,elite,6475.98,slow,True,2026-08-17 07:09:12 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+8.211.195.173,10001,http,8.211.195.173:10001,United Kingdom,GB,London,anonymous,6490.12,slow,True,2026-08-17 07:02:37 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.109.110.100,8089,socks5,47.109.110.100:8089,China,CN,Chengdu,elite,6493.4,slow,True,2026-08-17 07:08:50 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+39.102.209.128,13,socks5,39.102.209.128:13,China,CN,Beijing,elite,6504.16,slow,True,2026-08-17 07:09:23 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+120.26.52.35,8080,socks5,120.26.52.35:8080,China,CN,Hangzhou,elite,6504.58,slow,True,2026-08-17 07:09:12 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+120.25.189.254,8800,socks5,120.25.189.254:8800,China,CN,Shenzhen,elite,6508.89,slow,True,2026-08-17 07:08:28 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+39.102.209.121,31281,socks5,39.102.209.121:31281,China,CN,Beijing,elite,6520.27,slow,True,2026-08-17 07:08:50 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+121.43.154.123,6379,socks5,121.43.154.123:6379,China,CN,Hangzhou,elite,6521.15,slow,True,2026-08-17 07:09:01 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+47.104.27.249,4006,socks5,47.104.27.249:4006,China,CN,Qingdao,elite,6521.53,slow,True,2026-08-17 07:09:12 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+39.104.23.154,8081,socks5,39.104.23.154:8081,China,CN,Beijing,elite,6527.91,slow,True,2026-08-17 07:08:28 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+39.104.59.56,8081,socks5,39.104.59.56:8081,China,CN,Beijing,elite,6548.68,slow,True,2026-08-17 07:08:28 UTC,"Aliyun Computing Co., LTD",TheSpeedX SOCKS5
+103.230.150.58,8080,http,103.230.150.58:8080,India,IN,Kalyān,transparent,6578.63,slow,True,2026-08-17 07:02:58 UTC,Webworld4500,TheSpeedX HTTP
+47.120.0.231,1081,socks5,47.120.0.231:1081,China,CN,Shenzhen,elite,6578.78,slow,True,2026-08-17 07:08:39 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+8.137.13.191,9098,socks5,8.137.13.191:9098,China,CN,Chengdu,elite,6599.65,slow,True,2026-08-17 07:09:01 UTC,Alibaba.com LLC,TheSpeedX SOCKS5
+154.19.38.37,8080,http,154.19.38.37:8080,Indonesia,ID,Tangerang,transparent,6614.82,slow,True,2026-08-17 07:03:20 UTC,PT Lintas Network Solusi,TheSpeedX HTTP
+8.220.204.215,8086,http,8.220.204.215:8086,South Korea,KR,Seoul,anonymous,6614.87,slow,True,2026-08-17 07:02:48 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+47.252.11.233,3129,http,47.252.11.233:3129,United States,US,Charlottesville,elite,6633.23,slow,True,2026-08-17 07:02:58 UTC,Alibaba Cloud - US,TheSpeedX HTTP
+47.238.128.246,8002,http,47.238.128.246:8002,Hong Kong,HK,Hong Kong,elite,6657.76,slow,True,2026-08-17 07:05:54 UTC,Alibaba Cloud - HK,OpenProxyList HTTP
+8.211.195.139,8334,http,8.211.195.139:8334,United Kingdom,GB,London,anonymous,6746.18,slow,True,2026-08-17 07:02:40 UTC,Alibaba.com Singapore E-Commerce Private Limited,TheSpeedX HTTP
+203.175.103.9,3125,http,203.175.103.9:3125,Indonesia,ID,Garawangi,transparent,6765.96,slow,True,2026-08-17 07:02:14 UTC,PT. Mitra Kita Brilian,ProxyScrape HTTP
+111.230.27.213,3128,http,111.230.27.213:3128,China,CN,Guangzhou,anonymous,6793.98,slow,True,2026-08-17 07:03:55 UTC,"Tencent cloud computing (Beijing) Co., Ltd.",MoNoSplit HTTP
+123.200.6.58,5678,socks4,123.200.6.58:5678,Bangladesh,BD,Dhaka,elite,6994.55,slow,True,2026-08-17 07:06:39 UTC,Corporate Subscriber,TheSpeedX SOCKS4
+43.135.172.174,9050,socks5,43.135.172.174:9050,United States,US,Santa Clara,elite,7100.94,slow,True,2026-08-17 07:08:29 UTC,Tencent Cloud Computing,TheSpeedX SOCKS5
+202.51.190.202,8080,http,202.51.190.202:8080,Bangladesh,BD,Dhaka,transparent,7209.14,slow,True,2026-08-17 07:03:10 UTC,ADN Telecom Ltd.,TheSpeedX HTTP
+213.169.52.101,8185,http,213.169.52.101:8185,Bulgaria,BG,Shumen,transparent,7218.62,slow,True,2026-08-17 07:03:54 UTC,,MoNoSplit HTTP
+170.245.50.65,8080,http,170.245.50.65:8080,Chile,CL,Santiago,transparent,7296.66,slow,True,2026-08-17 07:03:21 UTC,MI INTERNET SPA,TheSpeedX HTTP
+43.229.254.221,8181,http,43.229.254.221:8181,Indonesia,ID,Kresek,transparent,7362.36,slow,True,2026-08-17 07:05:44 UTC,Nusanet,OpenProxyList HTTP
+81.168.119.85,443,socks4,81.168.119.85:443,United Kingdom,GB,Maidenhead,elite,7369.62,slow,True,2026-08-17 07:07:01 UTC,Iomart Cloud Services Limited,TheSpeedX SOCKS4
+109.197.55.234,1080,socks4,109.197.55.234:1080,Russia,RU,Kolpino,elite,7412.78,slow,True,2026-08-17 07:06:39 UTC,KolpinoNet network,TheSpeedX SOCKS4
+207.246.234.115,4669,http,207.246.234.115:4669,United States,US,Clovis,elite,7478.1,slow,True,2026-08-17 07:05:33 UTC,Symmetric Systems LLC,OpenProxyList HTTP
+43.135.164.115,9050,socks5,43.135.164.115:9050,United States,US,Santa Clara,elite,7539.14,slow,True,2026-08-17 07:08:07 UTC,Tencent Cloud Computing,ProxyScrape SOCKS5
+118.173.91.229,8080,http,118.173.91.229:8080,Thailand,TH,Bangkok,transparent,7704.1,slow,True,2026-08-17 07:03:54 UTC,TOT Public Company Limited,MoNoSplit HTTP
+185.82.99.210,8724,http,185.82.99.210:8724,Lebanon,LB,Baalbek,transparent,7773.34,slow,True,2026-08-17 07:05:11 UTC,,OpenProxyList HTTP
+190.61.63.106,8080,http,190.61.63.106:8080,Colombia,CO,Yumbo,transparent,7786.01,slow,True,2026-08-17 07:03:21 UTC,UFINET,TheSpeedX HTTP
+203.96.224.206,8080,http,203.96.224.206:8080,Bangladesh,BD,Dhaka,transparent,8126.88,slow,True,2026-08-17 07:03:11 UTC,IP=Communications Limited,TheSpeedX HTTP
+139.28.240.202,1082,socks5,139.28.240.202:1082,The Netherlands,NL,Amsterdam,elite,8127.73,slow,True,2026-08-17 07:07:57 UTC,Global Connectivity Solutions LLP,ProxyScrape SOCKS5
+45.225.207.183,999,http,45.225.207.183:999,Chile,CL,Las Cabras,transparent,8281.04,slow,True,2026-08-17 07:03:44 UTC,Netdelsur Telecomunicaciones SPA,TheSpeedX HTTP
+85.187.224.21,8080,http,85.187.224.21:8080,Bulgaria,BG,Kardzhali,transparent,8404.38,slow,True,2026-08-17 07:03:55 UTC,Technolux Ltd.,MoNoSplit HTTP
+218.26.101.226,53813,socks4,218.26.101.226:53813,China,CN,Taiyuan,elite,8509.01,slow,True,2026-08-17 07:07:02 UTC,China Network Communications Group Corporation,TheSpeedX SOCKS4
+34.81.160.132,80,http,34.81.160.132:80,Taiwan,TW,Taipei,elite,8626.86,slow,True,2026-08-17 07:02:06 UTC,Google Cloud (asia-east1),ProxyScrape HTTP
+20.18.193.135,8561,http,20.18.193.135:8561,Japan,JP,Tokyo,elite,8633.82,slow,True,2026-08-17 07:03:55 UTC,Microsoft Azure Cloud (japaneast),MoNoSplit HTTP
+179.60.51.161,999,http,179.60.51.161:999,Ecuador,EC,San Sebastián del Coca,transparent,8695.48,slow,True,2026-08-17 07:02:16 UTC,Expertservi S.A,ProxyScrape HTTP
+36.73.212.134,8080,http,36.73.212.134:8080,Indonesia,ID,Malang,transparent,8736.42,slow,True,2026-08-17 07:03:56 UTC,,MoNoSplit HTTP
+160.19.19.18,8080,http,160.19.19.18:8080,Indonesia,ID,Subang,transparent,9053.6,slow,True,2026-08-17 07:03:12 UTC,PT. SMART COMPUTER SERVICE,TheSpeedX HTTP
+103.175.240.42,3128,http,103.175.240.42:3128,Indonesia,ID,Comal,transparent,9059.09,slow,True,2026-08-17 07:03:56 UTC,,MoNoSplit HTTP
+198.111.166.184,80,http,198.111.166.184:80,United States,US,Westland,elite,9073.46,slow,True,2026-08-17 07:02:06 UTC,The Library Network,ProxyScrape HTTP
+103.247.23.202,8080,http,103.247.23.202:8080,Indonesia,ID,Ngawi,transparent,9390.78,slow,True,2026-08-17 07:03:34 UTC,,TheSpeedX HTTP
+185.82.99.20,8724,http,185.82.99.20:8724,Lebanon,LB,Baalbek,transparent,9538.02,slow,True,2026-08-17 07:02:28 UTC,,ProxyScrape HTTP
+204.76.203.9,8080,https,204.76.203.9:8080,The Netherlands,NL,Eygelshoven,elite,9568.47,slow,True,2026-08-17 07:06:19 UTC,Intelligence Hosting LLC,ProxyScrape HTTPS
+186.180.19.122,8080,http,186.180.19.122:8080,Colombia,CO,Bogotá,transparent,9703.86,slow,True,2026-08-17 07:03:34 UTC,Colombia Móvil,TheSpeedX HTTP
+185.136.185.120,8080,http,185.136.185.120:8080,Russia,RU,Moscow,transparent,9737.35,slow,True,2026-08-17 07:03:45 UTC,OOO L-Telecom more_specific network,TheSpeedX HTTP
+167.99.124.118,80,http,167.99.124.118:80,United States,US,Clifton,elite,9811.57,slow,True,2026-08-17 07:02:17 UTC,Digital Ocean,ProxyScrape HTTP
+174.64.199.82,4145,socks4,174.64.199.82:4145,United States,US,Lafayette,elite,10099.37,slow,True,2026-08-17 07:06:20 UTC,Cox Communications Inc.,ProxyScrape SOCKS4
+89.151.134.157,3629,socks4,89.151.134.157:3629,Russia,RU,Cheboksary,elite,10190.5,slow,True,2026-08-17 07:06:53 UTC,,TheSpeedX SOCKS4
+103.46.8.61,8080,http,103.46.8.61:8080,Indonesia,ID,Denpasar,transparent,10274.29,slow,True,2026-08-17 07:03:24 UTC,PT Jaringanku Sarana Nusantara Malang,TheSpeedX HTTP
+103.165.157.206,8088,http,103.165.157.206:8088,Indonesia,ID,Semarang,transparent,10290.32,slow,True,2026-08-17 07:04:19 UTC,CV Sampurno,OpenProxyList HTTP
+102.219.209.86,3346,http,102.219.209.86:3346,Kenya,KE,Nairobi,transparent,10925.12,slow,True,2026-08-17 07:03:13 UTC,Vijiji Connect Services,TheSpeedX HTTP
